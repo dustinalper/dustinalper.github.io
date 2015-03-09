@@ -1,0 +1,58 @@
+@media (max-width: 768px) {
+    body {
+        min-width: 514.5px; /*width of h1*/
+        font-size: 75px;
+    }
+
+    h1 {
+    	font-size: 48.75px;
+    }
+
+    h1, nav ul, .primary {
+    	margin: 26.25px auto;
+    }
+
+    #subtitle {
+		font-size: 30.75px;
+	}
+
+	nav ul {
+		font-size: 18px;
+	}
+
+	.date, .secondary, .tertiary, .list-title {
+		font-size: 15px;
+	}
+
+	.primary {
+		font-size: 18.75px;
+	}
+
+	.secondary {
+		margin: 0px 0px 26.25px 10.9375%;
+	}
+
+	.tertiary {
+		margin: 0px 10.9375% 26.25px 0px;
+	}
+
+	.date-sm, footer, footer ul {
+		font-size: 14px;
+	}
+
+	#subscribe, #page2 {
+		font-size: 16.875px;
+	}
+
+	#subscribe {
+		margin: 0px auto 0px 17.833333%; /*the percentage comes from the size of the "Page 2" button*/
+	}
+
+	#projects, #about, #social {
+		margin: 26.25px 0px;
+	}
+
+	#copyright {
+		font-size: 12px;
+	}
+}
