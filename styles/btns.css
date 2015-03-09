@@ -31,15 +31,15 @@
 }
 
 .btn:hover {
-  color: #8f8f8f;
-  border: 2px solid #8f8f8f;
+  color: #379ecd;
+  border: 2px solid #379ecd;
   -webkit-transition: background-color 0.5s, color 0.5s, border 0.5s;
   transition: background-color 0.5s, color 0.5s, border 0.5s;
 }
 
 .btn:active {
-  color: #5c5c5c;
-  border: 2px solid #5c5c5c;
+  color: #37c4cd;
+  border: 2px solid #37c4cd;
   -webkit-transition: background-color 0.3s, color 0.3s, border 0.3s;
   transition: background-color 0.3s, color 0.3s, border 0.3s;
 }

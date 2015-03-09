@@ -23,16 +23,16 @@ a:link, nav ul {
 	border-color: #ffffff;
 }
 
-/*hover lighter grey*/
+/*hover blue*/
 a:hover, #foot-bod a:hover { 
-	color: #8f8f8f;
-	border-color: #8f8f8f;
+	color: #379ecd;
+	border-color: #379ecd;
 }
 
-/*click transition darker grey*/
+/*click transition light blue*/
 a:active, #foot-bod a:active {
-	color: #5c5c5c;
-	border-color: #5c5c5c;
+	color: #37c4cd;
+	border-color: #37c4cd;
 	-webkit-transition: background-color 0.3s, color 0.3s, border 0.3s;
 	transition: background-color 0.3s, color 0.3s, border 0.3s;
 }
