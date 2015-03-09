@@ -3,7 +3,11 @@
     padding: 0;
 }
 
-h1, h2, h3, h4, h5, h6, { margin: 0; padding: 0; font-weight: normal;}
+h1, h2, h3, h4, h5, h6 {
+	margin: 0;
+	padding: 0;
+	font-weight: normal;
+}
 
 a:link {
 	text-decoration: none;
@@ -19,16 +23,16 @@ a:link, nav ul {
 	border-color: #ffffff;
 }
 
-/*hover purple*/
+/*hover lighter grey*/
 a:hover, #foot-bod a:hover { 
-	color: #8a61c7;
-	border-color: #8a61c7;
+	color: #8f8f8f;
+	border-color: #8f8f8f;
 }
 
-/*click transition pink*/
+/*click transition darker grey*/
 a:active, #foot-bod a:active {
-	color: #de5cec;
-	border-color: #de5cec;
+	color: #5c5c5c;
+	border-color: #5c5c5c;
 	-webkit-transition: background-color 0.3s, color 0.3s, border 0.3s;
 	transition: background-color 0.3s, color 0.3s, border 0.3s;
 }
@@ -43,7 +47,11 @@ a:link, nav ul, a:hover, #foot-bod a:hover, #foot-bod a {
 }
 
 ::selection {
-    background: #b499db;
+    background: #c2c2c2;
+}
+
+::-moz-selection {
+    background: #c2c2c2;
 }
 
 html {
@@ -203,6 +211,22 @@ footer li {
 	margin: 35px 0px;
 	text-align: center;
 	float: left;
+}
+
+#twit:hover {
+	color: #5ea9dd !important;
+}
+
+#goog:hover {
+	color: #df4a32 !important;
+}
+
+#inst:hover {
+	color: #005b86 !important;
+}
+
+#link:hover {
+	color: #0377b5 !important;
 }
 
 #copyright {
