@@ -161,6 +161,20 @@ article img {
 	margin: 25px 0px;
 }
 
+#fb-container {
+	width: 80%; /*size of facebook comments*/
+	margin: 35px auto;
+	border-style: solid;
+	border-width: 5px;
+	border-color: #c2c2c2;
+	background-color: #ffffff;
+}
+
+.fb_iframe_widget_fluid span, iframe.fb_ltr {
+	width: 100% !important;
+	min-width: 100% !important;
+}
+
 /*all columns button*/
 #subscribe {
 	margin: 0px auto 0px 15.6%; /*the percentage comes from the size of the "Page 2" button*/

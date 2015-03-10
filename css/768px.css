@@ -9,7 +9,7 @@
     	font-size: 48.75px;
     }
 
-    h1, nav ul, .primary {
+    h1, nav ul, .primary, #fb-container {
     	margin: 26.25px auto;
     }
 
@@ -47,6 +47,10 @@
 
 	.post p {
 		margin: 22.727px 0px;
+	}
+
+	#fb-container {
+		width: 90%; /*size of facebook comments*/
 	}
 
 	#subscribe, #page2 {
