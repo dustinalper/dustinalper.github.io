@@ -1,3 +1,4 @@
+/*all font sizes and height margins are reduced by 25%*/
 @media (max-width: 768px) {
     body {
         min-width: 518px; /*width of h1*/
@@ -38,6 +39,14 @@
 
 	.date-sm, footer, footer ul {
 		font-size: 14px;
+	}
+
+	.post {
+		font-size: 20px;
+	}
+
+	.post p {
+		margin: 22.727px 0px;
 	}
 
 	#subscribe, #page2 {

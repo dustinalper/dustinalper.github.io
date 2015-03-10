@@ -55,7 +55,7 @@ a:link, nav ul, a:hover, #foot-bod a:hover, #foot-bod a {
 }
 
 html {
-	background-image: url('../images/background.jpg');
+	background-image: url('/assets/images/background/background.jpg');
 	background-position: top left;
 	background-color: #000000;
 	background-size: 30%;
@@ -149,6 +149,18 @@ article img {
 	letter-spacing: .25px;
 }
 
+.post {
+	width: 90%;
+	margin: 0px auto;
+	font-family: 'Roboto', arial, sans-serif;
+	text-align: left;
+	font-size: 22px;
+}
+
+.post p {
+	margin: 25px 0px;
+}
+
 /*all columns button*/
 #subscribe {
 	margin: 0px auto 0px 15.6%; /*the percentage comes from the size of the "Page 2" button*/
@@ -167,7 +179,7 @@ article img {
 
 footer {
 	width: 100%;
-	background-image: url('../images/background-w.jpg');
+	background-image: url('/assets/images/background/background-w.jpg');
 	background-position: top left;
 	background-color: #ffffff;
 	background-size: 50%;
