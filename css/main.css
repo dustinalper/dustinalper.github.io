@@ -9,6 +9,14 @@ h1, h2, h3, h4, h5, h6 {
 	font-weight: normal;
 }
 
+.hidden {
+	visibility: hidden;
+}
+
+.invisible {
+	display: none;
+}
+
 a:link {
 	text-decoration: none;
 }
@@ -155,10 +163,17 @@ article img {
 	font-family: 'Roboto', arial, sans-serif;
 	text-align: left;
 	font-size: 22px;
+	line-height: 140%;
 }
 
 .post p {
 	margin: 25px 0px;
+}
+
+.post iframe {
+	width: 90%;
+	margin: 35px auto;
+	display: block;
 }
 
 #fb-container {
@@ -170,19 +185,25 @@ article img {
 	background-color: #ffffff;
 }
 
+/*forces facbook comments to be fluid - do not touch*/
 .fb_iframe_widget_fluid span, iframe.fb_ltr {
 	width: 100% !important;
 	min-width: 100% !important;
 }
 
-/*all columns button*/
+#previous {
+	margin: 0px;
+	text-align: center;
+	font-size: 22.5px;
+	float: left;
+}
+
 #subscribe {
-	margin: 0px auto 0px 15.6%; /*the percentage comes from the size of the "Page 2" button*/
 	text-align: center;
 	font-size: 22.5px;
 }
 
-#page2 {
+#next {
 	margin: 0px;
 	text-align: center;
 	font-size: 22.5px;
@@ -200,7 +221,8 @@ footer {
 	position: absolute;
 	font-family: 'Roboto', arial, sans-serif;
 	font-size: 16px;
-	color: #000000
+	color: #000000;
+
 }
 
 .list-title {
@@ -231,8 +253,8 @@ footer li {
 	width: 78.125%;
 }
 
-/*left side of footer*/
-#projects, #about, #social {
+/*splits the screen into thrids*/
+.thirds {
 	width: 33.33%;
 	margin: 35px 0px;
 	text-align: center;

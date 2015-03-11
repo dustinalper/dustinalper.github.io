@@ -9,7 +9,7 @@
     	font-size: 48.75px;
     }
 
-    h1, nav ul, .primary, #fb-container {
+    h1, nav ul, .primary, .post iframe, #fb-container {
     	margin: 26.25px auto;
     }
 
@@ -42,11 +42,16 @@
 	}
 
 	.post {
+		width: 95%;
 		font-size: 20px;
 	}
 
 	.post p {
 		margin: 22.727px 0px;
+	}
+
+	.post iframe {
+		width: 95%;
 	}
 
 	#fb-container {
@@ -61,7 +66,7 @@
 		margin: 0px auto 0px 17.833333%; /*the percentage comes from the size of the "Page 2" button*/
 	}
 
-	#projects, #about, #social {
+	.thirds {
 		margin: 26.25px 0px;
 	}
 
