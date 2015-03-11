@@ -58,12 +58,8 @@
 		width: 90%; /*size of facebook comments*/
 	}
 
-	#subscribe, #page2 {
+	#subscribe, #previous, #next {
 		font-size: 16.875px;
-	}
-
-	#subscribe {
-		margin: 0px auto 0px 17.833333%; /*the percentage comes from the size of the "Page 2" button*/
 	}
 
 	.thirds {
