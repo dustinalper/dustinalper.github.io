@@ -178,8 +178,9 @@ article img {
 	text-decoration: underline;
 }
 
+/*soundcloud widget*/
 .post iframe {
-	width: 90%;
+	width: 87.75%;
 	margin: 35px auto;
 	display: block;
 }
