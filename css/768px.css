@@ -37,6 +37,10 @@
 		margin: 0px 10.9375% 26.25px 0px;
 	}
 
+	.date, .date-sm {
+		margin-bottom: 22.727px;
+	}
+
 	.date-sm, footer, footer ul {
 		font-size: 14px;
 	}
