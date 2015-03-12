@@ -24,7 +24,7 @@
 	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css"/>
 </head>
 
-    <body>
+    <body onload="FB.Event.subscribe('comment.create', comment_callback); FB.Event.subscribe('comment.remove', comment_callback);">
 
         <div id="above-waist">
 
@@ -46,21 +46,26 @@
         <!--Facebook SDK for JavaScript-->
 <div id="fb-root"></div>
 <script>
-  window.fbAsyncInit = function() {
-    FB.init({
-      appId      : '340433056166287',
-      xfbml      : true,
-      version    : 'v2.2'
-    });
-  };
+	window.fbAsyncInit = function() {
+    	FB.init({
+      		appId      : '340433056166287',
+      		xfbml      : true,
+      		version    : 'v2.2'
+    		});
+  		};
 
-  (function(d, s, id){
-     var js, fjs = d.getElementsByTagName(s)[0];
-     if (d.getElementById(id)) {return;}
-     js = d.createElement(s); js.id = id;
-     js.src = "//connect.facebook.net/en_US/sdk.js";
-     fjs.parentNode.insertBefore(js, fjs);
-   }(document, 'script', 'facebook-jssdk'));
+  	(function(d, s, id){
+     	var js, fjs = d.getElementsByTagName(s)[0];
+     	if (d.getElementById(id)) {return;}
+     	js = d.createElement(s); js.id = id;
+     	js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&appId=340433056166287&version=v2.0";
+     	fjs.parentNode.insertBefore(js, fjs);
+   	}(document, 'script', 'facebook-jssdk'));
+
+  	var comment_callback = function(response) {
+  	console.log("comment_callback");
+  	console.log(response);
+	}
 </script>
 
 <article class="primary">
