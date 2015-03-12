@@ -47,7 +47,7 @@
 
 	.post {
 		width: 95%;
-		font-size: 20px;
+		font-size: 18px;
 	}
 
 	.post p {
@@ -55,11 +55,11 @@
 	}
 
 	.post iframe {
-		width: 95%;
+		width: 100%;
 	}
 
 	#fb-container {
-		width: 90%; /*size of facebook comments*/
+		width: 93%; /*size of facebook comments*/
 	}
 
 	#subscribe, #previous, #next {
