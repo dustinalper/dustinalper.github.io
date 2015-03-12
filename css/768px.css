@@ -7,6 +7,7 @@
 
     h1 {
     	font-size: 48.75px;
+    	padding: 21.75px 10.841837%;
     }
 
     h1, nav ul, .primary, .post iframe, #fb-container {
@@ -37,10 +38,6 @@
 		margin: 0px 10.9375% 26.25px 0px;
 	}
 
-	.date, .date-sm {
-		margin-bottom: 22.727px;
-	}
-
 	.date-sm, footer, footer ul {
 		font-size: 14px;
 	}
@@ -50,7 +47,7 @@
 		font-size: 18px;
 	}
 
-	.post p {
+	.post-margin, .post p {
 		margin: 22.727px 0px;
 	}
 

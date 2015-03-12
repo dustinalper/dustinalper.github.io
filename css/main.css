@@ -149,13 +149,11 @@ article img {
 .date {
 	font-size: 16px;
 	letter-spacing: .25px;
-	margin-bottom: 25px;
 }
 
 .date-sm {
 	font-size: 14px;
 	letter-spacing: .25px;
-	margin-bottom: 25px;
 }
 
 .post {
@@ -168,7 +166,7 @@ article img {
 	letter-spacing: .25px;
 }
 
-.post p {
+.post-margin, .post p {
 	margin: 25px 0px;
 }
 
