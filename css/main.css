@@ -36,13 +36,13 @@ a:link, nav ul {
 }
 
 /*hover blue*/
-a:hover, #foot-bod a:hover { 
+a:hover, .btn:hover, #foot-bod a:hover { 
 	color: #379ecd;
 	border-color: #379ecd;
 }
 
 /*click transition light blue*/
-a:active, #foot-bod a:active {
+a:active, .btn:active, #foot-bod a:active {
 	color: #37c4cd;
 	border-color: #37c4cd;
 	-webkit-transition: background-color 0.3s, color 0.3s, border 0.3s;
@@ -199,6 +199,15 @@ article img {
 	min-width: 100% !important;
 }
 
+/* Button CSS */
+.btn, .btn:link, .btn:visited {
+  border-radius: 4.8px;
+  border-style: solid;
+  border-width: 2px;
+  display: inline-block;
+  padding: 8px 3.75%;
+}
+
 #previous {
 	margin: 0px;
 	font-size: 22.5px;
@@ -286,39 +295,4 @@ footer li {
 	width: 100%;
 	font-size: 12px;
 	margin-top: 9px;
-}
-
-/* Button CSS */
-
-.btn, .btn:link, .btn:visited {
-  border-radius: 4.8px;
-  border-style: solid;
-  border-width: 2px;
-  border-color: #e9e9e9;
-  color: #e9e9e9;
-  display: inline-block;
-  padding: 8px 3.75%;
-  text-decoration: none;
-  font-weight: normal;
-
-  -webkit-transition: color 0.5s, background-color 0.5s, border 0.5s;
-  transition: color 0.5s, background-color 0.5s, border 0.5s;
-}
-
-.btn:hover {
-  color: #379ecd;
-  border: 2px solid #379ecd;
-  -webkit-transition: background-color 0.5s, color 0.5s, border 0.5s;
-  transition: background-color 0.5s, color 0.5s, border 0.5s;
-}
-
-.btn:active {
-  color: #37c4cd;
-  border: 2px solid #37c4cd;
-  -webkit-transition: background-color 0.3s, color 0.3s, border 0.3s;
-  transition: background-color 0.3s, color 0.3s, border 0.3s;
-}
-
-.btn {
-  font-size: 100%;
 }
