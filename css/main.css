@@ -237,7 +237,6 @@ footer {
 	font-family: 'Roboto', arial, sans-serif;
 	font-size: 16px;
 	color: #1b1b1b;
-
 }
 
 .list-title {
@@ -295,4 +294,9 @@ footer li {
 	width: 100%;
 	font-size: 12px;
 	margin-top: 9px;
+}
+
+#img-404 {
+	width: 250px;
+	margin-bottom: 15px;
 }
