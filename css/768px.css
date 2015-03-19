@@ -8,9 +8,14 @@
     h1 {
     	font-size: 48.75px;
     	padding: 21.75px 10.841837%;
+    	margin: 26.25px auto 7.5px auto;
     }
 
-    h1, nav ul, .primary, .post iframe, #fb-container {
+    #desc {
+    	font-size: 17px;
+    }
+
+    nav ul, .primary, .post iframe, #fb-container, #mc_embed_signup {
     	margin: 26.25px auto;
     }
 
@@ -59,8 +64,8 @@
 		width: 93%; /*size of facebook comments*/
 	}
 
-	#subscribe, #previous, #next {
-		font-size: 16.875px;
+	.btn {
+		font-size: 16.875px !important;
 	}
 
 	.thirds {
@@ -69,5 +74,10 @@
 
 	#copyright {
 		font-size: 12px;
+	}
+
+	#mce-EMAIL {
+		width: 338px;
+		margin: 16px 0px;
 	}
 }
