@@ -17,7 +17,7 @@ h1, h2, h3, h4, h5, h6 {
 	display: none;
 }
 
-.text-center, h1, #desc, nav ul, .primary, .secondary, .tertiary, .btn, .thirds, #copyright {
+.text-center, h1, #tagline, nav ul, .primary, .secondary, .tertiary, .btn, .thirds, #copyright {
 	text-align: center;
 }
 
@@ -102,7 +102,7 @@ h1 {
 	font-size: 41px;
 }
 
-#desc {
+#tagline {
 	font-size: 22px;
 }
 
@@ -269,7 +269,7 @@ footer li {
 /*splits the screen into thrids*/
 .thirds {
 	width: 33.33%;
-	margin: 35px 0px;
+	margin: 35px 0px 20px 0px;
 	float: left;
 }
 
@@ -292,7 +292,7 @@ footer li {
 #copyright {
 	width: 100%;
 	font-size: 12px;
-	margin-top: 9px;
+	margin-bottom: 35px;
 }
 
 /*404.html css*/
@@ -323,8 +323,4 @@ footer li {
 
 #mce-responses {
 	display:none;
-}
-
-#subscribe {
-	font-size: 18px;
 }

@@ -11,7 +11,7 @@
     	margin: 26.25px auto 7.5px auto;
     }
 
-    #desc {
+    #tagline {
     	font-size: 17px;
     }
 
@@ -31,7 +31,7 @@
 		font-size: 15px;
 	}
 
-	.primary {
+	.primary, #mc_embed_signup {
 		font-size: 18.75px;
 	}
 
@@ -69,11 +69,12 @@
 	}
 
 	.thirds {
-		margin: 26.25px 0px;
+		margin: 26.25px 0px 15px 0px;
 	}
 
 	#copyright {
 		font-size: 12px;
+		margin-bottom: 26.25px;
 	}
 
 	#mce-EMAIL {
