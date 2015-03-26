@@ -15,7 +15,7 @@
     	font-size: 17px;
     }
 
-    nav ul, .primary, .post iframe, #fb-container, #mc_embed_signup {
+    nav ul, .primary, .secondary, .post iframe, #fb-container, #mc_embed_signup {
     	margin: 26.25px auto;
     }
 
@@ -27,23 +27,15 @@
 		font-size: 18px;
 	}
 
-	.date, .secondary, .tertiary, .list-title {
+	.date, .date-sm, .list-title {
 		font-size: 15px;
 	}
 
-	.primary, #mc_embed_signup {
+	.primary, .secondary, #mc_embed_signup {
 		font-size: 18.75px;
 	}
 
-	.secondary {
-		margin: 0px 0px 26.25px 10.9375%;
-	}
-
-	.tertiary {
-		margin: 0px 10.9375% 26.25px 0px;
-	}
-
-	.date-sm, footer, footer ul {
+	footer, footer ul {
 		font-size: 14px;
 	}
 
@@ -65,8 +57,12 @@
 	}
 
 	.btn {
-		font-size: 16.875px !important;
+		font-size: 18.75px !important;
 	}
+
+	.bottom-btn {
+	margin-top: 26.25px;
+}
 
 	.thirds {
 		margin: 26.25px 0px 15px 0px;
