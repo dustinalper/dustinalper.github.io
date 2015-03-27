@@ -1,0 +1,40 @@
+/*all font sizes and height margins are reduced by 25%*/
+@media (max-width: 518px) {
+    body {
+        min-width: 100px; /*width of h1*/
+    }
+
+    h1 {
+    	font-size: 38.5625px;
+    }
+
+    #subtitle {
+		font-size: 23.0625px;
+	}
+
+	.primary {
+		width: 90%;
+	}
+
+	.mobile-remove {
+		display: none;
+	}
+
+	.list-title {
+		font-size: 20px;
+	}
+
+	footer ul {
+		font-size: 18px;
+	}
+
+	.thirds {
+		float: none;
+		width: 100%;
+		max-width: none;
+	}
+
+	#copyright {
+		font-size: 13px;
+	}
+}

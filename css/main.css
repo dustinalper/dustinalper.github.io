@@ -9,14 +9,6 @@ h1, h2, h3, h4, h5, h6 {
 	font-weight: normal;
 }
 
-.hidden {
-	visibility: hidden;
-}
-
-.invisible {
-	display: none;
-}
-
 .text-center, h1, #tagline, nav ul, .primary, .secondary, .btn, .thirds, #copyright {
 	text-align: center;
 }
