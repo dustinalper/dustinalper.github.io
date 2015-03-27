@@ -1,7 +1,7 @@
 /*all font sizes and height margins are reduced by 25%*/
 @media (max-width: 512px) {
     body {
-        min-width: 100px; /*width of h1*/
+        min-width: 314px; /*width of h1*/
     }
 	
 	h1 {
@@ -17,7 +17,7 @@
 	}
 
 	.primary, .secondary, #mc_embed_signup {
-		font-size: 14px;
+		font-size: 15px;
 	}
 
 	.mobile-remove {
