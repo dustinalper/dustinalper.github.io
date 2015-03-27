@@ -1,14 +1,13 @@
 /*all font sizes and height margins are reduced by 25%*/
 @media (max-width: 768px) {
     body {
-        min-width: 518px; /*width of h1*/
+        min-width: 512px; /*width of h1*/
         font-size: 75px;
     }
 
     h1 {
     	font-size: 48.75px;
-    	padding: 21.75px 10.841837%;
-    	margin: 26.25px auto 7.5px auto;
+    	margin: 52.5px auto 30px auto;
     }
 
     #tagline {

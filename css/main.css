@@ -89,9 +89,9 @@ body {
 
 h1 {
 	font-size: 65px;
-	margin: 35px auto 10px auto;
-	padding: 29px 10.841837%;
+	margin: 70px auto 40px auto;
 	line-height: 0%;
+	clear: both;
 }
 
 #subtitle {
@@ -100,6 +100,7 @@ h1 {
 
 #tagline {
 	font-size: 22px;
+
 }
 
 nav ul {
