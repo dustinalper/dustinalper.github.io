@@ -3,15 +3,6 @@
     body {
         min-width: 100px; /*width of h1*/
     }
-/*
-    h1 {
-    	font-size: 33px;
-    }
-
-    #subtitle {
-		font-size: 19.736px;
-	}
-*/
 	
 	h1 {
     	font-size: 38.5625px;
@@ -20,10 +11,13 @@
     #subtitle {
 		font-size: 23.0625px;
 	}
-	
 
 	.primary {
 		width: 90%;
+	}
+
+	.primary, .secondary, #mc_embed_signup {
+		font-size: 14px;
 	}
 
 	.mobile-remove {
