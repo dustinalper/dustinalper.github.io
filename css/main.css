@@ -215,7 +215,7 @@ article img {
   	border-style: solid;
   	border-width: 2px;
   	display: inline-block;
-  	padding: 8px 37.5px;
+  	padding: 8px 3.75%;
   	font-size: 22.5px;
 }
 
@@ -306,6 +306,7 @@ footer li {
 
 #mc_embed_signup {
 	margin: 35px auto;
+	width: 400px;
 	font-size: 20px;
 }
 
