@@ -321,3 +321,26 @@ footer li {
 #mce-responses {
 	display:none;
 }
+
+@media print {
+	html, footer {
+		background-image: none;
+		background-color: #ffffff;
+	}
+
+	body {
+		color: #000000;
+	}
+
+	.post {
+		font-size: 12pt !important;
+	}
+
+	#fb-container, .btn, .thirds {
+		display: none !important;
+	}
+
+	#copyright {
+		margin-bottom: 0px !important;
+	}
+}
