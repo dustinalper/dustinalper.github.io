@@ -1,7 +1,7 @@
 /*all font sizes and height margins are reduced by 25%*/
 @media (max-width: 512px) {
     body {
-        min-width: 314px; /*width of h1*/
+        min-width: 318px;
     }
 	
 	h1 {
@@ -41,5 +41,9 @@
 
 	#copyright {
 		font-size: 13px;
+	}
+
+	#mce-EMAIL {
+		width: 300px;
 	}
 }
