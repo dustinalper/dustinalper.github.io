@@ -1,5 +1,4 @@
-# dustinalper.github.io — My personal website.
-## Phase 1: Create Blog
+# dustinalper.github.io — My website.
 ## Phase 1: Create Blog
 Status: Done
 ## Phase 2: Create Portfolio
