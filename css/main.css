@@ -9,7 +9,7 @@ h1, h2, h3, h4, h5, h6 {
 	font-weight: normal;
 }
 
-.text-center, h1, #tagline, nav ul, .primary, .secondary, .btn, .thirds, #copyright {
+.text-center, #header-title, #tagline, nav ul, .primary, .secondary, .btn, .thirds, #copyright {
 	text-align: center;
 }
 
@@ -70,7 +70,7 @@ html {
 
 body {
 	width: 100%; /*pixles are based on a 1280px width*/
-	min-width: 686px; /*width of h1*/
+	min-width: 686px; /*width of header-title*/
 	margin: 0px auto;
 	color: #e9e9e9;
 	font-size: 100px;
@@ -86,7 +86,7 @@ body {
 
 /*header*/
 
-h1 {
+#header-title {
 	font-size: 65px;
 	margin: 70px auto 40px auto;
 	line-height: 0%;
@@ -207,7 +207,12 @@ article img {
 	min-width: 100% !important;
 }
 
+#head1 {
+	font-size: 1.5em;
+}
+
 /* Button CSS */
+
 .btn, .btn:link, .btn:visited {
 	width: 155px;
 	border-radius: 4.8px;

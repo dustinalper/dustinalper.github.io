@@ -1,11 +1,11 @@
 /*all font sizes and height margins are reduced by 25%*/
 @media (max-width: 768px) {
     body {
-        min-width: 512px; /*width of h1*/
+        min-width: 512px; /*width of header-title*/
         font-size: 75px;
     }
 
-    h1 {
+    #header-title {
     	font-size: 48.75px;
     	margin: 52.5px auto 30px auto;
     }

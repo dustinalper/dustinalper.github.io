@@ -4,7 +4,7 @@
         min-width: 318px;
     }
 	
-	h1 {
+	#header-title {
     	font-size: 38.5625px;
     	margin-bottom: 25px;
     }
