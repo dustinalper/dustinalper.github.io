@@ -59,12 +59,17 @@
 		width: 93%; /*size of facebook comments*/
 	}
 
-	.btn {
-		font-size: 18.75px !important;
+	.btn, .sub-title {
+		font-size: 20px !important;
 	}
 
 	.bottom-btn {
 		margin-top: 26.25px;
+	}
+
+	#mce-EMAIL, .sub-btn {
+		font-size: 17px !important;
+		margin-top: 8px;
 	}
 
 	.thirds {
@@ -74,10 +79,5 @@
 	#copyright {
 		font-size: 12px;
 		margin-bottom: 26.25px;
-	}
-
-	#mce-EMAIL {
-		width: 350px;
-		margin: 16px 0px;
 	}
 }

@@ -317,10 +317,26 @@ footer li {
 }
 
 #mce-EMAIL {
-	padding: 4px;
-	font-size: 14px;
-	width: 388px;
-	margin: 20px 0px;
+	padding: 4px 10px;
+	font-size: 18px;
+	width: 188px;
+	margin-top: 10px;
+	vertical-align: middle;
+	font-family: 'Oswald', arial, sans-serif;
+}
+
+.sub-title {
+	font-size: 22.5px;
+}
+
+.sub-btn {
+	display: inline;
+	padding: 4px 5px !important;
+	font-size: 18px !important;
+	vertical-align: middle;
+	width: 88px !important;
+	border-radius: 0px;
+	margin-top: 10px;
 }
 
 #mce-responses {
@@ -341,7 +357,7 @@ footer li {
 		font-size: 12pt !important;
 	}
 
-	#fb-container, .btn, .thirds {
+	#mc_embed_signup, #fb-container, .btn, .thirds {
 		display: none !important;
 	}
 

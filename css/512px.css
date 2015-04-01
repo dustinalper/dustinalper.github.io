@@ -29,6 +29,11 @@
 		font-size: 20px;
 	}
 
+	#mce-EMAIL, .sub-btn {
+		font-size: 16px !important;
+		margin-top: 6px;
+	}
+
 	footer ul {
 		font-size: 18px;
 	}
@@ -41,9 +46,5 @@
 
 	#copyright {
 		font-size: 13px;
-	}
-
-	#mce-EMAIL {
-		width: 300px;
 	}
 }
