@@ -1,4 +1,3 @@
-/*all font sizes and height margins are reduced by 25%*/
 @media (max-width: 512px) {
     body {
         min-width: 318px;
@@ -31,7 +30,10 @@
 
 	#mce-EMAIL, .sub-btn {
 		font-size: 16px !important;
-		margin-top: 6px;
+	}
+
+	#mce-EMAIL {
+		width: 148px;
 	}
 
 	footer ul {

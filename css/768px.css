@@ -1,4 +1,4 @@
-/*all font sizes and height margins are reduced by 25%*/
+/*all font sizes are reduced by rouphly 25%*/
 @media (max-width: 768px) {
     body {
         min-width: 512px; /*width of header-title*/
@@ -7,15 +7,11 @@
 
     #header-title {
     	font-size: 48.75px;
-    	margin: 52.5px auto 30px auto;
+    	margin: 60px auto 30px auto;
     }
 
     #tagline {
     	font-size: 17px;
-    }
-
-    nav ul, .primary, .secondary, .post iframe, #fb-container, #mc_embed_signup {
-    	margin: 26.25px auto;
     }
 
     #subtitle {
@@ -47,10 +43,6 @@
 		font-size: 18px;
 	}
 
-	.post-margin, .post p {
-		margin: 22.727px 0px;
-	}
-
 	.post iframe {
 		width: 100%;
 	}
@@ -63,22 +55,16 @@
 		font-size: 20px !important;
 	}
 
-	.bottom-btn {
-		margin-top: 26.25px;
-	}
-
 	#mce-EMAIL, .sub-btn {
 		font-size: 17px !important;
-		margin-top: 8px;
 	}
 
-	.thirds {
-		margin: 26.25px auto 15px auto;
+	#mce-EMAIL {
+		width: 158px;
 	}
 
 	#copyright {
 		font-size: 12px;
-		margin-bottom: 26.25px;
 	}
 
 	#img-404 {
