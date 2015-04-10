@@ -50,6 +50,10 @@
 		font-size: 13px;
 	}
 
+	.Site {
+  		min-height: 64vh;
+	}
+
 	#img-404 {
 		width: 280px;
 	}
