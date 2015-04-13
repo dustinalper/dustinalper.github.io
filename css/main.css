@@ -304,18 +304,6 @@ footer li {
 	margin-bottom: 35px;
 }
 
-/*Sticky Footer*/
-
-.Site {
-  display: flex;
-  min-height: 73.15vh;
-  flex-direction: column;
-}
-
-.Site-content {
-  flex: 1;
-}
-
 /*404.html css*/
 
 #img-404 {
