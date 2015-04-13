@@ -140,7 +140,7 @@ article img {
 	float: left;
 }
 
-@media (max-width: 1020px) {
+@media (max-width: 1040px) {
 	.secondary {
 		width: 100%;
 		margin: 0px auto 35px auto;
@@ -308,7 +308,7 @@ footer li {
 
 .Site {
   display: flex;
-  min-height: 75.5vh;
+  min-height: 72.05vh;
   flex-direction: column;
 }
 
