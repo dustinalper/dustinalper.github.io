@@ -228,10 +228,6 @@ article img {
   	font-size: 22.5px;
 }
 
-.bottom-btn {
-	margin-top: 35px;
-}
-
 /*footer css*/
 
 footer {
@@ -359,8 +355,13 @@ footer li {
 		background-color: #ffffff;
 	}
 
+	.primary {
+		margin-bottom: 0px;
+	}
+
 	.post {
 		font-size: 12pt !important;
+		margin-bottom: 0px;
 	}
 
 	#mc_embed_signup, #fb-container, .btn, footer {
