@@ -2,6 +2,11 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>Dustin Alper - The Columnist</title>
+        <image>
+        	<url>http://www.dustinalper.com/assets/images/column/.JPG></url>
+        	<title>></title>
+        	<link>http://www.dustinalper.com></link>
+        </image>
         <description>Bringing the little things to your attention in a big way. To be honest, I don&#39;t know what that means. I&#39;m just trying to sound clever.</description>
         <link>http://www.dustinalper.com/</link>
         <atom:link href="http://www.dustinalper.com/feed.xml" rel="self" type="application/rss+xml"/>
