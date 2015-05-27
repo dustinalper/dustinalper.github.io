@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-US">
+    <title>Dustin Alper - The Columnist</title>
+    <subtitle type="text">Bringing the little things to your attention in a big way. To be honest, I don&#39;t know what that means. I&#39;m just trying to sound clever.</subtitle>
+    <updated>2015-05-27T02:28:02-04:00</updated>
+    <link type="application/atom+xml" href="http://www.dustinalper.com/site/feed.xml" rel="self" />
+    <link type="text/html" href="http://www.dustinalper.com" rel="alternate"/>
+    <id>http://www.dustinalper.com/</id>
+    <generator uri="http://jekyllrb.com/">Jekyll</generator>
+    <rights>Copyright (c) 2015 Geert Eltink. All Rights Reserved.</rights>
+    
+    <entry>
+        <title type="html"><![CDATA[If I Were a Musician]]></title>
+        <link href="http://www.dustinalper.com/column/if-i-were-a-musician.html" />
+        <id>http://www.dustinalper.com/column/if-i-were-a-musician.html</id>
+        <published>2015-04-10T00:00:00-04:00</published>
+        <updated>2015-04-10T00:00:00-04:00</updated>
+        <author>
+            <name>Geert Eltink</name>
+            <uri>http://www.dustinalper.com</uri>
+        </author>
+        <summary type="html"><![CDATA[]]></summary>
+    </entry>
+    
+    <entry>
+        <title type="html"><![CDATA[10 Tips to Properly Ride the Elevator]]></title>
+        <link href="http://www.dustinalper.com/column/10-tips-to-properly-ride-elevator.html" />
+        <id>http://www.dustinalper.com/column/10-tips-to-properly-ride-elevator.html</id>
+        <published>2015-02-22T00:00:00-05:00</published>
+        <updated>2015-02-22T00:00:00-05:00</updated>
+        <author>
+            <name>Geert Eltink</name>
+            <uri>http://www.dustinalper.com</uri>
+        </author>
+        <summary type="html"><![CDATA[]]></summary>
+    </entry>
+    
+    <entry>
+        <title type="html"><![CDATA[If I Were a Cartoon]]></title>
+        <link href="http://www.dustinalper.com/column/if-i-were-cartoon.html" />
+        <id>http://www.dustinalper.com/column/if-i-were-cartoon.html</id>
+        <published>2015-01-28T00:00:00-05:00</published>
+        <updated>2015-01-28T00:00:00-05:00</updated>
+        <author>
+            <name>Geert Eltink</name>
+            <uri>http://www.dustinalper.com</uri>
+        </author>
+        <summary type="html"><![CDATA[]]></summary>
+    </entry>
+    
+    <entry>
+        <title type="html"><![CDATA[26 Tips to Get the Girl]]></title>
+        <link href="http://www.dustinalper.com/column/26-tips-to-get-girl.html" />
+        <id>http://www.dustinalper.com/column/26-tips-to-get-girl.html</id>
+        <published>2014-11-26T00:00:00-05:00</published>
+        <updated>2014-11-26T00:00:00-05:00</updated>
+        <author>
+            <name>Geert Eltink</name>
+            <uri>http://www.dustinalper.com</uri>
+        </author>
+        <summary type="html"><![CDATA[]]></summary>
+    </entry>
+    
+    <entry>
+        <title type="html"><![CDATA[The Clap]]></title>
+        <link href="http://www.dustinalper.com/column/the-clap.html" />
+        <id>http://www.dustinalper.com/column/the-clap.html</id>
+        <published>2014-09-30T00:00:00-04:00</published>
+        <updated>2014-09-30T00:00:00-04:00</updated>
+        <author>
+            <name>Geert Eltink</name>
+            <uri>http://www.dustinalper.com</uri>
+        </author>
+        <summary type="html"><![CDATA[]]></summary>
+    </entry>
+    
+    <entry>
+        <title type="html"><![CDATA[I’m Not Asking for a Handout]]></title>
+        <link href="http://www.dustinalper.com/column/im-not-asking-for-handout.html" />
+        <id>http://www.dustinalper.com/column/im-not-asking-for-handout.html</id>
+        <published>2014-04-23T00:00:00-04:00</published>
+        <updated>2014-04-23T00:00:00-04:00</updated>
+        <author>
+            <name>Geert Eltink</name>
+            <uri>http://www.dustinalper.com</uri>
+        </author>
+        <summary type="html"><![CDATA[]]></summary>
+    </entry>
+    
+    <entry>
+        <title type="html"><![CDATA[#DiningProblems]]></title>
+        <link href="http://www.dustinalper.com/column/diningproblems.html" />
+        <id>http://www.dustinalper.com/column/diningproblems.html</id>
+        <published>2014-03-25T00:00:00-04:00</published>
+        <updated>2014-03-25T00:00:00-04:00</updated>
+        <author>
+            <name>Geert Eltink</name>
+            <uri>http://www.dustinalper.com</uri>
+        </author>
+        <summary type="html"><![CDATA[]]></summary>
+    </entry>
+    
+    <entry>
+        <title type="html"><![CDATA[The Boogeyman]]></title>
+        <link href="http://www.dustinalper.com/column/the-boogeyman.html" />
+        <id>http://www.dustinalper.com/column/the-boogeyman.html</id>
+        <published>2014-02-18T00:00:00-05:00</published>
+        <updated>2014-02-18T00:00:00-05:00</updated>
+        <author>
+            <name>Geert Eltink</name>
+            <uri>http://www.dustinalper.com</uri>
+        </author>
+        <summary type="html"><![CDATA[]]></summary>
+    </entry>
+    
+    <entry>
+        <title type="html"><![CDATA[Names]]></title>
+        <link href="http://www.dustinalper.com/column/names.html" />
+        <id>http://www.dustinalper.com/column/names.html</id>
+        <published>2014-01-27T00:00:00-05:00</published>
+        <updated>2014-01-27T00:00:00-05:00</updated>
+        <author>
+            <name>Geert Eltink</name>
+            <uri>http://www.dustinalper.com</uri>
+        </author>
+        <summary type="html"><![CDATA[]]></summary>
+    </entry>
+    
+    <entry>
+        <title type="html"><![CDATA[Phones]]></title>
+        <link href="http://www.dustinalper.com/column/phones.html" />
+        <id>http://www.dustinalper.com/column/phones.html</id>
+        <published>2013-12-16T00:00:00-05:00</published>
+        <updated>2013-12-16T00:00:00-05:00</updated>
+        <author>
+            <name>Geert Eltink</name>
+            <uri>http://www.dustinalper.com</uri>
+        </author>
+        <summary type="html"><![CDATA[]]></summary>
+    </entry>
+    
+</feed>
