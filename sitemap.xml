@@ -57,6 +57,10 @@
         <lastmod>2015-04-13T14:08:29-04:00</lastmod>
     </url>
     <url>
+        <loc>http://www.dustinalper.com/feed15.xml</loc>
+        <lastmod>2015-05-27T02:08:46-04:00</lastmod>
+    </url>
+    <url>
         <loc>http://www.dustinalper.com/</loc>
         <lastmod>2015-04-13T14:08:01-04:00</lastmod>
     </url>
@@ -66,6 +70,6 @@
     </url>
     <url>
         <loc>http://www.dustinalper.com//rss.xml</loc>
-        <lastmod>2015-05-27T02:00:46-04:00</lastmod>
+        <lastmod>2015-05-27T02:09:59-04:00</lastmod>
     </url>
 </urlset>
