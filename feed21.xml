@@ -1,20 +1,22 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-    <channel>
-        <title>Dustin Alper - The Columnist</title>
-        <description>Bringing the little things to your attention in a big way. To be honest, I don&#39;t know what that means. I&#39;m just trying to sound clever.</description>
-        <link>http://www.dustinalper.com/</link>
-        <atom:link href="http://www.dustinalper.com/feed.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Wed, 27 May 2015 02:25:06 -0400</pubDate>
-        <lastBuildDate>Wed, 27 May 2015 02:25:06 -0400</lastBuildDate>
-        <generator>Jekyll v2.5.3</generator>
-        
-            <item>
-                <title>If I Were a Musician</title>
-                <description>
-                    &lt;p&gt;&lt;a href=&quot;http://www.dustinalper.com/column/if-i-were-a-musician.html&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;http://www.dustinalper.com/assets/images/column/If-I-Were-a-Musician.JPG&quot; alt=&quot;If I Were a Musician&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+  <channel>
+    <title>example.com</title>
+    <link>http://example.com/</link>
+    <atom:link href="http://example.com/rss.xml" rel="self" type="application/rss+xml" />
+    <description>Your Website</description>
+    <language>en-us</language>
+    <pubDate>Wed, 27 May 2015 02:25:06 -0400</pubDate>
+    <lastBuildDate>Wed, 27 May 2015 02:25:06 -0400</lastBuildDate>
 
-                    &lt;p&gt;If I were a musician, my target audience would be kids. You think I’m joking? I can easily list five reasons why making children’s music is as innovative as &lt;a href=&quot;http://www.earlyamerica.com/music/yankee-doodle.htm&quot; target=&quot;_blank&quot;&gt;sticking a feather in your hat and calling it macaroni&lt;/a&gt;.&lt;/p&gt;
+    
+    <item>
+      <title>If I Were a Musician</title>
+      <link>http://example.com/column/if-i-were-a-musician.html</link>
+      <pubDate>Fri, 10 Apr 2015 00:00:00 -0400</pubDate>
+      <author>you@example.com (Your Name)</author>
+      <guid>http://example.com/column/if-i-were-a-musician</guid>
+      <description>&lt;p&gt;If I were a musician, my target audience would be kids. You think I’m joking? I can easily list five reasons why making children’s music is as innovative as &lt;a href=&quot;http://www.earlyamerica.com/music/yankee-doodle.htm&quot; target=&quot;_blank&quot;&gt;sticking a feather in your hat and calling it macaroni&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;&lt;div class=&quot;tab-post&quot;&gt;1. I would sell twice as many concert tickets because parents have to go with their children to the shows.&lt;/div&gt;&lt;/p&gt;
 
@@ -31,23 +33,16 @@
 &lt;p&gt;If I were a musician, I would go on tour around the world — or at least tour the places where my music is popular. I can think of two places off the top of my head: the local preschool and Japan. Yeah that’s right, &lt;a href=&quot;https://www.youtube.com/v/jsMfSKX1KTw&quot; target=&quot;_blank&quot;&gt;I’m big in Japan&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;If I were a musician, I would drop out of school. No more tests, papers, or gum from under my desk sticking to my jeans.  I would finally be able to focus on my passion — making kids music with a triangle to attract MILFs in Japan.&lt;/p&gt;
-
-                </description>
-                <pubDate>Fri, 10 Apr 2015 00:00:00 -0400</pubDate>
-                <link>http://www.dustinalper.com/column/if-i-were-a-musician.html</link>
-                <guid isPermaLink="true">http://www.dustinalper.com/column/if-i-were-a-musician.html</guid>
-                
-                
-                <category>column</category>
-                
-            </item>
-        
-            <item>
-                <title>10 Tips to Properly Ride the Elevator</title>
-                <description>
-                    &lt;p&gt;&lt;a href=&quot;http://www.dustinalper.com/column/10-tips-to-properly-ride-elevator.html&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;http://www.dustinalper.com/assets/images/column/10-Tips-to-Properly-Ride-the-Elevator.JPG&quot; alt=&quot;10 Tips to Properly Ride the Elevator&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-                    &lt;p&gt;&lt;strong&gt;1. Follow the unspoken rules of the elevator.&lt;/strong&gt; Mainly face forward and be quiet. I don’t mean to scare you, but if you violate these social norms, people might give you weird looks (cue &lt;a href=&quot;https://www.youtube.com/v/a1Y73sPHKxw&quot; target=&quot;_blank&quot;&gt;dramatic music&lt;/a&gt;).&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>10 Tips to Properly Ride the Elevator</title>
+      <link>http://example.com/column/10-tips-to-properly-ride-elevator.html</link>
+      <pubDate>Sun, 22 Feb 2015 00:00:00 -0500</pubDate>
+      <author>you@example.com (Your Name)</author>
+      <guid>http://example.com/column/10-tips-to-properly-ride-elevator</guid>
+      <description>&lt;p&gt;&lt;strong&gt;1. Follow the unspoken rules of the elevator.&lt;/strong&gt; Mainly face forward and be quiet. I don’t mean to scare you, but if you violate these social norms, people might give you weird looks (cue &lt;a href=&quot;https://www.youtube.com/v/a1Y73sPHKxw&quot; target=&quot;_blank&quot;&gt;dramatic music&lt;/a&gt;).&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;2. Be courageous — when you’re alone.&lt;/strong&gt; Fun fact about me, I dance and rap when I’m by myself in the elevator. I like to freestyle to the beat of elevator music. There is no one to give me weird looks, so I might as well do what I want.&lt;/p&gt;
 
@@ -66,23 +61,16 @@
 &lt;p&gt;&lt;strong&gt;9. Hold your breath.&lt;/strong&gt; It’s the worst when I am trapped in a tiny box with someone who smells. Then again, if I’m stuck in the elevator with that cute girl from my Zumba class, then I guess it doesn’t hurt to sniff that succulent scent.&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;10. Be stubborn.&lt;/strong&gt; If you accidentally get on an elevator that is going up, don’t get off, your fate has already been decided. It’s like &lt;a href=&quot;https://twitter.com/MillionaireTV/status/446420875886485506/photo/1&quot; target=&quot;_blank&quot;&gt;Who Wants to Be a Millionaire&lt;/a&gt; and you submitted your final answer. Let’s be honest, it’s less awkward to ride the elevator up (even if you have to go down) than getting on the elevator and immediately walking off. But either way, people are going to give you weird looks.&lt;/p&gt;
-
-                </description>
-                <pubDate>Sun, 22 Feb 2015 00:00:00 -0500</pubDate>
-                <link>http://www.dustinalper.com/column/10-tips-to-properly-ride-elevator.html</link>
-                <guid isPermaLink="true">http://www.dustinalper.com/column/10-tips-to-properly-ride-elevator.html</guid>
-                
-                
-                <category>column</category>
-                
-            </item>
-        
-            <item>
-                <title>If I Were a Cartoon</title>
-                <description>
-                    &lt;p&gt;&lt;a href=&quot;http://www.dustinalper.com/column/if-i-were-cartoon.html&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;http://www.dustinalper.com/assets/images/column/If-I-Were-a-Cartoon.JPG&quot; alt=&quot;If I Were a Cartoon&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-                    &lt;p&gt;If I were a cartoon, I would be the main character. Finally, the world would revolve around me. My show would be called, “The Adventures of Dustin Alper: The Columnist”. It would be about my adventures — as a columnist.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>If I Were a Cartoon</title>
+      <link>http://example.com/column/if-i-were-cartoon.html</link>
+      <pubDate>Wed, 28 Jan 2015 00:00:00 -0500</pubDate>
+      <author>you@example.com (Your Name)</author>
+      <guid>http://example.com/column/if-i-were-cartoon</guid>
+      <description>&lt;p&gt;If I were a cartoon, I would be the main character. Finally, the world would revolve around me. My show would be called, “The Adventures of Dustin Alper: The Columnist”. It would be about my adventures — as a columnist.&lt;/p&gt;
 
 &lt;p&gt;If I were a cartoon, especially one that goes on adventures, then I must have an archenemy. Now I’m just spitballing here, but I feel like my nemesis would be a supercomputer named Clarence. He wants to rid the world of sarcasm because that is the one thing he does not understand. Or, maybe my archenemy could be a flash drive named Myrtle? She is upset because I lost her five years ago in the library’s computer lab. If those ideas don’t pan out, then I can have my current nemesis, my mother, be my archenemy in the show.&lt;/p&gt;
 
@@ -97,23 +85,16 @@
 &lt;p&gt;&lt;img src=&quot;/assets/images/column/If-I-Were-a-Cartoon-2.JPG&quot; alt=&quot;If I Were a Cartoon&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&quot;http://www.nickaversano.com/&quot; target=&quot;_blank&quot;&gt;&lt;em&gt;Shout out to Nick Aversano for drawing this wonderful masterpiece. Click here to check him out (in a sexual or nonsexual way — I don’t judge).&lt;/em&gt;&lt;/a&gt;&lt;/p&gt;
-
-                </description>
-                <pubDate>Wed, 28 Jan 2015 00:00:00 -0500</pubDate>
-                <link>http://www.dustinalper.com/column/if-i-were-cartoon.html</link>
-                <guid isPermaLink="true">http://www.dustinalper.com/column/if-i-were-cartoon.html</guid>
-                
-                
-                <category>column</category>
-                
-            </item>
-        
-            <item>
-                <title>26 Tips to Get the Girl</title>
-                <description>
-                    &lt;p&gt;&lt;a href=&quot;http://www.dustinalper.com/column/26-tips-to-get-girl.html&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;http://www.dustinalper.com/assets/images/column/26-Tips-to-Get-the-Girl.JPG&quot; alt=&quot;26 Tips to Get the Girl&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-                    &lt;p&gt;&lt;strong&gt;1. Start a conversation.&lt;/strong&gt; This is the best way to learn more about her. If you aren’t the social type, then you can stalk her on Facebook.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>26 Tips to Get the Girl</title>
+      <link>http://example.com/column/26-tips-to-get-girl.html</link>
+      <pubDate>Wed, 26 Nov 2014 00:00:00 -0500</pubDate>
+      <author>you@example.com (Your Name)</author>
+      <guid>http://example.com/column/26-tips-to-get-girl</guid>
+      <description>&lt;p&gt;&lt;strong&gt;1. Start a conversation.&lt;/strong&gt; This is the best way to learn more about her. If you aren’t the social type, then you can stalk her on Facebook.&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;2. Buy her love.&lt;/strong&gt; You can get her flowers. Or better yet, buy her chocolate. Chocolate is the key to a woman’s heart.&lt;/p&gt;
 
@@ -168,23 +149,16 @@
 &lt;p&gt;&lt;em&gt;I would like to dedicate this column to my curly blonde hair girlfriend. Brenna, it’s a good thing these tips didn’t exist 4 years ago — I could have used them to date someone better than you…&lt;/em&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;em&gt;…That is clearly a joke. No one is better than Brenna — except maybe the Pretty Little Liars.&lt;/em&gt;&lt;/p&gt;
-
-                </description>
-                <pubDate>Wed, 26 Nov 2014 00:00:00 -0500</pubDate>
-                <link>http://www.dustinalper.com/column/26-tips-to-get-girl.html</link>
-                <guid isPermaLink="true">http://www.dustinalper.com/column/26-tips-to-get-girl.html</guid>
-                
-                
-                <category>column</category>
-                
-            </item>
-        
-            <item>
-                <title>The Clap</title>
-                <description>
-                    &lt;p&gt;&lt;a href=&quot;http://www.dustinalper.com/column/the-clap.html&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;http://www.dustinalper.com/assets/images/column/The-Clap.JPG&quot; alt=&quot;The Clap&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-                    &lt;p&gt;I was going to title this column “Applause”, but that word was copyrighted by &lt;a href=&quot;https://www.youtube.com/v/pco91kroVgQ&quot; target=&quot;_blank&quot;&gt;Lady Gaga. Apparently she lives for the applause or something like that.&lt;/a&gt; So I went with the next best thing, “The Clap”. That doesn’t have any negative connotation, right?&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>The Clap</title>
+      <link>http://example.com/column/the-clap.html</link>
+      <pubDate>Tue, 30 Sep 2014 00:00:00 -0400</pubDate>
+      <author>you@example.com (Your Name)</author>
+      <guid>http://example.com/column/the-clap</guid>
+      <description>&lt;p&gt;I was going to title this column “Applause”, but that word was copyrighted by &lt;a href=&quot;https://www.youtube.com/v/pco91kroVgQ&quot; target=&quot;_blank&quot;&gt;Lady Gaga. Apparently she lives for the applause or something like that.&lt;/a&gt; So I went with the next best thing, “The Clap”. That doesn’t have any negative connotation, right?&lt;/p&gt;
 
 &lt;p&gt;Here is how the scale of applause or live feedback works: good performance — clap, great performance — standing ovation, bad performance — “boo”, and terrible performance — throw tomatoes. You don’t normally bring tomatoes? That’s like not coming to school with a #2 pencil. You have to be prepared and bring tomatoes to any live event. My mom taught me that at a young age. Let’s just say my performance as Humpty Dumpty in my preschool play did not meet her standards.&lt;/p&gt;
 
@@ -197,46 +171,32 @@
 &lt;p&gt;Speaking about things dying, I have no idea how to end this column — except for the lazy way…&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&quot;https://www.youtube.com/v/5p_Z3Rymb4k&quot; target=&quot;_blank&quot;&gt;Clap on. Clap off.&lt;/a&gt;&lt;/p&gt;
-
-                </description>
-                <pubDate>Tue, 30 Sep 2014 00:00:00 -0400</pubDate>
-                <link>http://www.dustinalper.com/column/the-clap.html</link>
-                <guid isPermaLink="true">http://www.dustinalper.com/column/the-clap.html</guid>
-                
-                
-                <category>column</category>
-                
-            </item>
-        
-            <item>
-                <title>I’m Not Asking for a Handout</title>
-                <description>
-                    &lt;p&gt;&lt;a href=&quot;http://www.dustinalper.com/column/im-not-asking-for-handout.html&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;http://www.dustinalper.com/assets/images/column/Im-Not-Asking-for-a-Handout.JPG&quot; alt=&quot;I’m Not Asking for a Handout&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-                    &lt;p&gt;I hate when I’m walking down the street and a random person tries to hand me a flyer. I usually don’t accept the flyers, but some solicitors are too sneaky for me. They will place their flyer perfectly in my hand, where my first reaction is to grab it. That’s easy to avoid though, I just have to keep my hands in my pockets. The problem is when they jump out at me. “Save the infertile chickens! Take this brochure to learn more!” You’re going to give me a heart attack — or worse — a paper cut.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>I’m Not Asking for a Handout</title>
+      <link>http://example.com/column/im-not-asking-for-handout.html</link>
+      <pubDate>Wed, 23 Apr 2014 00:00:00 -0400</pubDate>
+      <author>you@example.com (Your Name)</author>
+      <guid>http://example.com/column/im-not-asking-for-handout</guid>
+      <description>&lt;p&gt;I hate when I’m walking down the street and a random person tries to hand me a flyer. I usually don’t accept the flyers, but some solicitors are too sneaky for me. They will place their flyer perfectly in my hand, where my first reaction is to grab it. That’s easy to avoid though, I just have to keep my hands in my pockets. The problem is when they jump out at me. “Save the infertile chickens! Take this brochure to learn more!” You’re going to give me a heart attack — or worse — a paper cut.&lt;/p&gt;
 
 &lt;p&gt;For some people, it’s difficult to decline flyers. Solicitors radiate gamma rays of peer pressure onto their victims. But I have the lead suit of armor to stop solicitors in their tracks. Just tell them “no thanks” in a cool &lt;a href=&quot;https://www.youtube.com/v/Exe0IEB3hKs&quot; target=&quot;_blank&quot;&gt;Johnny Bravo manner — and then proceed to do the monkey&lt;/a&gt;. It works every time.&lt;/p&gt;
 
 &lt;p&gt;I want to say more than “no thanks” but I’m afraid of confrontation. If I was fearless like &lt;a href=&quot;http://en.wikipedia.org/wiki/Pajama_Sam_In:_No_Need_to_Hide_When_It&#39;s_Dark_Outside&quot; target=&quot;_blank&quot;&gt;Pajama Sam&lt;/a&gt; I would tell solicitors, “Most people take your annoying flyers and immediately throw them in the garbage. Do you realize that? Or do you think they put your handout in the trash because it’s a good place to save it?” Outside of my interactions with solicitors, I am able to speak my mind without any confrontation. Actually, I’m so honest with my friends that they call me “Honest Abe”. I don’t know where the “Abe” came from but I guess I like it. Yesterday, there was an example of Honest Abe in action. My girlfriend asked me, “Do the horizontal stripes on my shirt make me look fat?” I told her, “It’s not the horizontal stripes.”&lt;/p&gt;
 
 &lt;p&gt;At my college, we have way too many solicitors. As soon as I walk outside, I can hear the hollering of “Go to our event!”, “Donate to this charity!”, and “There is a blood drive today!” It’s like a bad song stuck on repeat. Even if I wanted to help out, I only have so much time, money, and blood. Why are solicitors targeting college students to donate money in the first place? We are as broke as a &lt;a href=&quot;http://en.wikipedia.org/wiki/DeLorean_time_machine&quot; target=&quot;_blank&quot;&gt;time traveling DeLorean without a flux capacitor&lt;/a&gt;. Maybe a better analogy is college students are as broke as the ideology that handing strangers flyers is an effective form of persuasion.&lt;/p&gt;
-
-                </description>
-                <pubDate>Wed, 23 Apr 2014 00:00:00 -0400</pubDate>
-                <link>http://www.dustinalper.com/column/im-not-asking-for-handout.html</link>
-                <guid isPermaLink="true">http://www.dustinalper.com/column/im-not-asking-for-handout.html</guid>
-                
-                
-                <category>column</category>
-                
-            </item>
-        
-            <item>
-                <title>#DiningProblems</title>
-                <description>
-                    &lt;p&gt;&lt;a href=&quot;http://www.dustinalper.com/column/diningproblems.html&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;http://www.dustinalper.com/assets/images/column/DiningProblems.JPG&quot; alt=&quot;#DiningProblems&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-                    &lt;div class=&quot;text-center post-margin&quot;&gt;Problem No. 1: The Decision&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>#DiningProblems</title>
+      <link>http://example.com/column/diningproblems.html</link>
+      <pubDate>Tue, 25 Mar 2014 00:00:00 -0400</pubDate>
+      <author>you@example.com (Your Name)</author>
+      <guid>http://example.com/column/diningproblems</guid>
+      <description>&lt;div class=&quot;text-center post-margin&quot;&gt;Problem No. 1: The Decision&lt;/div&gt;
 
 &lt;p&gt;Before you set the table or get in the car, you have to figure out what you want to eat. This process takes my family at least an hour. I want pizza — dad is not in the mood for pizza. Okay, how about Chinese? Nope, dad had Chinese food yesterday for lunch. Are you kidding me? Centuries ago, our ancestors would kill a mammoth and be stuck eating mammoth for the rest of the week. They weren’t like, “There is a giant dead mammoth here full of fresh mammoth meat — but we had that yesterday. I’m in the mood for duck.” No! They ate the mammoth until it was just bones and eyeballs. They didn’t eat the eyeballs because that’s gross.&lt;/p&gt;
 
@@ -263,23 +223,16 @@
 &lt;p&gt;You know what really bothers me? After I’m done eating and building my mini replica of New York City, I’m ready to leave. Just give me the check and I’m out of here. But no, it’s not that easy. My brother has to order the double fudge chocolate brownie deluxe with a cherry on top and we all have to wait and watch him slowly savor every bite. I’m pretty sure there is a law stating that if only one person wants dessert, that person isn’t allowed to order it.&lt;/p&gt;
 
 &lt;p&gt;Even if my brother didn’t order the chocolate mousse volcano supreme, I’d still be waiting for my dad and poppy to figure out who has the privilege of paying the check. It’s like &lt;a href=&quot;http://en.wikipedia.org/wiki/The_Butter_Battle_Book&quot; target=&quot;_blank&quot;&gt;The Butter Battle&lt;/a&gt; between the two of them. Personally, I would let the other person pay the bill if they insist. But even if they didn’t offer, maybe I’d pretend I lost my wallet.&lt;/p&gt;
-
-                </description>
-                <pubDate>Tue, 25 Mar 2014 00:00:00 -0400</pubDate>
-                <link>http://www.dustinalper.com/column/diningproblems.html</link>
-                <guid isPermaLink="true">http://www.dustinalper.com/column/diningproblems.html</guid>
-                
-                
-                <category>column</category>
-                
-            </item>
-        
-            <item>
-                <title>The Boogeyman</title>
-                <description>
-                    &lt;p&gt;&lt;a href=&quot;http://www.dustinalper.com/column/the-boogeyman.html&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;http://www.dustinalper.com/assets/images/column/The-Boogeyman.JPG&quot; alt=&quot;The Boogeyman&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-                    &lt;p&gt;Before I get into the meat of the column, I want to make sure we have a mutual understanding on who/what the Boogeyman is. The Boogeyman isn’t some cool-cat that boogies down at the disco every &lt;a href=&quot;http://www.rottentomatoes.com/m/saturday_night_fever/&quot; target=&quot;_blank&quot;&gt;Saturday night&lt;/a&gt;. He’s a monster that revels in frightening defenseless children once the sun goes down and darkness reigns. In other words, the Boogeyman is not &lt;a href=&quot;http://www.imdb.com/name/nm0000237/&quot; target=&quot;_blank&quot;&gt;John Travolta&lt;/a&gt; or &lt;a href=&quot;http://en.wikipedia.org/wiki/Barry_Gibb&quot; target=&quot;_blank&quot;&gt;Barry Gibb&lt;/a&gt;. Although, the image of them coming out from under my bed and doing “&lt;a href=&quot;http://www.youtube.com/v/7TsRdkrxl4g&quot; target=&quot;_blank&quot;&gt;The Hustle&lt;/a&gt;” is a scary thought.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>The Boogeyman</title>
+      <link>http://example.com/column/the-boogeyman.html</link>
+      <pubDate>Tue, 18 Feb 2014 00:00:00 -0500</pubDate>
+      <author>you@example.com (Your Name)</author>
+      <guid>http://example.com/column/the-boogeyman</guid>
+      <description>&lt;p&gt;Before I get into the meat of the column, I want to make sure we have a mutual understanding on who/what the Boogeyman is. The Boogeyman isn’t some cool-cat that boogies down at the disco every &lt;a href=&quot;http://www.rottentomatoes.com/m/saturday_night_fever/&quot; target=&quot;_blank&quot;&gt;Saturday night&lt;/a&gt;. He’s a monster that revels in frightening defenseless children once the sun goes down and darkness reigns. In other words, the Boogeyman is not &lt;a href=&quot;http://www.imdb.com/name/nm0000237/&quot; target=&quot;_blank&quot;&gt;John Travolta&lt;/a&gt; or &lt;a href=&quot;http://en.wikipedia.org/wiki/Barry_Gibb&quot; target=&quot;_blank&quot;&gt;Barry Gibb&lt;/a&gt;. Although, the image of them coming out from under my bed and doing “&lt;a href=&quot;http://www.youtube.com/v/7TsRdkrxl4g&quot; target=&quot;_blank&quot;&gt;The Hustle&lt;/a&gt;” is a scary thought.&lt;/p&gt;
 
 &lt;p&gt;During my sophomore year of high school, I discovered that the Boogeyman doesn’t exist. I know what you’re thinking, “Wow Dustin. You learned something in high school.” Yes, it’s a Christmas miracle – in February. Every night before sophomore year, terror would leak from my pores, knowing that the Boogeyman was in my room: watching me with his bloodshot eyes, ooze perspiring out of his soggy green skin, his long sharp nails carving my name into whatever surface he can find. Come to think of it, he reminds me a lot of my mother.&lt;/p&gt;
 
@@ -290,23 +243,16 @@
 &lt;p&gt;So why would our parents tell us these scary stories? The stories about the Boogeyman living in our closets; waiting for the perfect time to grab us in the middle of the night and the only way to defend ourselves is to stay under the covers. I have an answer. It doesn’t matter if you agree or disagree, you know it’s the truth. Our parents made up the Boogeyman so we wouldn’t get out of bed and find them having sex.&lt;/p&gt;
 
 &lt;iframe frameborder=&quot;no&quot; height=&quot;166&quot; scrolling=&quot;no&quot; src=&quot;https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/134918978%3Fsecret_token%3Ds-hngtu&amp;amp;color=444444&amp;amp;auto_play=false&amp;amp;hide_related=false&amp;amp;show_artwork=false&quot; width=&quot;100%&quot;&gt;&lt;/iframe&gt;
-
-                </description>
-                <pubDate>Tue, 18 Feb 2014 00:00:00 -0500</pubDate>
-                <link>http://www.dustinalper.com/column/the-boogeyman.html</link>
-                <guid isPermaLink="true">http://www.dustinalper.com/column/the-boogeyman.html</guid>
-                
-                
-                <category>column</category>
-                
-            </item>
-        
-            <item>
-                <title>Names</title>
-                <description>
-                    &lt;p&gt;&lt;a href=&quot;http://www.dustinalper.com/column/names.html&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;http://www.dustinalper.com/assets/images/column/Names.JPG&quot; alt=&quot;Names&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-                    &lt;p&gt;Hello, my name is Dustin Sam Alper. My first name is somewhat unique. I was the only Dustin in my high school. I guess that makes me more special than I already am, but there are some negatives about being so “special”. For instance, when I introduce myself to people, they usually think I said “Justin” instead of “Dustin”. I think this might be the reason why I’m terrible at remembering other people’s names. I’m so focused on pronouncing my name clearly that I forget to listen when people introduce themselves.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Names</title>
+      <link>http://example.com/column/names.html</link>
+      <pubDate>Mon, 27 Jan 2014 00:00:00 -0500</pubDate>
+      <author>you@example.com (Your Name)</author>
+      <guid>http://example.com/column/names</guid>
+      <description>&lt;p&gt;Hello, my name is Dustin Sam Alper. My first name is somewhat unique. I was the only Dustin in my high school. I guess that makes me more special than I already am, but there are some negatives about being so “special”. For instance, when I introduce myself to people, they usually think I said “Justin” instead of “Dustin”. I think this might be the reason why I’m terrible at remembering other people’s names. I’m so focused on pronouncing my name clearly that I forget to listen when people introduce themselves.&lt;/p&gt;
 
 &lt;p&gt;I’m also focused on the idea of having a middle name. What’s the reason behind it? People don’t go by their middle name – it’s just extra baggage. Kind of like that book your teacher tells you to bring to class and then you don’t use it. Your teacher doesn’t make sense, just like a middle name.&lt;/p&gt;
 
@@ -325,23 +271,16 @@
 &lt;p&gt;Adding up the title, front, middle, back, up, down, sideways, and diagonal name can be very confusing. That’s why today I’m unveiling my &lt;a href=&quot;http://www.youtube.com/v/IHqJrOEbgco&quot; target=&quot;_blank&quot;&gt;9-9-9 Plan&lt;/a&gt;. It’s a plan to help people figure out what their name should be. You take the first 9 letters of your front name, add the first 9 letters of the alphabet, then subtract the first 9 letters of the alphabet, and whatever you’re left with would be your new name. So in this case, my name would be “Dustin”. And while we are talking about the alphabet, I personally think it needs an upgrade so we can start calling it the betabet. Sorry for the geeky joke. Actually no, I’m not. I’m a Pokémon Master.&lt;/p&gt;
 
 &lt;iframe frameborder=&quot;no&quot; height=&quot;166&quot; scrolling=&quot;no&quot; src=&quot;https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/131573131%3Fsecret_token%3Ds-JxEUJ&amp;amp;color=444444&amp;amp;auto_play=false&amp;amp;show_artwork=false&quot; width=&quot;100%&quot;&gt;&lt;/iframe&gt;
-
-                </description>
-                <pubDate>Mon, 27 Jan 2014 00:00:00 -0500</pubDate>
-                <link>http://www.dustinalper.com/column/names.html</link>
-                <guid isPermaLink="true">http://www.dustinalper.com/column/names.html</guid>
-                
-                
-                <category>column</category>
-                
-            </item>
-        
-            <item>
-                <title>Phones</title>
-                <description>
-                    &lt;p&gt;&lt;a href=&quot;http://www.dustinalper.com/column/phones.html&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;http://www.dustinalper.com/assets/images/column/Phones.JPG&quot; alt=&quot;Phones&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-                    &lt;p&gt;I don’t know about you, but I always do weird stuff when I’m talking on the phone. For instance, I pace back and forth in a room for however long I’m on the phone for. Oh, you do that too? So I’m not as insane as I think I am, haha (nervous laugh). Why do we do that? It’s not like we have to walk around when we talk to each other in person, so why can’t we stand still when we talk to each other on the phone? These are the questions that drive me insane, haha (insane laugh).&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Phones</title>
+      <link>http://example.com/column/phones.html</link>
+      <pubDate>Mon, 16 Dec 2013 00:00:00 -0500</pubDate>
+      <author>you@example.com (Your Name)</author>
+      <guid>http://example.com/column/phones</guid>
+      <description>&lt;p&gt;I don’t know about you, but I always do weird stuff when I’m talking on the phone. For instance, I pace back and forth in a room for however long I’m on the phone for. Oh, you do that too? So I’m not as insane as I think I am, haha (nervous laugh). Why do we do that? It’s not like we have to walk around when we talk to each other in person, so why can’t we stand still when we talk to each other on the phone? These are the questions that drive me insane, haha (insane laugh).&lt;/p&gt;
 
 &lt;p&gt;Speaking about driving insane, I think it’s insane to text while driving. I have nothing funny to say about this, I just thought I should bring it up if I’m talking about phones. It’s just stupid. Don’t do it. And don’t text while you’re walking either. If you’re not paying attention to where you’re going, I will walk into you and blame you for it.&lt;/p&gt;
 
@@ -352,23 +291,16 @@
 &lt;p&gt;If you are going to put a case on a phone, you might as well do that with anything else that is valuable and portable – like a car or Grandma. Do you think I am crazy for saying that? I just bought a car, which happens to cost more than a cell phone, and you think I’m going to drive the car without putting a case on it first? That’s how crazy I think &lt;em&gt;you&lt;/em&gt; sound if you put a case on your phone. If you drop your phone often, buy a more durable phone – like a flip phone. Besides, it’s not like you need all of the fancy features that a smartphone has. I think any phone is good enough to own as long as you can make a phone call with it. More specifically, to call Grandma every morning to make sure she puts on her case before she leaves the house. I don’t want anything bad to happen to my precious cookie-making machine.&lt;/p&gt;
 
 &lt;iframe frameborder=&quot;no&quot; height=&quot;166&quot; scrolling=&quot;no&quot; src=&quot;https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/124885490%3Fsecret_token%3Ds-QD4kq&amp;amp;color=444444&amp;amp;auto_play=false&amp;amp;show_artwork=false&quot; width=&quot;100%&quot;&gt;&lt;/iframe&gt;
-
-                </description>
-                <pubDate>Mon, 16 Dec 2013 00:00:00 -0500</pubDate>
-                <link>http://www.dustinalper.com/column/phones.html</link>
-                <guid isPermaLink="true">http://www.dustinalper.com/column/phones.html</guid>
-                
-                
-                <category>column</category>
-                
-            </item>
-        
-            <item>
-                <title>Milestone Commentary</title>
-                <description>
-                    &lt;p&gt;&lt;a href=&quot;http://www.dustinalper.com/column/milestone-commentary.html&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;http://www.dustinalper.com/assets/images/column/Milestone-Commentary.JPG&quot; alt=&quot;Milestone Commentary&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-                    &lt;p&gt;Based on the fact that I wrote about columns and stairs for my past two columns, you might think I am fascinated with architecture. Well, you’re right. So sticking with that theme I’m going to talk about different types of stones: milestones.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Milestone Commentary</title>
+      <link>http://example.com/column/milestone-commentary.html</link>
+      <pubDate>Mon, 18 Nov 2013 00:00:00 -0500</pubDate>
+      <author>you@example.com (Your Name)</author>
+      <guid>http://example.com/column/milestone-commentary</guid>
+      <description>&lt;p&gt;Based on the fact that I wrote about columns and stairs for my past two columns, you might think I am fascinated with architecture. Well, you’re right. So sticking with that theme I’m going to talk about different types of stones: milestones.&lt;/p&gt;
 
 &lt;p&gt;It all started when I was an infant. Everyone would speak to me as if I were a baby. Can you believe that? All I wanted to do was talk about the molecular structure of an imbalanced molecule – but no – people would come up to my face and annoyingly say “goo-goo ga-ga” while I was trying to speak to them. &lt;a href=&quot;http://www.youtube.com/v/gcyOoPDlSuU&quot; target=&quot;_blank&quot;&gt;As Stephanie Tanner would say, “How rude!”&lt;/a&gt;&lt;/p&gt;
 
@@ -385,23 +317,16 @@
 &lt;p&gt;Milestone commentary is an acceptable conversation starter in today’s society. But in my world, I rather you just say something random to start a conversation. So if I’m seeing you for Thanksgiving or any other time, please don’t bring up any milestone commentary. Either talk about something else – like how I would charge $10 per window to wash every window in Seattle – or stay away from me and shut up.&lt;/p&gt;
 
 &lt;iframe frameborder=&quot;no&quot; height=&quot;166&quot; scrolling=&quot;no&quot; src=&quot;https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/120472011%3Fsecret_token%3Ds-Y9guR&amp;amp;color=444444&amp;amp;auto_play=false&amp;amp;show_artwork=false&quot; width=&quot;100%&quot;&gt;&lt;/iframe&gt;
-
-                </description>
-                <pubDate>Mon, 18 Nov 2013 00:00:00 -0500</pubDate>
-                <link>http://www.dustinalper.com/column/milestone-commentary.html</link>
-                <guid isPermaLink="true">http://www.dustinalper.com/column/milestone-commentary.html</guid>
-                
-                
-                <category>column</category>
-                
-            </item>
-        
-            <item>
-                <title>Stairs</title>
-                <description>
-                    &lt;p&gt;&lt;a href=&quot;http://www.dustinalper.com/column/stairs.html&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;http://www.dustinalper.com/assets/images/column/Stairs.JPG&quot; alt=&quot;Stairs&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-                    &lt;p&gt;Have you ever had a class that was not located on the first floor? Do you live in a house that is two stories tall? If your answer is yes to at least one of these questions then you have probably taken the stairs before. If your answer is no, don’t be ashamed, I know a lot of people who aren’t familiar with the stairs. It is a problem (uh, let’s use a more “politically correct” term) – it is a dilemma that can be fixed. By the end of this column, I will turn your KSD (Knowledge of Stairs Deficiency) into KSP (Knowledge of Stairs Proficiency).&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Stairs</title>
+      <link>http://example.com/column/stairs.html</link>
+      <pubDate>Tue, 08 Oct 2013 00:00:00 -0400</pubDate>
+      <author>you@example.com (Your Name)</author>
+      <guid>http://example.com/column/stairs</guid>
+      <description>&lt;p&gt;Have you ever had a class that was not located on the first floor? Do you live in a house that is two stories tall? If your answer is yes to at least one of these questions then you have probably taken the stairs before. If your answer is no, don’t be ashamed, I know a lot of people who aren’t familiar with the stairs. It is a problem (uh, let’s use a more “politically correct” term) – it is a dilemma that can be fixed. By the end of this column, I will turn your KSD (Knowledge of Stairs Deficiency) into KSP (Knowledge of Stairs Proficiency).&lt;/p&gt;
 
 &lt;p&gt;It’s important to take the perfect first step when approaching the stairs. If something goes wrong, there is a greater chance of tripping. I either have to shuffle my feet or stretch my legs like &lt;a href=&quot;http://marvel.com/universe/Mister_Fantastic&quot; target=&quot;_blank&quot;&gt;Mr. Fantastic&lt;/a&gt; in order to take that flawless first step. Sure it might look awkward, but it would be more awkward to trip down the stairs, pushing everyone else down with me, including that cute girl from my Zumba class. And of course, my glasses would fly off and I would be like &lt;a href=&quot;https://www.youtube.com/v/1xd3CGRQXlo&quot; target=&quot;_blank&quot;&gt;Velma&lt;/a&gt; trying to find them. But what’s even more awkward than all of that, is being the only guy in my Zumba class.&lt;/p&gt;
 
@@ -418,23 +343,16 @@
 &lt;p&gt;The biggest issue I have with taking the stairs – there are always butts in my face. Or should I say my face is in their butt. Well at least that’s how it feels – and sometimes smells. We all need to take a step in the right direction, and stop crowding the stairway, because I am sick of looking at everyone’s butt. Of course, if the butt in front of me belongs to that cute girl in my Zumba class, then I guess it doesn’t hurt to look.&lt;/p&gt;
 
 &lt;iframe frameborder=&quot;no&quot; height=&quot;166&quot; scrolling=&quot;no&quot; src=&quot;https://w.soundcloud.com/player/?url=http%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F113884601%3Fsecret_token%3Ds-hqW59&amp;amp;color=444444&amp;amp;auto_play=false&amp;amp;show_artwork=false&quot; width=&quot;100%&quot;&gt;&lt;/iframe&gt;
-
-                </description>
-                <pubDate>Tue, 08 Oct 2013 00:00:00 -0400</pubDate>
-                <link>http://www.dustinalper.com/column/stairs.html</link>
-                <guid isPermaLink="true">http://www.dustinalper.com/column/stairs.html</guid>
-                
-                
-                <category>column</category>
-                
-            </item>
-        
-            <item>
-                <title>The Columnist</title>
-                <description>
-                    &lt;p&gt;&lt;a href=&quot;http://www.dustinalper.com/column/the-columnist.html&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;http://www.dustinalper.com/assets/images/column/The-Columnist.JPG&quot; alt=&quot;The Columnist&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-                    &lt;p&gt;When my kindergarten teacher asked, “What do you want to be when you grow up?” my friends would say, “An astronaut!” “A firefighter!” Well I wanted to be a columnist.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>The Columnist</title>
+      <link>http://example.com/column/the-columnist.html</link>
+      <pubDate>Mon, 02 Sep 2013 00:00:00 -0400</pubDate>
+      <author>you@example.com (Your Name)</author>
+      <guid>http://example.com/column/the-columnist</guid>
+      <description>&lt;p&gt;When my kindergarten teacher asked, “What do you want to be when you grow up?” my friends would say, “An astronaut!” “A firefighter!” Well I wanted to be a columnist.&lt;/p&gt;
 
 &lt;p&gt;As I grew older, my dream became more of a reality. I traveled to the &lt;a href=&quot;https://www.google.com/maps/preview#!q=roman+colosseum&amp;amp;data=!1m8!1m3!1d3!2d12.492633!3d41.891057!2m2!1f201.36!2f120.46!4f90!2m5!1e4!2m3!1s6246766362413951029!2e3!7e9!4m11!1m10!4m8!1m3!1d97183!2d-79.9805005!3d40.4313684!3m2!1i1024!2i768!4f13.1!17b1&amp;amp;fid=6&quot; target=&quot;_blank&quot;&gt;Roman Colosseum&lt;/a&gt; to study their world-famous columns. Some people call that studying architecture, but I call it being a columnist.&lt;/p&gt;
 
@@ -455,16 +373,9 @@
 &lt;p&gt;P.S. I recorded myself reading the column in case you are too lazy to read it yourself. But assuming that you just read through the column, I am probably telling you this too late. &lt;a href=&quot;https://www.youtube.com/v/VK9pi-XsV0M&quot; target=&quot;_blank&quot;&gt;Whoopsie doodle.&lt;/a&gt;&lt;/p&gt;
 
 &lt;iframe frameborder=&quot;no&quot; height=&quot;166&quot; scrolling=&quot;no&quot; src=&quot;https://w.soundcloud.com/player/?url=http%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F108241294%3Fsecret_token%3Ds-hI1jr&amp;amp;color=444444&amp;amp;auto_play=false&amp;amp;show_artwork=false&quot; width=&quot;100%&quot;&gt;&lt;/iframe&gt;
+</description>
+    </item>
+    
 
-                </description>
-                <pubDate>Mon, 02 Sep 2013 00:00:00 -0400</pubDate>
-                <link>http://www.dustinalper.com/column/the-columnist.html</link>
-                <guid isPermaLink="true">http://www.dustinalper.com/column/the-columnist.html</guid>
-                
-                
-                <category>column</category>
-                
-            </item>
-        
-    </channel>
+  </channel> 
 </rss>
