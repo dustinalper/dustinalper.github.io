@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title type="text" xml:lang="en"></title>
+  <link type="application/atom+xml" href="http://zanshin.net/feed/" rel="self" />
+  <link type="text" href="http://zanshin.net" rel="alternate" />
+  <id>http://zanshin.net</id>
+  <author>
+    <name>Mark H. Nichols</name>
+  </author>
+  <rights>Copyright (c) 1996-2013, Mark H. Nichols; all rights reserved.</rights>
+
+  
+  <entry>
+    <title></title>
+    <link href="http://zanshin.net" />
+    <id>http://zanshin.net</id>
+    <content type="html"></content>
+  </entry>
+  
+</feed>
