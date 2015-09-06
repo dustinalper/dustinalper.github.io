@@ -134,15 +134,30 @@ article img {
 	clear: both;
 }
 
-.secondary {
-	width: 46%;
-	margin: 0px 2% 40px 2%;
+.secondary, .tertiary, .quaternary {
+	margin-bottom: 40px;
 	font-size: 20px;
+}
+
+.secondary {
+	width: 48%;
 	float: left;
 }
 
+.tertiary {
+	width: 48%;
+	float: right;
+}
+
+.quaternary {
+	width: 46%;
+	float: left;
+	margin-left: 2%;
+	margin-right: 2%;
+}
+
 @media (max-width: 1040px) {
-	.secondary {
+	.secondary, .tertiary, .quaternary {
 		width: 100%;
 		margin: 0px auto 40px auto;
 		font-size: 25px;
