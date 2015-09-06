@@ -341,6 +341,10 @@ footer li {
 	display:none;
 }
 
+.mobile-only {
+	display: none;
+}
+
 @media print {
 	* {
 		color: #000000 !important;
