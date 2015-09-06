@@ -89,7 +89,7 @@ body {
 #header-title {
 	font-size: 65px;
 	margin: 0px auto;
-	padding-top: 24px;
+	padding-top: 29px;
 	clear: both;
 }
 
@@ -110,7 +110,7 @@ nav ul {
 	border-color: #e9e9e9;
 	font-size: 20px;
 	width: 78.125%;
-	margin: 35px auto;
+	margin: 40px auto;
 }
 
 nav li {
@@ -129,14 +129,14 @@ article img {
 
 .primary {
 	width: 78.125%;
-	margin: 35px auto;
+	margin: 40px auto;
 	font-size: 25px;
 	clear: both;
 }
 
 .secondary {
 	width: 46%;
-	margin: 0px 2% 35px 2%;
+	margin: 0px 2% 40px 2%;
 	font-size: 20px;
 	float: left;
 }
@@ -144,7 +144,7 @@ article img {
 @media (max-width: 1040px) {
 	.secondary {
 		width: 100%;
-		margin: 0px auto 35px auto;
+		margin: 0px auto 40px auto;
 		font-size: 25px;
 		float: none;
 		clear: both;
@@ -189,7 +189,7 @@ article img {
 /*soundcloud widget*/
 .post iframe {
 	width: 87.75%;
-	margin: 35px auto;
+	margin: 40px auto;
 	display: block;
 }
 
@@ -200,7 +200,7 @@ article img {
 /*facebook comments*/
 #fb-container {
 	width: 70%; /*size of facebook comments*/
-	margin: 35px auto;
+	margin: 40px auto;
 	border-style: solid;
 	border-width: 5px;
 	border-color: #c2c2c2;
@@ -274,7 +274,7 @@ footer li {
 .thirds {
 	width: 33.33%;
 	max-width: 333.33px;
-	margin: 35px auto 20px auto;
+	margin: 40px auto 20px auto;
 	float: left;
 }
 
@@ -293,7 +293,7 @@ footer li {
 #copyright {
 	width: 100%;
 	font-size: 12px;
-	margin-bottom: 35px;
+	margin-bottom: 40px;
 }
 
 /*404.html css*/
@@ -306,7 +306,7 @@ footer li {
 /*subscribe.html css*/
 
 #mc_embed_signup {
-	margin: 35px auto;
+	margin: 40px auto;
 	font-size: 20px;
 }
 
