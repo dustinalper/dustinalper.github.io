@@ -2,6 +2,6 @@
 ## Phase 1: Create Blog
 Status: Done
 ## Phase 2: Create Portfolio
-Status: Not Started
+Status: In Progress
 ## Phase 3: Avengers: Infinity War
-Status: Pre-production
+Status: Pre-Production

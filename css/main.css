@@ -97,9 +97,14 @@ body {
 	font-size: 41px;
 }
 
-#tagline, #tagline-portfolio {
+#tagline {
 	font-size: 22px;
 	margin-top: -6px;
+}
+
+#tagline-portfolio {
+	font-size: 22px;
+	margin-top: 0px;
 }
 
 nav ul {
