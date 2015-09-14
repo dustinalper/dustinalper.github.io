@@ -258,6 +258,11 @@ footer {
 	color: #1b1b1b;
 }
 
+.footer-title {
+	font-weight: bold;
+	font-size: 20px;
+}
+
 .list-title {
 	font-weight: bold;
 	margin-bottom: 10px;
@@ -289,7 +294,7 @@ footer li {
 .thirds {
 	width: 33.33%;
 	max-width: 333.33px;
-	margin: 40px auto 20px auto;
+	margin: 0px auto 20px auto;
 	float: left;
 }
 
@@ -358,6 +363,23 @@ footer li {
 
 .mobile-only {
 	display: none;
+}
+
+/*Nivo Slider css*/
+
+.nivoSlider img {
+	max-height: 500px;
+	max-width: 90% !important;
+	width: auto !important;
+	margin: auto;
+}
+
+.nivo-slice img {
+	left: auto !important;
+	margin: auto !important;
+	display: inline !important;
+	top: auto;
+	position: relative !important;
 }
 
 @media print {
