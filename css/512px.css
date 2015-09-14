@@ -11,6 +11,11 @@
 		font-size: 23.0625px;
 	}
 
+	#tagline-portfolio {
+    	font-size: 12px;
+    	margin-top: 1px;
+    }
+
 	.primary {
 		width: 90%;
 	}
@@ -41,6 +46,10 @@
 
 	footer, footer ul {
 		font-size: 18px;
+	}
+
+	.footer-title {
+		font-size: 19px;
 	}
 
 	.list-title {
