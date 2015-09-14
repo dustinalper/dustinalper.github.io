@@ -53,8 +53,11 @@
 	}
 
 	.list-title {
-		padding-top: 15px;
 		margin-bottom: 7px;
+	}
+
+	.list-title-pad {
+		padding-top: 15px;
 	}
 
 	.thirds {
