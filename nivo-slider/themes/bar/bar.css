@@ -39,7 +39,7 @@ Supports Thumbs: false
     left: 0;
     bottom: -41px;
     z-index: 10;
-    border-top: 1px solid #e9e9e9;
+    /*border-top: 1px solid #e9e9e9;*/
     width: 100%;
     height: 30px;
 	text-align: center;
