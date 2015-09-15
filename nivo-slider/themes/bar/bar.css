@@ -19,7 +19,7 @@ Supports Thumbs: false
 }
 .theme-bar .nivoSlider {
 	position:relative;
-	background: rgba(51, 51, 51, .5) url(loading.gif) no-repeat 50% 50%;
+	background: rgba(52, 52, 52, .5) url(loading.gif) no-repeat 50% 50%;
 }
 .theme-bar .nivoSlider img {
 	position:absolute;
@@ -44,7 +44,7 @@ Supports Thumbs: false
     height: 30px;
 	text-align: center;
 	padding: 5px 0;
-	background: #333;
+	background: #272727;
     opacity: 0.5;
 }
 .theme-bar .nivo-controlNav {
@@ -55,7 +55,7 @@ Supports Thumbs: false
 	display:inline-block;
 	width:22px;
 	height:22px;
-	background:url(bullets.png) no-repeat;
+	background:url(bullets2.png) no-repeat;
 	text-indent:-9999px;
 	border:0;
 	margin: 5px 2px 0 2px;
