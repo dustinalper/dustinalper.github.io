@@ -17,6 +17,7 @@ Supports Thumbs: true
 	top:0px;
 	left:0px;
 	display:none;
+	padding: 0px 10px;
 }
 .theme-default .nivoSlider a {
 	border:0;

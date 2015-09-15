@@ -45,15 +45,16 @@
 	}
 
 	footer, footer ul {
-		font-size: 18px;
+		font-size: 17px;
 	}
 
 	.footer-title {
-		font-size: 19px;
+		font-size: 18px;
 	}
 
 	.list-title {
 		margin-bottom: 7px;
+		font-size: 18px;
 	}
 
 	.list-title-pad {
