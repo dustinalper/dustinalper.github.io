@@ -100,7 +100,7 @@
 	vertical-align: middle;
 }
 
-@media (max-width: 512px) {
+@media (max-width: 768px) {
 	.nivo-lightbox-wrap  {
 		top: 6%;
 		bottom: 12%;
