@@ -62,6 +62,12 @@
 		$(document).ready(function(){
 		    $('a').nivoLightbox({
     			effect: 'fadeScale',                             // The effect to use when showing the lightbox
+    			beforeHideLightbox: function(){						// Callback before the lightbox is hidden
+    				$("body").css("overflow", "auto");
+    			},
+    			afterShowLightbox: function(lightbox){				// Callback after the lightbox is shown
+    				$("body").css("overflow", "hidden");
+    			},
 			});
 		});
 		</script>

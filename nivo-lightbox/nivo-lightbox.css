@@ -63,7 +63,7 @@
 	right: 2%;
 }
 .nivo-lightbox-theme-default .nivo-lightbox-nav {
-		top: 45% !important;
+	top: 45% !important;
 }
 
 .nivo-lightbox-image { text-align: center; }
@@ -122,17 +122,8 @@
 		opacity: 1 !important;
 		background-color: rgba(0,0,0,0.5) !important;
 	}
-	.nivo-lightbox-prev {
-		position: absolute;
-	}
-	.nivo-lightbox-next {
-		position: absolute;
-	}
-	.nivo-lightbox-close {
-		position: absolute;
-	}
 	.nivo-lightbox-image img {
-		max-height: 100%;
+		margin-bottom: 100px;
 	}
 }
 
