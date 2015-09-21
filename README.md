@@ -1,7 +1,5 @@
-# dustinalper.github.io — My website.
-## Phase 1: Create Blog
-Status: Done
-## Phase 2: Create Portfolio
-Status: In Progress
-## Phase 3: Avengers: Infinity War
-Status: Pre-Production
+# dustinalper.com (dustinalper.github.io)
+## The Columnist (My Blog)
+Contains satirical blog posts about arbitrary topics.
+## The Designer (My Portfolio)
+Contains designs for my arbitrary projects.

@@ -4,11 +4,45 @@
 		<title>Dustin Alper - The Columnist</title>
 		<description>Bringing the little things to your attention in a big way. To be honest, I don&#39;t know what that means. I&#39;m just trying to sound clever.</description>
 		
-		<webfeeds:cover image="http://www.dustinalper.com/assets/images/column/If-I-Were-a-Musician.JPG" />
+		<webfeeds:cover image="http://www.dustinalper.com/assets/images/column/5-Questions-to-Ask-a-Talk-Show-Host.JPG" />
 		
 		<webfeeds:logo>http://www.dustinalper.com/assets/images/logo.svg</webfeeds:logo>
 		<link>http://www.dustinalper.com</link>
 		<atom:link href="http://www.dustinalper.com/feed.xml" rel="self" type="application/rss+xml" />
+		
+			<item>
+				<title>5 Questions to Ask a Talk Show Host</title>
+				
+				<description>
+                    &lt;p&gt;&lt;a href=&quot;http://www.dustinalper.com/column/5-questions-to-ask-a-talk-show-host.html&quot; target=&quot;_blank&quot;&gt;&lt;img class=&quot;webfeedsFeaturedVisual&quot; src=&quot;http://www.dustinalper.com/assets/images/column/5-Questions-to-Ask-a-Talk-Show-Host.JPG&quot; alt=&quot;5 Questions to Ask a Talk Show Host&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+                    &lt;p&gt;If you have ever watched a talk show before, then you’ve probably made the observation that they ask their guests a lot of questions. Personally, I think it’s rude and invasive. So I decided to write a list of questions that I’m going to ask a talk show host once I’m invited to be on their show.&lt;/p&gt;
+
+&lt;p&gt;1. Why can’t you think of a more creative title for the show other than your name or the time of day?
+
+&lt;img src=&quot;/assets/images/column/5-Questions-to-Ask-a-Talk-Show-Host/1.gif&quot; alt=&quot;5 Questions to Ask a Talk Show Host&quot; style=&quot;max-width:358px;margin-top:5px;margin-bottom:50px;&quot; class=&quot;img-center&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;2. Why do you always sit to the left of your guests?
+
+&lt;img src=&quot;/assets/images/column/5-Questions-to-Ask-a-Talk-Show-Host/2.gif&quot; alt=&quot;5 Questions to Ask a Talk Show Host&quot; style=&quot;max-width:358px;margin-top:5px;margin-bottom:50px;&quot; class=&quot;img-center&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;3. Why do daytime talk shows not have desks?
+
+&lt;img src=&quot;/assets/images/column/5-Questions-to-Ask-a-Talk-Show-Host/3.gif&quot; alt=&quot;5 Questions to Ask a Talk Show Host&quot; style=&quot;max-width:358px;margin-top:5px;margin-bottom:50px;&quot; class=&quot;img-center&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;4. Why do guests only come to promote themselves and never come just to say hi?
+
+&lt;img src=&quot;/assets/images/column/5-Questions-to-Ask-a-Talk-Show-Host/4.gif&quot; alt=&quot;5 Questions to Ask a Talk Show Host&quot; style=&quot;max-width:358px;margin-top:5px;margin-bottom:50px;&quot; class=&quot;img-center&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;5. What do you whisper to your guest right before you go to commercial break?
+
+&lt;img src=&quot;/assets/images/column/5-Questions-to-Ask-a-Talk-Show-Host/5.gif&quot; alt=&quot;5 Questions to Ask a Talk Show Host&quot; style=&quot;max-width:358px;margin-top:5px;margin-bottom:50px;&quot; class=&quot;img-center&quot; /&gt;&lt;/p&gt;
+
+                </description>
+				<pubDate>Mon, 21 Sep 2015 00:00:00 -0400</pubDate>
+				<link>http://www.dustinalper.com/column/5-questions-to-ask-a-talk-show-host.html</link>
+				<guid isPermaLink="true">http://www.dustinalper.com/column/5-questions-to-ask-a-talk-show-host.html</guid>
+			</item>
 		
 			<item>
 				<title>If I Were a Musician</title>
