@@ -206,6 +206,11 @@ article img {
 	text-decoration: underline;
 }*/
 
+/*Default font-weight is 600*/
+.post strong {
+	font-weight: 500;
+}
+
 /*soundcloud widget*/
 .post iframe {
 	width: 87.75%;
