@@ -9,7 +9,7 @@ h1, h2, h3, h4, h5, h6 {
 	font-weight: normal;
 }
 
-.text-center, #header-title, #tagline, #tagline-portfolio, nav ul, .primary, .secondary, .btn, .thirds, #copyright {
+.text-center, #header-title, #tagline, nav ul, .primary, .secondary, .btn, .thirds, #copyright {
 	text-align: center;
 }
 
@@ -100,11 +100,6 @@ body {
 #tagline {
 	font-size: 22px;
 	margin-top: -6px;
-}
-
-#tagline-portfolio {
-	font-size: 22px;
-	margin-top: 0px;
 }
 
 nav ul {
@@ -419,5 +414,16 @@ footer li {
 
 	#mc_embed_signup, #fb-container, .btn, footer {
 		display: none !important;
+	}
+}
+
+@media (max-width: 1000px) {
+	.primary {
+		width: 100%;
+	}
+
+	article img, .theme-bar.slider-wrapper {
+		border-left-style: none !important;
+		border-right-style: none !important;
 	}
 }

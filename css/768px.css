@@ -9,7 +9,7 @@
     	font-size: 48.75px;
     }
 
-    #tagline, #tagline-portfolio {
+    #tagline {
     	font-size: 17px;
     }
 
@@ -26,7 +26,12 @@
 	}
 
 	.primary {
-		width: 85%;
+		width: 100%;
+	}
+
+	article img, .theme-bar.slider-wrapper {
+		border-left-style: none !important;
+		border-right-style: none !important;
 	}
 
 	.primary, .secondary, .tertiary, .quaternary, #mc_embed_signup {

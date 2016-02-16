@@ -11,15 +11,6 @@
 		font-size: 23.0625px;
 	}
 
-	#tagline-portfolio {
-    	font-size: 12px;
-    	margin-top: 0px;
-    }
-
-	.primary {
-		width: 90%;
-	}
-
 	.primary, .secondary, .tertiary, .quaternary, #mc_embed_signup {
 		font-size: 15px;
 	}
