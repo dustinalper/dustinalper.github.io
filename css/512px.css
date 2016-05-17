@@ -66,3 +66,13 @@
 		width: 280px;
 	}
 }
+
+@media (max-width: 320px) {
+	.old-iphone-remove {
+		display: none;
+	}
+
+	.old-iphone-only {
+		display: block;
+	}
+}

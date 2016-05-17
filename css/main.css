@@ -376,6 +376,10 @@ footer li {
 	display: none;
 }
 
+.old-iphone-only {
+	display: none;
+}
+
 /*Nivo Slider css*/
 
 .nivoSlider img {
