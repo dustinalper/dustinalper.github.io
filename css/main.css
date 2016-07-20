@@ -9,7 +9,7 @@ h1, h2, h3, h4, h5, h6 {
 	font-weight: normal;
 }
 
-.text-center, #header-title, #tagline, nav ul, .primary, .secondary, .btn, .thirds, #copyright {
+.text-center, #header-title, #tagline, nav ul, .primary, .secondary, .tertiary, .btn, .thirds, #copyright {
 	text-align: center;
 }
 
@@ -395,6 +395,70 @@ footer li {
 	display: inline !important;
 	top: auto;
 	position: relative !important;
+}
+
+/*Intro Page*/
+
+.container {
+	width: 100%;
+}
+
+.vertical-align {
+	position: relative;
+	top: 7.5%;
+	transform: translateY(-7.5%);
+}
+
+.intro {
+	width: 850px;
+	height: 534px;
+	margin: 40px auto;
+	font-size: 25px;
+	clear: both;
+}
+
+.intro-html {
+    min-height: 100%;
+    background-image: url('/assets/images/intro-back.jpg');
+    background-position: bottom center;
+	background-color: #1b1b1b;
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-position: fixed;
+}
+
+.intro-text {
+	float: left;
+}
+
+.intro-text h1 {
+	font-size: 100px;
+}text-shadow: 2px 2px 10px #000000;
+
+.intro-text h2 {
+	font-size: 25px;
+	text-align: left;
+}
+
+.intro img {
+	float: right;
+	max-width: 320px;
+	width: 50%;
+}
+
+.intro .btn {
+	margin-top: 10px;
+}
+
+.intro .sub-title {
+	margin-top: 40px;
+}
+
+.flex-center-vertically {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	height: 400px;
 }
 
 @media print {
