@@ -422,6 +422,13 @@ footer li {
 .intro img {
 	float: right;
 	width: 320px;
+	-webkit-transition: width .75s, height .75s, -webkit-transform .75s; /* Safari */
+    transition: width .75s, height .75s, transform .75s;
+}
+
+.intro img:hover {
+	-webkit-transform: rotate(15deg); /* Safari */
+    transform: rotate(15deg);
 }
 
 .intro .btn {
