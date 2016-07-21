@@ -15,6 +15,10 @@
 		font-size: 15px;
 	}
 
+	.btn {
+		width: 116px !important;
+	}
+
 	.mobile-remove {
 		display: none;
 	}

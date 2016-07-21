@@ -424,6 +424,8 @@ footer li {
 	width: 320px;
 	-webkit-transition: width .75s, height .75s, -webkit-transform .75s; /* Safari */
     transition: width .75s, height .75s, transform .75s;
+    -webkit-backface-visibility: hidden;
+    -webkit-transform: translateZ(0) scale(1.0, 1.0);
 }
 
 .intro img:hover {
