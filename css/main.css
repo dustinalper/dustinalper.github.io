@@ -113,6 +113,10 @@ nav ul {
 	margin: 40px auto;
 }
 
+.nav-port {
+	margin: 25px auto 40px auto;
+}
+
 nav li {
 	display: inline;
 	margin: 0px 2%;
@@ -125,6 +129,9 @@ article img {
 	border-style: solid;
   	border-width: 1px;
   	border-color: #e9e9e9;
+  	box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
 }
 
 .primary {
@@ -154,6 +161,20 @@ article img {
 	float: left;
 	margin-left: 2%;
 	margin-right: 2%;
+}
+
+.quat-border {
+	padding-bottom: 10px;
+	border-style: solid;
+  	border-width: 2px;
+  	box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    border-radius: 0px 0px 20px 20px;
+}
+
+.quat-border img{
+	border-style: none;
 }
 
 @media (max-width: 1040px) {
@@ -489,7 +510,7 @@ footer li {
 	}
 
 	.intro .btn, .intro .sub-title {
-		font-size: 20px !important;
+		font-size: 19.5px !important;
 	}
 
 	.intro .btn {
@@ -518,21 +539,6 @@ footer li {
 
 	#mc_embed_signup, #fb-container, .btn, footer {
 		display: none !important;
-	}
-}
-
-@media (max-width: 1000px) {
-	.primary {
-		width: 100%;
-	}
-
-	nav ul {
-		width: 90%;
-	}
-
-	article img, .theme-bar.slider-wrapper {
-		border-left-style: none !important;
-		border-right-style: none !important;
 	}
 }
 
