@@ -65,6 +65,20 @@
 	#img-404 {
 		width: 280px;
 	}
+
+	/*Intro Page*/
+
+	.intro h1 {
+		font-size: 55px;
+	}
+
+	.intro img {
+		width: 200px;
+	}
+
+	.intro .btn, .intro .sub-title {
+		font-size: 17px !important;
+	}
 }
 
 @media (max-width: 320px) {
