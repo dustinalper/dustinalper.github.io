@@ -19,6 +19,10 @@
 		width: 116px !important;
 	}
 
+	.sub-btn {
+		width: 88px !important;
+	}
+
 	.mobile-remove {
 		display: none;
 	}
