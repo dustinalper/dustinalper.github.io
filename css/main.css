@@ -343,6 +343,15 @@ article img {
   	display: inline-block;
   	padding: 8px 37.5px;
   	font-size: 22.5px;
+  	-webkit-transition: width .75s, height .75s, -webkit-transform .75s, color .5s, border-color .5s; /* Safari */
+    transition: width .75s, height .75s, transform .75s, color .5s, border-color .5s;
+    -webkit-backface-visibility: hidden;
+    -webkit-transform: translateZ(0) scale(1.0, 1.0);
+}
+
+.btn:hover {
+	-webkit-transform: perspective(1px) scale(1.05); /* Safari */
+	transform: perspective(1px) scale(1.05);
 }
 
 /*footer css*/
@@ -444,6 +453,7 @@ footer li {
 	width: 88px !important;
 	border-radius: 0px;
 	margin-top: 10px;
+	margin-left: 3px;
 }
 
 #mce-responses {
@@ -495,6 +505,10 @@ footer li {
 .intro h1 {
 	float: left;
 	font-size: 100px;
+	-webkit-transition: width .75s, height .75s, -webkit-transform .75s; /* Safari */
+    transition: width .75s, height .75s, transform .75s;
+    -webkit-backface-visibility: hidden;
+    -webkit-transform: translateZ(0) scale(1.0, 1.0);
 }
 
 .intro img {
@@ -509,6 +523,11 @@ footer li {
 .intro img:hover {
 	-webkit-transform: rotate(15deg); /* Safari */
     transform: rotate(15deg);
+}
+
+.intro h1:hover {
+	-webkit-transform: translate(0px,-20px); /* Safari */
+    transform: translate(0px,-20px);
 }
 
 .intro .btn {
@@ -531,12 +550,15 @@ footer li {
 	clear: none;
 }
 
+/*Centers the header with the image on the homepage*/
 @media (min-width: 976px) {
 	.flex-center-vertically {
 		display: flex;
 		justify-content: center;
 		flex-direction: column;
-		height: 397px;
+		height: 100px;
+		margin-top: 148.719px;
+		margin-bottom: 148.719px;
 	}
 }
 
