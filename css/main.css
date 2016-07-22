@@ -28,15 +28,79 @@ a:visited {
 }
 
 /*hover blue*/
-a:hover, .btn:hover, #foot-bod a:hover { 
+a:hover, .btn:hover, #foot-bod a:hover, #blue-hover a:hover, #blue-hover .btn:hover, #blue-hover #foot-bod a:hover { 
 	color: #379ecd;
 	border-color: #379ecd;
 }
 
+#blue-hover:hover {
+	color: #379ecd !important;
+	border-color: #379ecd !important;
+}
+
 /*click transition light blue*/
-a:active, .btn:active, #foot-bod a:active {
+a:active, .btn:active, #foot-bod a:active, #blue-hover a:active, #blue-hover .btn:active, #blue-hover #foot-bod a:active {
 	color: #37c4cd;
 	border-color: #37c4cd;
+	-webkit-transition: background-color 0.3s, color 0.3s, border 0.3s;
+	transition: background-color 0.3s, color 0.3s, border 0.3s;
+}
+
+#blue-hover:active {
+	color: #37c4cd !important;
+	border-color: #37c4cd !important;
+	-webkit-transition: background-color 0.3s, color 0.3s, border 0.3s;
+	transition: background-color 0.3s, color 0.3s, border 0.3s;
+}
+
+/*hover red*/
+.red-hover a:hover, .red-hover .btn:hover, .red-hover #foot-bod a:hover, #red-hover a:hover, #red-hover .btn:hover, #foot-bod #red-hover a:hover { 
+	color: #cd3753;
+	border-color: #cd3753;
+}
+
+#red-hover:hover {
+	color: #cd3753 !important;
+	border-color: #cd3753 !important;
+}
+
+/*click transition light red*/
+.red-hover a:active, .red-hover .btn:active, .red-hover #foot-bod a:active, #red-hover a:active, #red-hover .btn:active, #red-hover #foot-bod a:active {
+	color: #cd3779;
+	border-color: #cd3779;
+	-webkit-transition: background-color 0.3s, color 0.3s, border 0.3s;
+	transition: background-color 0.3s, color 0.3s, border 0.3s;
+}
+
+#red-hover:active {
+	color: #cd3779 !important;
+	border-color: #cd3779 !important;
+	-webkit-transition: background-color 0.3s, color 0.3s, border 0.3s;
+	transition: background-color 0.3s, color 0.3s, border 0.3s;
+}
+
+/*hover purple*/
+.purple-hover a:hover, .purple-hover .btn:hover, .purple-hover #foot-bod a:hover, #purple-hover a:hover, #purple-hover .btn:hover, #purple-hover #foot-bod a:hover { 
+	color: #8e3bc0;
+	border-color: #8e3bc0;
+}
+
+#purple-hover:hover {
+	color: #8e3bc0 !important;
+	border-color: #8e3bc0 !important;
+}
+
+/*click transition light purple*/
+.purple-hover a:active, .purple-hover .btn:active, .purple-hover #foot-bod a:active, #purple-hover a:active, #purple-hover .btn:active, #purple-hover #foot-bod a:active {
+	color: #675cc5;
+	border-color: #675cc5;
+	-webkit-transition: background-color 0.3s, color 0.3s, border 0.3s;
+	transition: background-color 0.3s, color 0.3s, border 0.3s;
+}
+
+#purple-hover:active {
+	color: #675cc5 !important;
+	border-color: #675cc5 !important;
 	-webkit-transition: background-color 0.3s, color 0.3s, border 0.3s;
 	transition: background-color 0.3s, color 0.3s, border 0.3s;
 }
@@ -119,7 +183,12 @@ nav ul {
 
 nav li {
 	display: inline;
-	margin: 0px 2%;
+}
+
+nav li a{
+	border-style: solid;
+	border-width: 2px 0px;
+	padding: 4px 2%;
 }
 
 /*main content*/
@@ -328,18 +397,6 @@ footer li {
 	max-width: 333.33px;
 	margin: 0px auto 40px auto;
 	float: left;
-}
-
-#twit:hover {
-	color: #5ea9dd !important;
-}
-
-#inst:hover {
-	color: #005b86 !important;
-}
-
-#link:hover {
-	color: #0377b5 !important;
 }
 
 #copyright {
