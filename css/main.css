@@ -521,8 +521,8 @@ footer li {
 }
 
 .intro img:hover {
-	-webkit-transform: rotate(15deg); /* Safari */
-    transform: rotate(15deg);
+	-webkit-transform: rotate(10deg); /* Safari */
+    transform: rotate(10deg);
 }
 
 .intro h1:hover {
