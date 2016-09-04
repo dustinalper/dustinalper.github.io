@@ -226,10 +226,13 @@ article img {
 }
 
 .quaternary {
-	width: 46%;
-	float: left;
-	margin-left: 2%;
-	margin-right: 2%;
+	width: 48%;
+}
+
+.quat-float {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
 }
 
 .quat-border {
@@ -244,6 +247,10 @@ article img {
 
 .quat-border img{
 	border-style: none;
+}
+
+.margin-top--40 {
+	margin-top: -40px !important;
 }
 
 @media (max-width: 1040px) {
@@ -498,7 +505,7 @@ footer li {
     min-height: 100%;
     background-image: url('/assets/images/intro/background.jpg');
     background-position: center;
-	background-size: 105%;
+	background-size: cover;
 	background-repeat: no-repeat;
 }
 
@@ -566,10 +573,6 @@ footer li {
 	.intro {
 		margin: 40px auto;
 		max-width: 710px;
-	}
-
-	.intro-html {
-		background-size: auto 100%;
 	}
 
 	.intro h1 {
