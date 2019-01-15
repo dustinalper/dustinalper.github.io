@@ -71,13 +71,4 @@
 	#img-404 {
 		width: 320px;
 	}
-
-	/*Intro Page*/
-
-	.intro .secondary, .intro .tertiary {
-		margin: 0px auto 40px auto;
-		float: none;
-		clear: both;
-		width: 100%;
-	}
 }
