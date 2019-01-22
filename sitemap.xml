@@ -1,111 +1,117 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<urlset xmlns='http://www.sitemaps.org/schemas/sitemap/0.9'>
-    <url>
-        <loc>http://www.dustinalper.com/portfolio/Invadris.html</loc>
-        <lastmod>2016-07-21T21:52:23-04:00</lastmod>
-    </url>
-    <url>
-        <loc>http://www.dustinalper.com/column/the-columnist.html</loc>
-        <lastmod>2019-01-16T23:14:36-05:00</lastmod>
-    </url>
-    <url>
-        <loc>http://www.dustinalper.com/column/stairs.html</loc>
-        <lastmod>2019-01-16T23:14:36-05:00</lastmod>
-    </url>
-    <url>
-        <loc>http://www.dustinalper.com/portfolio/Tipstir.html</loc>
-        <lastmod>2016-07-21T21:52:23-04:00</lastmod>
-    </url>
-    <url>
-        <loc>http://www.dustinalper.com/column/milestone-commentary.html</loc>
-        <lastmod>2019-01-16T23:14:36-05:00</lastmod>
-    </url>
-    <url>
-        <loc>http://www.dustinalper.com/column/phones.html</loc>
-        <lastmod>2019-01-16T23:14:36-05:00</lastmod>
-    </url>
-    <url>
-        <loc>http://www.dustinalper.com/column/names.html</loc>
-        <lastmod>2019-01-16T23:14:36-05:00</lastmod>
-    </url>
-    <url>
-        <loc>http://www.dustinalper.com/column/the-boogeyman.html</loc>
-        <lastmod>2019-01-16T23:14:36-05:00</lastmod>
-    </url>
-    <url>
-        <loc>http://www.dustinalper.com/column/diningproblems.html</loc>
-        <lastmod>2019-01-16T23:14:36-05:00</lastmod>
-    </url>
-    <url>
-        <loc>http://www.dustinalper.com/column/im-not-asking-for-handout.html</loc>
-        <lastmod>2019-01-16T23:14:36-05:00</lastmod>
-    </url>
-    <url>
-        <loc>http://www.dustinalper.com/portfolio/Search-Interface.html</loc>
-        <lastmod>2016-07-21T21:52:23-04:00</lastmod>
-    </url>
-    <url>
-        <loc>http://www.dustinalper.com/column/the-clap.html</loc>
-        <lastmod>2019-01-16T23:14:36-05:00</lastmod>
-    </url>
-    <url>
-        <loc>http://www.dustinalper.com/column/26-tips-to-get-girl.html</loc>
-        <lastmod>2019-01-16T23:14:36-05:00</lastmod>
-    </url>
-    <url>
-        <loc>http://www.dustinalper.com/column/if-i-were-cartoon.html</loc>
-        <lastmod>2019-01-16T23:14:36-05:00</lastmod>
-    </url>
-    <url>
-        <loc>http://www.dustinalper.com/column/10-tips-to-properly-ride-elevator.html</loc>
-        <lastmod>2019-01-16T23:14:36-05:00</lastmod>
-    </url>
-    <url>
-        <loc>http://www.dustinalper.com/column/if-i-were-a-musician.html</loc>
-        <lastmod>2019-01-16T23:14:36-05:00</lastmod>
-    </url>
-    <url>
-        <loc>http://www.dustinalper.com/portfolio/BJPfood.html</loc>
-        <lastmod>2016-07-21T21:52:23-04:00</lastmod>
-    </url>
-    <url>
-        <loc>http://www.dustinalper.com/portfolio/Red-Lobster-Make-Waves.html</loc>
-        <lastmod>2016-07-21T21:52:23-04:00</lastmod>
-    </url>
-    <url>
-        <loc>http://www.dustinalper.com/portfolio/AbbVie-NO-BS-ABOUT-HS.html</loc>
-        <lastmod>2016-07-21T21:52:23-04:00</lastmod>
-    </url>
-    <url>
-        <loc>http://www.dustinalper.com/column/5-questions-to-ask-a-talk-show-host.html</loc>
-        <lastmod>2019-01-16T23:14:36-05:00</lastmod>
-    </url>
-    <url>
-        <loc>http://www.dustinalper.com/column/11-tips-to-improve-your-resume.html</loc>
-        <lastmod>2019-01-16T23:14:36-05:00</lastmod>
-    </url>
-    <url>
-        <loc>http://www.dustinalper.com/column/12-tips-to-get-straight-a&apos;s.html</loc>
-        <lastmod>2019-01-16T23:14:36-05:00</lastmod>
-    </url>
-    <url>
-        <loc>http://www.dustinalper.com/404.html</loc>
-        <lastmod>2016-07-21T22:44:30-04:00</lastmod>
-    </url>
-    <url>
-        <loc>http://www.dustinalper.com/column/</loc>
-        <lastmod>2019-01-14T23:19:37-05:00</lastmod>
-    </url>
-    <url>
-        <loc>http://www.dustinalper.com/</loc>
-        <lastmod>2019-01-14T23:12:24-05:00</lastmod>
-    </url>
-    <url>
-        <loc>http://www.dustinalper.com/column/page2/</loc>
-        <lastmod>2019-01-14T23:19:17-05:00</lastmod>
-    </url>
-    <url>
-        <loc>http://www.dustinalper.com/tip/</loc>
-        <lastmod>2015-09-06T13:38:47-04:00</lastmod>
-    </url>
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<url>
+<loc>https://www.dustinalper.com/portfolio/Invadris.html</loc>
+<lastmod>2010-06-01T00:00:00-04:00</lastmod>
+</url>
+<url>
+<loc>https://www.dustinalper.com/column/the-columnist.html</loc>
+<lastmod>2013-09-02T00:00:00-04:00</lastmod>
+</url>
+<url>
+<loc>https://www.dustinalper.com/column/stairs.html</loc>
+<lastmod>2013-10-08T00:00:00-04:00</lastmod>
+</url>
+<url>
+<loc>https://www.dustinalper.com/portfolio/Tipstir.html</loc>
+<lastmod>2013-11-01T00:00:00-04:00</lastmod>
+</url>
+<url>
+<loc>https://www.dustinalper.com/column/milestone-commentary.html</loc>
+<lastmod>2013-11-18T00:00:00-05:00</lastmod>
+</url>
+<url>
+<loc>https://www.dustinalper.com/column/phones.html</loc>
+<lastmod>2013-12-16T00:00:00-05:00</lastmod>
+</url>
+<url>
+<loc>https://www.dustinalper.com/column/names.html</loc>
+<lastmod>2014-01-27T00:00:00-05:00</lastmod>
+</url>
+<url>
+<loc>https://www.dustinalper.com/column/the-boogeyman.html</loc>
+<lastmod>2014-02-18T00:00:00-05:00</lastmod>
+</url>
+<url>
+<loc>https://www.dustinalper.com/column/diningproblems.html</loc>
+<lastmod>2014-03-25T00:00:00-04:00</lastmod>
+</url>
+<url>
+<loc>https://www.dustinalper.com/column/im-not-asking-for-handout.html</loc>
+<lastmod>2014-04-23T00:00:00-04:00</lastmod>
+</url>
+<url>
+<loc>https://www.dustinalper.com/portfolio/Search-Interface.html</loc>
+<lastmod>2014-08-01T00:00:00-04:00</lastmod>
+</url>
+<url>
+<loc>https://www.dustinalper.com/column/the-clap.html</loc>
+<lastmod>2014-09-30T00:00:00-04:00</lastmod>
+</url>
+<url>
+<loc>https://www.dustinalper.com/column/26-tips-to-get-girl.html</loc>
+<lastmod>2014-11-26T00:00:00-05:00</lastmod>
+</url>
+<url>
+<loc>https://www.dustinalper.com/column/if-i-were-cartoon.html</loc>
+<lastmod>2015-01-28T00:00:00-05:00</lastmod>
+</url>
+<url>
+<loc>https://www.dustinalper.com/column/10-tips-to-properly-ride-elevator.html</loc>
+<lastmod>2015-02-22T00:00:00-05:00</lastmod>
+</url>
+<url>
+<loc>https://www.dustinalper.com/column/if-i-were-a-musician.html</loc>
+<lastmod>2015-04-10T00:00:00-04:00</lastmod>
+</url>
+<url>
+<loc>https://www.dustinalper.com/portfolio/BJPfood.html</loc>
+<lastmod>2015-05-01T00:00:00-04:00</lastmod>
+</url>
+<url>
+<loc>https://www.dustinalper.com/portfolio/Red-Lobster-Make-Waves.html</loc>
+<lastmod>2015-08-01T00:00:00-04:00</lastmod>
+</url>
+<url>
+<loc>https://www.dustinalper.com/portfolio/AbbVie-NO-BS-ABOUT-HS.html</loc>
+<lastmod>2015-09-02T00:00:00-04:00</lastmod>
+</url>
+<url>
+<loc>https://www.dustinalper.com/column/5-questions-to-ask-a-talk-show-host.html</loc>
+<lastmod>2015-09-21T00:00:00-04:00</lastmod>
+</url>
+<url>
+<loc>https://www.dustinalper.com/column/11-tips-to-improve-your-resume.html</loc>
+<lastmod>2015-10-26T00:00:00-04:00</lastmod>
+</url>
+<url>
+<loc>https://www.dustinalper.com/column/12-tips-to-get-straight-a's.html</loc>
+<lastmod>2016-08-06T00:00:00-04:00</lastmod>
+</url>
+<url>
+<loc>https://www.dustinalper.com/column/</loc>
+</url>
+<url>
+<loc>https://www.dustinalper.com/</loc>
+</url>
+<url>
+<loc>https://www.dustinalper.com/column/page2/</loc>
+</url>
+<url>
+<loc>https://www.dustinalper.com/tip/</loc>
+</url>
+<url>
+<loc>https://www.dustinalper.com/nivo-lightbox/</loc>
+</url>
+<url>
+<loc>https://www.dustinalper.com/nivo-slider/</loc>
+</url>
+<url>
+<loc>https://www.dustinalper.com/assets/Dustin_Alper_Resume.pdf</loc>
+<lastmod>2016-05-19T00:56:16-04:00</lastmod>
+</url>
+<url>
+<loc>https://www.dustinalper.com/portfolio/invadris_demo/</loc>
+<lastmod>2015-04-07T10:28:36-04:00</lastmod>
+</url>
 </urlset>
