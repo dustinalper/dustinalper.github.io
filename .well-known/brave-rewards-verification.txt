@@ -1,0 +1,4 @@
+This is a Brave Rewards publisher verification file.
+
+Domain: dustinalper.com
+Token: a233f993b22b011285c4e857f5e2ffb88a21d799bacc13a028ca17a2c5c49354
