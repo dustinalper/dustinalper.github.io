@@ -161,6 +161,7 @@ a {
 .poadcast-links__socials {
   display: flex;
   flex-direction: row;
+  justify-content: center;
 }
 
 .poadcast-links__socials > .cta:not(:last-of-type) {
