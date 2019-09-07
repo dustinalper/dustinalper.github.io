@@ -224,12 +224,10 @@ a {
     align-items: center;
   }
 
-  .podcast-info__title {
-    margin-top: 25px;
-  }
-
   .podcast-info__host {
     margin-bottom: 0;
+    padding-bottom: 0;
+    border: none;
   }
 
   .podcast-info__desc-paragraph {
