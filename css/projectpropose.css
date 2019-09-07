@@ -5,7 +5,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  font-family: helvetica, serif;
+  font-family: 'proximanova-regular', helvetica, serif;
   letter-spacing: .25px;
   color: #3C4043;
 }
@@ -149,6 +149,7 @@ a {
 }
 
 .cta > .icon {
+  width: 9px;
   margin-left: 10px;
 }
 
