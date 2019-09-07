@@ -89,17 +89,20 @@ a {
 .podcast-info__title {
   font-size: 20px;
   margin-bottom: 5px;
+  line-height: 24px;
 }
 
 .podcast-info__host {
   font-size: 10px;
   padding-bottom: 10px;
   margin-bottom: 15px;
-  border-bottom: 1px solid rgba(41, 35, 70, .1)
+  border-bottom: 1px solid rgba(41, 35, 70, .1);
+  line-height: 12px;
 }
 
 .podcast-info__desc-paragraph {
   font-size: 12px;
+  line-height: 15px;
 }
 
 .podcast-info__desc-paragraph:not(:last-of-type) {
@@ -115,8 +118,9 @@ a {
 
 .poadcast-links__title {
   font-size: 14px;
+  line-height: 17px;
   padding-bottom: 5px;
-  border-bottom: 1px solid rgba(41, 35, 70, .1)
+  border-bottom: 1px solid rgba(41, 35, 70, .1);
 }
 
 .poadcast-links__platform {
@@ -125,7 +129,7 @@ a {
   align-items: center;
   justify-content: space-between;
   cursor: pointer;
-  border-bottom: 1px solid rgba(41, 35, 70, .1)
+  border-bottom: 1px solid rgba(41, 35, 70, .1);
 }
 
 .cta {
@@ -142,6 +146,7 @@ a {
   width: fit-content;
   color: #292346;
   font-size: 10px;
+  line-height: 12px;
   text-transform: uppercase;
   cursor: pointer;
   z-index: 1;
@@ -149,7 +154,6 @@ a {
 }
 
 .cta > .icon {
-  width: 9px;
   margin-left: 10px;
 }
 
