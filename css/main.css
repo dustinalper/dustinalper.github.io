@@ -397,6 +397,11 @@ footer li {
 	margin-bottom: 7.5px; /* space below every list itme */
 }
 
+footer li .fa {
+  width: 20px;
+  text-align: center;
+}
+
 #foot-bod a {
 	color: #1b1b1b;
 }
