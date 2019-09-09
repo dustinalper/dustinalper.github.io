@@ -194,7 +194,7 @@ a {
   border-radius: 5px;
   top: 1px;
   left: 1px;
-  background: linear-gradient(-45deg, #E6E6E6, #F2F2F2);
+  background: linear-gradient(-45deg, #D2D2D2, #F2F2F2);
 	background-size: 400% 400%;
   animation: loader 2s ease infinite;
 }
