@@ -1,3 +1,18 @@
+/* DELETE AFTER 11/3 */
+.youtube {
+  width: 625px;
+  height: 337.5px;
+  position: relative;
+  z-index: 1;
+}
+
+@media (max-width: 775px), (max-height: 650px) {
+  .youtube {
+    width: 300px;
+    height: 168.75px;
+  }
+}
+
 html {
   height: 100%;
   background-color: #292346;
@@ -59,6 +74,10 @@ a {
   justify-content: space-between;
   align-items: center;
   margin-bottom: 25px;
+}
+
+.podcast-info > .content-container > .cta {
+  margin: 20px auto 0 auto;
 }
 
 .content-container {
