@@ -93,10 +93,6 @@ a {
   text-align: center;
 }
 
-.cluster {
-  display: flex;
-}
-
 .cluster::before {
   content: '';
   position: absolute;
@@ -108,6 +104,10 @@ a {
   border-left: 0;
   border-right: 0;
   z-index: -1;
+}
+
+.cluster-fade {
+  display: flex;
 }
 
 .cluster-title {
