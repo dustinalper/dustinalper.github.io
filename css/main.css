@@ -24,19 +24,23 @@
 }
 
 .color-yt {
+  --primary-color: #3D0000;
   --secondary-color: #FFADAD;
 }
 
 .color-cycle {
+  --primary-color: #003D30;
   --secondary-color: #ADFFED;
 }
 
-.color-mooch {
-  --secondary-color: #B9F3E5;
+.color-tortoise {
+  --primary-color: #3D0800;
+  --secondary-color: #FFB9AD;
 }
 
-.color-tortoise {
-  --secondary-color: #FFB9AD;
+.color-mooch {
+  --primary-color: #09342A;
+  --secondary-color: #B9F3E5;
 }
 
 .color-li {
