@@ -129,7 +129,7 @@ a {
   justify-content: center;
   min-width: 32px;
   pointer-events: none;
-  border-radius: 4px;
+  border-radius: 8px;
   border: 2px solid #0E3281;
 }
 
@@ -139,7 +139,7 @@ a {
   width: 100%;
   margin-bottom: 48px;
   overflow: hidden;
-  border-radius: 8px;
+  border-radius: 16px;
   background-color: var(--primary-color);
   height: 175px;
 
@@ -157,7 +157,7 @@ a {
 
   /* box-shadow: 0 1px 6px 0 rgb(48 48 48 / 35%); */
 
-  opacity: .8;
+  opacity: .9;
 }
 
 .cluster-card-img {
