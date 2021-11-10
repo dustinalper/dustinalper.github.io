@@ -24,7 +24,6 @@
 }
 
 .color-yt {
-  --primary-color: #3D0000;
   --secondary-color: #FFADAD;
 }
 
@@ -56,6 +55,10 @@
 .color-resume {
   --primary-color: #0E3281;
   --secondary-color: #B5CAF7;
+}
+
+.color-email {
+  --primary-color: #F0288A;
 }
 
 * {
