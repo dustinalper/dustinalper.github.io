@@ -169,17 +169,18 @@ a {
 }
 
 .cluster-card-txt {
-  color: #000000;
+  color: #FDF6E2;
   font-size: 12px;
   font-weight: 700;
   letter-spacing: 2px;
-  background-color: var(--secondary-color);
+  /* background-color: var(--secondary-color); */
   height: 24px;
   padding: 0 8px;
   display: flex;
   align-items: center;
   justify-content: center;
   text-transform: uppercase;
+  margin-bottom: 8px;
   /* text-overflow: ellipsis;
   overflow: hidden;
   white-space: nowrap; */
