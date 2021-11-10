@@ -9,7 +9,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  font-family: 'proximanova-regular', helvetica, serif;
+  font-family: 'proximanova', helvetica, serif;
   letter-spacing: .25px;
   color: #3C4043;
   background: linear-gradient(#352D5E, #1E1B2F);

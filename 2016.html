@@ -7,11 +7,11 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1"/>
 		<link rel="shortcut icon" href="/favicon.ico"/>
 
-		<title>Page Not Found</title>
-		<meta name="description" content="Bringing the little things to your attention in a big way. To be honest, I don't know what that means. I'm just trying to sound clever."/>
+		<title>Dustin Alper - The Designer</title>
+		<meta name="description" content="I design the user experience for legendary projects."/>
 
-		<link rel="canonical" href="https://www.dustinalper.com/404.html"/>
-		<link rel="alternate" type="application/rss+xml" title="Dustin Alper - The Columnist" href="https://www.dustinalper.com/feed.xml"/>
+		<link rel="canonical" href="https://www.dustinalper.com/2016"/>
+		<link rel="alternate" type="application/rss+xml" title="Dustin Alper - The Designer" href="https://www.dustinalper.com/feed.xml"/>
 
 		<!-- RSS Autodiscovery -->
 		<link rel="alternate" type="application/rss+xml" title="Dustin Alper - The Columnist RSS Feed" href="https://www.dustinalper.com/feed.xml" />
@@ -29,10 +29,10 @@
 		<meta property="fb:app_id" content="1131410446919898"/>
 
 		<!-- OpenGraph Tags -->
-		<meta property="og:title" content="Page Not Found"/>
+		<meta property="og:title" content="Dustin Alper - The Designer"/>
 		<meta property="og:type" content="blog"/>
-		<meta property="og:url" content="https://www.dustinalper.com/404.html"/>
-		<meta property="og:description" content="Bringing the little things to your attention in a big way. To be honest, I don't know what that means. I'm just trying to sound clever."/>
+		<meta property="og:url" content="https://www.dustinalper.com/2016"/>
+		<meta property="og:description" content="I design the user experience for legendary projects."/>
 
 		<!-- Twitter Cards -->
 		<meta name="twitter:card" content="summary_large_image"/>
@@ -45,6 +45,31 @@
 
 		<!-- iOS -->
 		<link rel="apple-touch-icon" href="/assets/images/favicon.png">
+
+		<!-- Nivo Slider -->
+		<link rel="stylesheet" href="/nivo-slider/nivo-slider.css" type="text/css" />
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js" type="text/javascript"></script>
+		<script src="/nivo-slider/jquery.nivo.slider.pack.js" type="text/javascript"></script>
+		<link rel="stylesheet" href="/nivo-slider/themes/bar/bar.css" type="text/css" />
+
+		<!-- Nivo Lightbox -->
+		<link rel="stylesheet" href="/nivo-lightbox/nivo-lightbox.css" type="text/css" />
+		<link rel="stylesheet" href="/nivo-lightbox/themes/default/default.css" type="text/css" />
+		<script src="/nivo-lightbox/nivo-lightbox.min.js"></script>
+
+		<script>
+		$(document).ready(function(){
+		    $('a').nivoLightbox({
+    			effect: 'fadeScale',								// The effect to use when showing the lightbox
+    			beforeHideLightbox: function(){						// Callback before the lightbox is hidden
+    				$("body").css("overflow", "auto");
+    			},
+    			afterShowLightbox: function(lightbox){				// Callback after the lightbox is shown
+    				$("body").css("overflow", "hidden");
+    			},
+			});
+		});
+		</script>
 
 		<!-- Google Analytics -->
 		<script>
@@ -60,32 +85,81 @@
 	</head>
 
 
-    <body class="purple-hover">
+    <body class="red-hover">
 		<div id="above-waist">
             <header>
                 <div id="header-title">
-                    <a href="/2016">DUSTIN ALPER</a>
+                    <a href="/2016">DUSTIN ALPER <span id="subtitle">the designer</span></a>
                 </div>
 
-                <div id="tagline">"You're not supposed to see me like this."</div>
-
                 <nav>
-                    <ul>
-                        <li id="red-hover"><a href="/2016">The Designer</a></li>
+                    <ul class="nav-port">
+                        <li id="red-hover"><a href="/2016"><u>The Designer</u></a></li>
                         <li id="blue-hover"><a href="/column">The Columnist</a></li>
                     </ul>
                 </nav>
             </header>
 
 		
-		    <!--newest column, at the top of the page-->
-            <div class="primary">
-                <a href="/"><img src="/assets/images/404.png" alt="Page Not Found" id="img-404"/></a>
+		    <div class="primary quat-float"> 
+    			<a href="/portfolio/AbbVie-NO-BS-ABOUT-HS.html" class="quaternary quat-border">
+    				<article>
+	                    <img src="/assets/images/portfolio/AbbVie-NO-BS-ABOUT-HS/AbbVie-NO-BS-ABOUT-HS0.JPG" alt="AbbVie: NO BS ABOUT HS"/>
 
-                <h1 id="head1">
-                    <a href="/">There's no place like home.</a>
-                </h1>
-            </div>
+	                	<h2>AbbVie: NO BS ABOUT HS</h2>
+
+	                	<h3 class="date">June 2015 — September 2015</h3>
+	            	</article>
+	            </a> 
+    			<a href="/portfolio/Red-Lobster-Make-Waves.html" class="quaternary quat-border">
+    				<article>
+	                    <img src="/assets/images/portfolio/Red-Lobster-Make-Waves/Red-Lobster-Make-Waves0.JPG" alt="Red Lobster: Make Waves"/>
+
+	                	<h2>Red Lobster: Make Waves</h2>
+
+	                	<h3 class="date">July 2015 — August 2015</h3>
+	            	</article>
+	            </a> 
+    			<a href="/portfolio/BJPfood.html" class="quaternary quat-border">
+    				<article>
+	                    <img src="/assets/images/portfolio/BJPfood/BJPfood0.JPG" alt="BJPfood"/>
+
+	                	<h2>BJPfood</h2>
+
+	                	<h3 class="date">March 2015 — May 2015</h3>
+	            	</article>
+	            </a> 
+    			<a href="/portfolio/Search-Interface.html" class="quaternary quat-border">
+    				<article>
+	                    <img src="/assets/images/portfolio/Search-Interface/Search-Interface0.JPG" alt="Search Interface"/>
+
+	                	<h2>Search Interface</h2>
+
+	                	<h3 class="date">July 2014 — August 2014</h3>
+	            	</article>
+	            </a> 
+    			<a href="/portfolio/Tipstir.html" class="quaternary quat-border">
+    				<article>
+	                    <img src="/assets/images/portfolio/Tipstir/Tipstir0.JPG" alt="Tipstir"/>
+
+	                	<h2>Tipstir</h2>
+
+	                	<h3 class="date">February 2012 — November 2013</h3>
+	            	</article>
+	            </a> 
+    			<a href="/portfolio/Invadris.html" class="quaternary quat-border">
+    				<article>
+	                    <img src="/assets/images/portfolio/Invadris/Invadris0.JPG" alt="Invadris"/>
+
+	                	<h2>Invadris</h2>
+
+	                	<h3 class="date">February 2010 — June 2010</h3>
+	            	</article>
+	            </a> 
+	        </div>
+
+	        <!--Ignore this, it fixes an error with the footer.-->
+            <div class="primary margin-top--40"></div>
 
         </div>
 		

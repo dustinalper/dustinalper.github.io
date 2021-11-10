@@ -9,7 +9,7 @@
  * copyright law. You are prohibited from modifying, reverse engineering, duplicating, or
  * distributing this font software.
  *
- * (c) 2010-2019 Fontspring
+ * (c) 2010-2021 Fontspring
  *
  *
  *
@@ -22,11 +22,18 @@
  *
  */
 
-@font-face {
-    font-family: 'proximanova-regular';
-    src: url('fonts/proximanova-regular-webfont.woff2') format('woff2'),
-         url('fonts/proximanova-regular-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
+ @font-face {
+     font-family: 'proximanova';
+     src: url('fonts/proximanova-regular-webfont.woff2') format('woff2'),
+          url('fonts/proximanova-regular-webfont.woff') format('woff');
+     font-weight: 400;
+     font-style: normal;
+ }
 
+@font-face {
+    font-family: 'proximanova';
+    src: url('fonts/proximanova-bold-webfont.woff2') format('woff2'),
+         url('fonts/proximanova-bold-webfont.woff') format('woff');
+    font-weight: 700;
+    font-style: normal;
 }
