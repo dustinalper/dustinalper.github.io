@@ -86,7 +86,6 @@ a {
   font-size: 48px;
   font-weight: 700;
   margin-bottom: 48px;
-  text-align: center;
   color: #0E3281;
 }
 
@@ -122,15 +121,15 @@ a {
   transform: rotate(180deg);
   box-sizing: border-box;
 
-  /* background-color: #0E3281; */
-  color: #0E3281;
+  background-color: #0E3281;
+  color: #FDF6E2;
   display: flex;
   align-items: center;
   justify-content: center;
-  min-width: 32px;
+  min-width: 48px;
   pointer-events: none;
   border-radius: 8px;
-  border: 2px solid #0E3281;
+  /* border: 2px solid #0E3281; */
 }
 
 .cluster-card {
@@ -142,6 +141,8 @@ a {
   border-radius: 16px;
   background-color: var(--primary-color);
   height: 175px;
+  box-sizing: border-box;
+  padding: 16px 0;
 
   /* outline: 2px solid var(--secondary-color);
   outline-offset: -2px; */
@@ -186,7 +187,6 @@ a {
   align-items: center;
   justify-content: center;
   text-transform: uppercase;
-  margin-bottom: 8px;
   /* text-overflow: ellipsis;
   overflow: hidden;
   white-space: nowrap; */
@@ -202,6 +202,6 @@ a {
   letter-spacing: 2px;
   margin-top: 8px;
   text-transform: uppercase;
-  text-align: center;
+  text-align: right;
   color: #0E3281;
 }
