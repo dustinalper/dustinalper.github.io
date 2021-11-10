@@ -117,9 +117,10 @@ a {
   writing-mode: vertical-rl;
   text-align: center;
   margin-right: 16px;
-  height: 174px;
-  letter-spacing: 4px;
+  height: 175px;
+  letter-spacing: 2px;
   transform: rotate(180deg);
+  box-sizing: border-box;
 
   /* background-color: #0E3281; */
   color: #0E3281;
@@ -151,8 +152,12 @@ a {
 }
 
 .cluster-card:hover {
-  outline: 4px solid var(--secondary-color);
-  outline-offset: -4px;
+  /* outline: 4px solid var(--secondary-color);
+  outline-offset: -4px; */
+
+  /* box-shadow: 0 1px 6px 0 rgb(48 48 48 / 35%); */
+
+  opacity: .8;
 }
 
 .cluster-card-img {
@@ -170,7 +175,7 @@ a {
 }
 
 .cluster-card-txt {
-  color: #FDF6E2;
+  color: #FFFFFF;
   font-size: 12px;
   font-weight: 700;
   letter-spacing: 2px;
