@@ -53,6 +53,11 @@
   --secondary-color: #DDC0ED;
 }
 
+.color-resume {
+  --primary-color: #FDF6E2;
+  --secondary-color: #FAE7B3;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -158,6 +163,11 @@ a {
   max-height: 50%;
   margin: auto;
   object-fit: contain;
+}
+
+.small-icons .cluster-card-img {
+  width: 25%;
+  max-height: 25%;
 }
 
 .cluster-card-txt {

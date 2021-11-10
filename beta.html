@@ -12,11 +12,15 @@
 
     <link rel="canonical" href="https://www.dustinalper.com/beta"/>
 
-    <!-- Custom CSS -->
+    <!-- CSS -->
     <link rel="stylesheet" href="/css/main.css"/>
+    <link rel="stylesheet" href="/css/aos.css"/>
 
-    <!-- Custom Fonts -->
+    <!-- Fonts -->
     <link rel="stylesheet" href="/css/fontspring.css"/>
+
+    <!-- JS -->
+    <script src='/scripts/aos.js'></script>
 
     <!-- OpenGraph Tags -->
     <meta property="og:title" content="Dustin Alper"/>
@@ -48,85 +52,96 @@
 
     </script>
   </head>
-  <body><div class='body-border'>
-    <div class='header'>Dustin Alper</div>
+  <body>
+    <script>
+      AOS.init({
+        delay: 100,
+        once: true,
+        duration: 750,
+        offset: 32,
+      })
+    </script>
 
-    <div class='cluster'>
-      <div class='cluster-title'>Highlights</div>
+    <div class='body-border'>
+      <div class='header' data-aos='fade'>Dustin Alper</div>
 
-      <a class='cluster-card color-tracer' target='_blank' href='https://tracer.tech/'>
-        <img class='cluster-card-img' src='/assets/images/portfolio/tracer.png'></img>
-        <div class='cluster-card-txt'>Tracer</div>
-      </a>
+      <div class='cluster' data-aos='fade'>
+        <div class='cluster-title'>Highlights</div>
 
-      <a class='cluster-card color-hs' target='_blank' href='https://www.nobsabouths.com/'>
-        <img class='cluster-card-img' src='/assets/images/portfolio/hs2.png'></img>
-        <div class='cluster-card-txt'>Humira: No BS About HS</div>
-      </a>
+        <a class='cluster-card color-tracer' target='_blank' href='https://tracer.tech/'>
+          <img class='cluster-card-img' src='/assets/images/portfolio/tracer.png'></img>
+          <div class='cluster-card-txt'>Tracer</div>
+        </a>
 
-      <a class='cluster-card color-pp' target='_blank' href='https://www.dustinalper.com/projectpropose'>
-        <img class='cluster-card-img' src='/assets/images/portfolio/pp.png'></img>
-        <div class='cluster-card-txt'>Project Propose</div>
-      </a>
-    </div>
+        <a class='cluster-card color-hs' target='_blank' href='https://www.nobsabouths.com/'>
+          <img class='cluster-card-img' src='/assets/images/portfolio/hs2.png'></img>
+          <div class='cluster-card-txt'>Humira: No BS About HS</div>
+        </a>
 
-    <div class='cluster'>
-      <div class='cluster-title'>Interviews</div>
-
-      <a class='cluster-card color-agencyx' target='_blank' href='https://avexdesigns.com/blog/product-design-solve-customer-problems'>
-        <img class='cluster-card-img' src='/assets/images/portfolio/agencyx.png'></img>
-        <div class='cluster-card-txt'>Agency X Podcast</div>
-      </a>
-
-      <a class='cluster-card color-yt' target='_blank' href='https://youtu.be/PXYivXY3-0E'>
-        <img class='cluster-card-img' src='/assets/images/portfolio/yt2.png'></img>
-        <div class='cluster-card-txt'>Adarsh Menon YouTube</div>
-      </a>
-    </div>
-
-    <div class='cluster no-click'>
-      <div class='cluster-title'>Logo Design</div>
-
-      <div class='cluster-card color-cycle'>
-        <img class='cluster-card-img' src='/assets/images/portfolio/cycle.png'></img>
-        <div class='cluster-card-txt'>Cycle</div>
+        <a class='cluster-card color-pp' target='_blank' href='https://www.dustinalper.com/projectpropose'>
+          <img class='cluster-card-img' src='/assets/images/portfolio/pp.png'></img>
+          <div class='cluster-card-txt'>Project Propose</div>
+        </a>
       </div>
 
-      <div class='cluster-card color-tortoise'>
-        <img class='cluster-card-img' src='/assets/images/portfolio/tortoise.png'></img>
-        <div class='cluster-card-txt'>Tortoise</div>
+      <div class='cluster' data-aos='fade'>
+        <div class='cluster-title'>Interviews</div>
+
+        <a class='cluster-card color-agencyx' target='_blank' href='https://avexdesigns.com/blog/product-design-solve-customer-problems'>
+          <img class='cluster-card-img' src='/assets/images/portfolio/agencyx.png'></img>
+          <div class='cluster-card-txt'>Agency X Podcast</div>
+        </a>
+
+        <a class='cluster-card color-yt' target='_blank' href='https://youtu.be/PXYivXY3-0E'>
+          <img class='cluster-card-img' src='/assets/images/portfolio/yt2.png'></img>
+          <div class='cluster-card-txt'>Adarsh Menon YouTube</div>
+        </a>
       </div>
 
-      <div class='cluster-card color-mooch'>
-        <img class='cluster-card-img' src='/assets/images/portfolio/mooch.png'></img>
-        <div class='cluster-card-txt'>Mooch</div>
+      <div class='cluster no-click' data-aos='fade'>
+        <div class='cluster-title'>Logo Design</div>
+
+        <div class='cluster-card color-cycle'>
+          <img class='cluster-card-img' src='/assets/images/portfolio/cycle.png'></img>
+          <div class='cluster-card-txt'>Cycle</div>
+        </div>
+
+        <div class='cluster-card color-tortoise'>
+          <img class='cluster-card-img' src='/assets/images/portfolio/tortoise.png'></img>
+          <div class='cluster-card-txt'>Tortoise</div>
+        </div>
+
+        <div class='cluster-card color-mooch'>
+          <img class='cluster-card-img' src='/assets/images/portfolio/mooch.png'></img>
+          <div class='cluster-card-txt'>Mooch</div>
+        </div>
       </div>
+
+      <div class='cluster small-icons' data-aos='fade'>
+        <div class='cluster-title'>Bonus</div>
+
+        <a class='cluster-card color-li' target='_blank' href='http://www.linkedin.com/in/dustinalper'>
+          <img class='cluster-card-img' src='/assets/images/portfolio/linkedin.png'></img>
+          <div class='cluster-card-txt'>LinkedIn</div>
+        </a>
+
+        <a class='cluster-card color-gh' target='_blank' href='https://github.com/dustinalper'>
+          <img class='cluster-card-img' src='/assets/images/portfolio/github.png'></img>
+          <div class='cluster-card-txt'>Github</div>
+        </a>
+
+        <a class='cluster-card color-resume' target='_blank' href='/assets/Dustin_Alper_Resume.pdf'>
+          <img class='cluster-card-img' src='/assets/images/portfolio/resume.png'></img>
+          <div class='cluster-card-txt'>Resume</div>
+        </a>
+
+        <a class='cluster-card' target='_blank' href='mailto:dustinalp@gmail.com'>
+          <img class='cluster-card-img' src='/assets/images/portfolio/email.png'></img>
+          <div class='cluster-card-txt'>Email</div>
+        </a>
+      </div>
+
+      <div class='footer' data-aos='fade'>Built and designed by yours truly</div>
     </div>
-
-    <div class='cluster'>
-      <div class='cluster-title'>Bonus</div>
-
-      <a class='cluster-card color-li' target='_blank' href='http://www.linkedin.com/in/dustinalper'>
-        <img class='cluster-card-img' src='/assets/images/portfolio/linkedin.png'></img>
-        <div class='cluster-card-txt'>LinkedIn</div>
-      </a>
-
-      <a class='cluster-card color-gh' target='_blank' href='https://github.com/dustinalper'>
-        <img class='cluster-card-img' src='/assets/images/portfolio/github.png'></img>
-        <div class='cluster-card-txt'>Github</div>
-      </a>
-
-      <a class='cluster-card color-tracer' target='_blank' href='https://tracer.tech/'>
-        <img class='cluster-card-img' src='/assets/images/portfolio/tracer.png'></img>
-        <div class='cluster-card-txt'>Resume</div>
-      </a>
-
-      <a class='cluster-card color-tracer' target='_blank' href='https://tracer.tech/'>
-        <img class='cluster-card-img' src='/assets/images/portfolio/tracer.png'></img>
-        <div class='cluster-card-txt'>Email</div>
-      </a>
-    </div>
-
-    <div class='footer'>Built and designed by yours truly</div>
-  </div></body>
+  </body>
 </html>
