@@ -47,13 +47,18 @@
     padding: 0;
 }
 
+html {
+  height: 100%;
+  display: flex;
+}
+
 body {
   font-family: 'proximanova', helvetica, serif;
   color: #0E3281;
   background-color: #FDF6E2;
+  width: 100%;
   max-width: 1024px;
   min-width: 320px;
-  box-sizing: border-box;
   padding: 48px 64px;
   margin: auto;
   font-size: 12px;
@@ -158,6 +163,7 @@ a {
 @media (max-width: 700px) {
   body {
     padding: 32px;
+    box-sizing: border-box;
   }
 
   .header {
