@@ -111,8 +111,10 @@ a {
   margin-right: 16px;
 }
 
-.cluster-card:hover {
-  opacity: .9;
+@media (hover: hover) {
+  .cluster-card:hover {
+    opacity: .9;
+  }
 }
 
 .cluster-card-img {
