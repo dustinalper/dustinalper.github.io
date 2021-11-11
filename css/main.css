@@ -187,6 +187,11 @@ a {
     margin-bottom: 16px;
   }
 
+  .cluster-card {
+    height: 150px;
+    padding: 16px 0;
+  }
+
   .responsive .cluster-card:not(:last-of-type) {
     margin: 0 0 16px;
   }
