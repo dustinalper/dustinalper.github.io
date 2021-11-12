@@ -118,7 +118,7 @@ a {
 
 @media (hover: hover) {
   .cluster-card:hover {
-    opacity: .9;
+    opacity: .85;
   }
 }
 
