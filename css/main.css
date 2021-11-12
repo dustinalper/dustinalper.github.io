@@ -15,15 +15,15 @@
 }
 
 .color-cycle {
-  --primary-color: #003D30;
+  --primary-color: #32810E;
 }
 
 .color-tortoise {
-  --primary-color: #3D0800;
+  --primary-color: #810E6B;
 }
 
 .color-mooch {
-  --primary-color: #09342A;
+  --primary-color: #2EAEDB;
 }
 
 .color-li {
@@ -31,7 +31,7 @@
 }
 
 .color-gh {
-  --primary-color: #762E9D;
+  --primary-color: #333333;
 }
 
 .color-resume {
@@ -39,7 +39,7 @@
 }
 
 .color-email {
-  --primary-color: #F0288A;
+  --primary-color: #810E32;
 }
 
 * {
@@ -88,7 +88,6 @@ a {
   writing-mode: vertical-rl;
   text-align: center;
   margin-right: 16px;
-  height: 175px;
   transform: rotate(180deg);
   box-sizing: border-box;
   background-color: #0E3281;
