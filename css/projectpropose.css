@@ -172,6 +172,7 @@ a {
   z-index: -1;
   top: -8px;
   left: -10px;
+  transition: .25s;
 }
 
 .player-container {
@@ -204,7 +205,7 @@ a {
 .poadcast-links__socials {
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content: space-evenly;
 }
 
 .poadcast-links__socials > .cta:not(:last-of-type) {
