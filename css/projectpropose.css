@@ -158,8 +158,10 @@ a {
   margin-left: 10px;
 }
 
-.cta:hover::after, .poadcast-links__platform:hover > .cta::after {
-  background-color: rgba(41, 35, 70, .2);
+@media (hover: hover) {
+  .cta:hover::after, .poadcast-links__platform:hover > .cta::after {
+    background-color: rgba(41, 35, 70, .2);
+  }
 }
 
 .cta::after {

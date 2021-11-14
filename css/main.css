@@ -100,26 +100,18 @@ a {
 }
 
 .cluster-card {
+  position: relative;
   display: flex;
   flex-direction: column;
   width: 100%;
   overflow: hidden;
-  border-radius: 16px;
-  background-color: var(--primary-color);
   height: 175px;
   box-sizing: border-box;
   padding: 16px 0 24px;
-  transition: .25s;
 }
 
 .cluster-card:not(:last-of-type) {
   margin-right: 16px;
-}
-
-@media (hover: hover) {
-  .cluster-card:hover {
-    opacity: .85;
-  }
 }
 
 .cluster-card-img {
@@ -144,6 +136,24 @@ a {
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
+}
+
+.cluster-card-bg {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: red;
+  margin-top: -16px;
+  border-radius: 16px;
+  background-color: var(--primary-color);
+  z-index: -1;
+  transition: .25s;
+}
+
+@media (hover: hover) {
+  .cluster-card:hover > .cluster-card-bg {
+    opacity: .9;
+  }
 }
 
 .footer {

@@ -28,14 +28,16 @@ a:visited {
 }
 
 /*hover blue*/
-a:hover, .btn:hover, #foot-bod a:hover, #blue-hover a:hover, #blue-hover .btn:hover, #blue-hover #foot-bod a:hover {
-	color: #379ecd;
-	border-color: #379ecd;
-}
+@media (hover: hover) {
+  a:hover, .btn:hover, #foot-bod a:hover, #blue-hover a:hover, #blue-hover .btn:hover, #blue-hover #foot-bod a:hover {
+  	color: #379ecd;
+  	border-color: #379ecd;
+  }
 
-#blue-hover:hover {
-	color: #379ecd !important;
-	border-color: #379ecd !important;
+  #blue-hover:hover {
+  	color: #379ecd !important;
+  	border-color: #379ecd !important;
+  }
 }
 
 /*click transition light blue*/
@@ -54,14 +56,16 @@ a:active, .btn:active, #foot-bod a:active, #blue-hover a:active, #blue-hover .bt
 }
 
 /*hover red*/
-.red-hover a:hover, .red-hover .btn:hover, .red-hover #foot-bod a:hover, #red-hover a:hover, #red-hover .btn:hover, #foot-bod #red-hover a:hover {
-	color: #cd3753;
-	border-color: #cd3753;
-}
+@media (hover: hover) {
+  .red-hover a:hover, .red-hover .btn:hover, .red-hover #foot-bod a:hover, #red-hover a:hover, #red-hover .btn:hover, #foot-bod #red-hover a:hover {
+  	color: #cd3753;
+  	border-color: #cd3753;
+  }
 
-#red-hover:hover {
-	color: #cd3753 !important;
-	border-color: #cd3753 !important;
+  #red-hover:hover {
+  	color: #cd3753 !important;
+  	border-color: #cd3753 !important;
+  }
 }
 
 /*click transition light red*/
@@ -80,14 +84,16 @@ a:active, .btn:active, #foot-bod a:active, #blue-hover a:active, #blue-hover .bt
 }
 
 /*hover purple*/
-.purple-hover a:hover, .purple-hover .btn:hover, .purple-hover #foot-bod a:hover, #purple-hover a:hover, #purple-hover .btn:hover, #purple-hover #foot-bod a:hover {
-	color: #8e3bc0;
-	border-color: #8e3bc0;
-}
+@media (hover: hover) {
+  .purple-hover a:hover, .purple-hover .btn:hover, .purple-hover #foot-bod a:hover, #purple-hover a:hover, #purple-hover .btn:hover, #purple-hover #foot-bod a:hover {
+  	color: #8e3bc0;
+  	border-color: #8e3bc0;
+  }
 
-#purple-hover:hover {
-	color: #8e3bc0 !important;
-	border-color: #8e3bc0 !important;
+  #purple-hover:hover {
+  	color: #8e3bc0 !important;
+  	border-color: #8e3bc0 !important;
+  }
 }
 
 /*click transition light purple*/
@@ -356,9 +362,11 @@ article img {
     -webkit-transform: translateZ(0) scale(1.0, 1.0);
 }
 
-.btn:hover {
-	-webkit-transform: perspective(1px) scale(1.05); /* Safari */
-	transform: perspective(1px) scale(1.05);
+@media (hover: hover) {
+  .btn:hover {
+  	-webkit-transform: perspective(1px) scale(1.05); /* Safari */
+  	transform: perspective(1px) scale(1.05);
+  }
 }
 
 /*footer css*/

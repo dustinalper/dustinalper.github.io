@@ -1,5 +1,2 @@
 # dustinalper.com (dustinalper.github.io)
-## The Columnist (My Blog)
-Contains satirical blog posts about arbitrary topics.
-## The Designer (My Portfolio)
-Contains designs for my legendary projects.
+I’m Dustin Alper, but everyone calls me Dustin for short. As a Product Manager and former UX Designer, I focus on macro vision in tandem with micro experience.
