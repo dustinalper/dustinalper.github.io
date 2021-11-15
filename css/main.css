@@ -184,11 +184,12 @@ a {
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%,-50%);
-  width: calc(100% + 40px);
+  transform: translate(calc(-50% + 32px), -50%);
+  width: calc(100% - 64px);
   height: 250px;
   z-index: 2;
   cursor: pointer;
+  filter: drop-shadow(-1px 0px 0px #FDF6E2);
 }
 
 .expand-btn:focus + .cluster-card > .cluster-card-img {
@@ -250,7 +251,8 @@ a {
   }
 
   .expand-btn:focus + .cluster-card {
-    width: calc(100% + 24px);
+    width: 100%;
+    transform: translate(-50%, -50%);
   }
 }
 
@@ -280,9 +282,5 @@ a {
 
   .footer {
     font-size: 10px;
-  }
-
-  .expand-btn:focus + .cluster-card {
-    width: calc(100% + 16px);
   }
 }
