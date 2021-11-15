@@ -204,9 +204,10 @@ a {
 .expand-close {
   display: none;
   position: absolute;
-  top: 24px;
-  right: 24px;
+  top: 16px;
+  right: 16px;
   width: 16px;
+  padding: 8px;
 }
 
 .expand-btn:focus + .cluster-card > .expand-close {
@@ -293,7 +294,7 @@ a {
   }
 
   .expand-close {
-    top: 16px;
-    right: 16px;
+    top: 8px;
+    right: 8px;
   }
 }
