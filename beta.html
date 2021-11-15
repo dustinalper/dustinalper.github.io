@@ -184,5 +184,13 @@
 
     <!-- FOOTER -->
     <div class='footer' data-aos='fade'>Designed and built by yours truly</div>
+
+    <!-- iOS FIX FOR EXPAND LOGO HACK -->
+    <script>
+      function removeFocus() {
+        document.activeElement.blur();
+      }
+      document.body.addEventListener("touchstart", removeFocus);
+    </script>
   </body>
 </html>
