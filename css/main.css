@@ -166,6 +166,11 @@ a {
   z-index: 1;
 }
 
+.expand-container, .not-responsive {
+  display: flex;
+  width: 100%;
+}
+
 .expand-btn {
   position: absolute;
   height: 100%;
@@ -200,9 +205,16 @@ a {
   opacity: 1;
 }
 
-.expand-container, .not-responsive {
-  display: flex;
-  width: 100%;
+.expand-close {
+  display: none;
+  position: absolute;
+  top: 24px;
+  right: 24px;
+  width: 16px;
+}
+
+.expand-btn:focus + .cluster-card > .expand-close {
+  display: block;
 }
 
 @media (max-width: 700px) {
@@ -282,5 +294,10 @@ a {
 
   .footer {
     font-size: 10px;
+  }
+
+  .expand-close {
+    top: 16px;
+    right: 16px;
   }
 }
