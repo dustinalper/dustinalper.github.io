@@ -187,10 +187,11 @@
 
     <!-- iOS FIX FOR EXPAND LOGO HACK -->
     <script>
-      function removeFocus() {
-        document.activeElement.blur();
-      }
-      document.body.addEventListener("touchstart", removeFocus);
+      document.body.firstElementChild.tabIndex = 1;
+      // function removeFocus() {
+      //   document.activeElement.blur();
+      // }
+      // document.body.addEventListener("touchstart", removeFocus);
     </script>
   </body>
 </html>
