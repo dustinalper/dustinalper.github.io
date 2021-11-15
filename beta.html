@@ -189,11 +189,14 @@
     <div class='footer' data-aos='fade'>Designed and built by yours truly</div>
 
     <!-- iOS FIX FOR EXPAND LOGO HACK -->
-    <!-- <script>
+    <script>
       function removeFocus() {
         document.activeElement.blur();
       }
-      document.body.addEventListener("touchend", removeFocus);
-    </script> -->
+
+      if(navigator.userAgent.match(/(iPhone|iPod|iPad)/i)) {
+        document.body.addEventListener("touchend", removeFocus);
+      }
+    </script>
   </body>
 </html>
