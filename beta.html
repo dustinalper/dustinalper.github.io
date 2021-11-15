@@ -64,12 +64,6 @@
     </script>
   </head>
   <body>
-    <!-- iOS FIX FOR EXPAND LOGO HACK -->
-    <script>
-      const input = document.getElementById('input')
-      input.addEventListener('mouseleave', e => e.target.blur())
-    </script>
-
     <!-- ANIMATE ON SCROLL -->
     <script>
       AOS.init({
@@ -138,7 +132,7 @@
         </div>
 
         <div title='Cycle' class='expand-container'>
-          <input class='expand-btn'></input>
+          <input class='expand-btn' readonly></input>
           <div class='cluster-card color-cycle'>
             <img class='cluster-card-img' src='/assets/images/portfolio/cycle.png'></img>
             <div class='cluster-card-txt'>Cycle</div>
@@ -147,7 +141,7 @@
         </div>
 
         <div title='Mooch' class='expand-container'>
-          <input class='expand-btn'></input>
+          <input class='expand-btn' readonly></input>
           <div class='cluster-card color-mooch'>
             <img class='cluster-card-img' src='/assets/images/portfolio/mooch.png'></img>
             <div class='cluster-card-txt'>Mooch</div>
@@ -193,10 +187,10 @@
 
     <!-- iOS FIX FOR EXPAND LOGO HACK -->
     <script>
-      // function removeFocus() {
-      //   document.activeElement.blur();
-      // }
-      // document.body.addEventListener("touchstart", removeFocus);
+      function removeFocus() {
+        document.activeElement.blur();
+      }
+      document.body.addEventListener("touchstart", removeFocus);
     </script>
   </body>
 </html>
