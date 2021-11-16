@@ -175,7 +175,7 @@ a {
   font-size: 24px; /* iOS FIX FOR EXPAND LOGO LOGIC */
   z-index: 1;
   opacity: 0;
-  cursor: pointer;
+  cursor: zoom-in;
 }
 
 .expand-btn:focus {
@@ -193,6 +193,7 @@ a {
   z-index: 2;
   cursor: pointer;
   filter: drop-shadow(-1px 0px 0px #FDF6E2);
+  cursor: zoom-out;
 }
 
 .expand-btn:focus + .cluster-card > .cluster-card-img {
@@ -210,6 +211,7 @@ a {
   right: 16px;
   width: 16px;
   padding: 8px;
+  cursor: pointer;
 }
 
 .expand-btn:focus + .cluster-card > .expand-close {
