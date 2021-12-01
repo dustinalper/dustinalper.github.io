@@ -293,12 +293,14 @@ a {
     min-width: 125px;
   }
 
-  .footer {
-    font-size: 10px;
-  }
-
   .expand-close {
     top: 8px;
     right: 8px;
+  }
+}
+
+@media (max-width: 350px) {
+  .footer {
+    font-size: 10px;
   }
 }
