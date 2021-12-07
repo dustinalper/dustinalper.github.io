@@ -75,7 +75,8 @@ a {
 }
 
 .header {
-  display: inline-block;
+  display: table;
+  text-align: center;
   letter-spacing: 4px;
   font-size: 48px;
   margin-bottom: 48px;
@@ -240,10 +241,10 @@ a {
   }
 
   .header {
-    margin-bottom: 32px;
+    margin: 0 auto 32px;
   }
 
-  .header, .footer {
+  .footer {
     text-align: center;
   }
 
