@@ -43,10 +43,10 @@
 }
 
 * {
-    margin: 0;
-    padding: 0;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
+  margin: 0;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 html {
@@ -75,9 +75,11 @@ a {
 }
 
 .header {
+  display: inline-block;
   letter-spacing: 4px;
   font-size: 48px;
   margin-bottom: 48px;
+  color: #0E3281;
 }
 
 .cluster {
@@ -216,6 +218,19 @@ a {
 
 .expand-btn:focus + .cluster-card > .expand-close {
   display: block;
+}
+
+.fourohfour > .cluster-title {
+  font-family: courier, monospace;
+}
+
+.fourohfour > .cluster-card  {
+  padding: 16px 0;
+}
+
+.fourohfour > .cluster-card > .cluster-card-txt {
+  font-family: courier, monospace;
+  margin: auto;
 }
 
 @media (max-width: 700px) {

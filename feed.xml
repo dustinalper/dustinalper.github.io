@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content"  xmlns:webfeeds="http://webfeeds.org/rss/1.0">
 	<channel>
-		<title>Dustin Alper - The Columnist</title>
-		<description>Bringing the little things to your attention in a big way. To be honest, I don&apos;t know what that means. I&apos;m just trying to sound clever.</description>
+		<title>Dustin Alper</title>
+		<description>I’m Dustin Alper, but everyone calls me Dustin for short. As a Product Manager and former UX Designer, I focus on macro vision in tandem with micro experience.</description>
 		
 		<webfeeds:cover image="https://www.dustinalper.com/assets/images/column/12-Tips-to-Get-Straight-A's.JPG" />
 		
