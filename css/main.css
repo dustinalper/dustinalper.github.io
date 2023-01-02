@@ -180,7 +180,7 @@ a {
 .expand-btn {
   position: absolute;
   height: 100%;
-  width: 30%;
+  width: calc(33.3% - 32px);
   font-size: 24px; /* iOS FIX FOR EXPAND LOGO LOGIC */
   z-index: 1;
   opacity: 0;
@@ -278,10 +278,6 @@ a {
   .bonus .cluster-card-img {
     width: 35%;
     max-height: 35%;
-  }
-
-  .expand-btn {
-    height: 70%;
   }
 
   .expand-btn:focus + .cluster-card {
