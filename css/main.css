@@ -227,17 +227,19 @@ a {
   display: block;
 }
 
-.fourohfour > .cluster-title {
+.fourohfour .cluster-title {
   font-family: courier, monospace;
 }
 
-.fourohfour > .cluster-card {
+.fourohfour .cluster-card {
   padding: 16px 0;
 }
 
-.fourohfour > .cluster-card > .cluster-card-txt {
+.fourohfour .cluster-card > .cluster-card-txt {
   font-family: courier, monospace;
   margin: auto;
+  position: relative;
+  bottom: 0;
 }
 
 @media (max-width: 756px) {
