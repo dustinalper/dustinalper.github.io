@@ -1,3 +1,3 @@
 # dustinalper.com (dustinalper.github.io)
 
-I’m Dustin Alper, but everyone calls me Dustin for short. Having a background in product and UX, I focus on macro vision in tandem with micro experience.
+I’m Dustin Alper, but everyone calls me Dustin for short. My expertise in product and design empowers my unique approach - blending macro vision with micro experience.

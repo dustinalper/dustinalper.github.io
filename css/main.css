@@ -84,7 +84,12 @@ a {
 }
 
 .header-img {
+  display: block;
   width: 100%;
+}
+
+.first-name {
+  display: none;
 }
 
 .cluster {
@@ -180,6 +185,8 @@ a {
   width: 100%;
 }
 
+/* 404 */
+
 .expand-btn {
   position: absolute;
   height: 100%;
@@ -245,6 +252,59 @@ a {
   bottom: 0;
 }
 
+/* EXPERIENCE PAGES */
+
+.exp-screenshot {
+  width: 100%;
+  border-radius: 16px;
+  border: 2px solid #dadada;
+  box-sizing: border-box;
+  margin-bottom: 32px;
+}
+
+.exp-card {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 24px;
+  color: #ffffff;
+  text-transform: none;
+  letter-spacing: normal;
+  font-weight: 400;
+  font-size: 14px;
+  background-color: var(--primary-color);
+  border-radius: 16px;
+  margin-bottom: 48px;
+}
+
+.exp-card-width {
+  max-width: 512px;
+  margin: auto;
+}
+
+.exp-title {
+  display: block;
+  height: 32px;
+  margin: 0 auto 24px;
+}
+
+.exp-bio {
+  margin-bottom: 24px;
+}
+
+.exp-history-header {
+  display: flex;
+  justify-content: space-between;
+  font-weight: 700;
+}
+
+.exp-history-bullets {
+  padding-left: 16px;
+}
+
+.exp-history-bullets > li {
+  margin-top: 2px;
+}
+
 @media (max-width: 756px) {
   body {
     padding: 48px 48px 32px;
@@ -299,6 +359,14 @@ a {
 
   .header {
     margin-bottom: 32px;
+  }
+
+  .full-name {
+    display: none;
+  }
+
+  .first-name {
+    display: block;
   }
 
   .bonus .not-responsive {
