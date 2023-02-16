@@ -65,7 +65,7 @@ body {
   width: 100%;
   max-width: 1024px;
   min-width: 320px;
-  padding: 64px 64px 48px;
+  padding: 64px;
   margin: auto;
   font-size: 12px;
   font-weight: 700;
@@ -80,7 +80,7 @@ a {
 
 .header {
   display: block;
-  margin-bottom: 64px;
+  margin-bottom: 48px;
 }
 
 .header-img {
@@ -93,24 +93,14 @@ a {
 }
 
 .cluster {
-  display: flex;
-  margin-bottom: 48px;
+  margin-bottom: 24px;
 }
 
 .cluster-title {
-  font-size: 14px;
-  writing-mode: vertical-rl;
-  text-align: center;
-  margin-right: 16px;
-  transform: rotate(180deg);
-  box-sizing: border-box;
-  background-color: #0e3281;
-  color: #ffffff;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  min-width: 48px;
-  border-radius: 8px;
+  font-size: 24px;
+  margin-bottom: 8px;
+  text-transform: none;
+  letter-spacing: 0.5px;
 }
 
 .cluster-card {
@@ -176,6 +166,7 @@ a {
 
 .footer {
   text-align: right;
+  padding-top: 24px;
 }
 
 .expand-container,
@@ -237,10 +228,6 @@ a {
   display: block;
 }
 
-.fourohfour .cluster-title {
-  font-family: courier, monospace;
-}
-
 .fourohfour .cluster-card {
   padding: 16px 0;
 }
@@ -254,11 +241,14 @@ a {
 
 /* EXPERIENCE PAGES */
 
+.exp {
+  margin-top: 8px;
+}
+
 .exp-screenshot {
   width: 100%;
-  border-radius: 16px;
-  border: 2px solid #dadada;
-  box-sizing: border-box;
+  border-radius: 8px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
   margin-bottom: 32px;
 }
 
@@ -273,7 +263,7 @@ a {
   font-size: 14px;
   background-color: var(--primary-color);
   border-radius: 16px;
-  margin-bottom: 48px;
+  margin-bottom: 32px;
 }
 
 .exp-card-width {
@@ -295,6 +285,15 @@ a {
   display: flex;
   justify-content: space-between;
   font-weight: 700;
+  flex-wrap: wrap;
+}
+
+.exp-history-header:not(:first-of-type) {
+  margin-top: 24px;
+}
+
+.exp-history-header > div:first-of-type {
+  margin-right: 16px;
 }
 
 .exp-history-bullets {
@@ -305,9 +304,23 @@ a {
   margin-top: 2px;
 }
 
+.exp-button {
+  color: #ffffff;
+  padding: 8px 16px;
+  border-radius: 4px;
+  margin: 24px auto 0;
+  display: table;
+  transition: 0.25s;
+  background-color: rgba(255, 255, 255, 0.16);
+}
+
+.exp-button:hover {
+  background-color: rgba(255, 255, 255, 0.24);
+}
+
 @media (max-width: 756px) {
   body {
-    padding: 48px 48px 32px;
+    padding: 48px;
     box-sizing: border-box;
   }
 
@@ -317,10 +330,6 @@ a {
 
   .footer {
     text-align: center;
-  }
-
-  .cluster-title {
-    min-width: 40px;
   }
 
   .cluster-card {
@@ -354,7 +363,7 @@ a {
 
 @media (max-width: 512px) {
   body {
-    padding: 32px 16px;
+    padding: 32px;
   }
 
   .header {
@@ -386,6 +395,10 @@ a {
   .expand-close {
     top: 8px;
     right: 8px;
+  }
+
+  .footer {
+    padding-top: 16px;
   }
 }
 
