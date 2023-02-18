@@ -93,6 +93,7 @@ a {
 }
 
 .cluster {
+  position: relative;
   margin-bottom: 24px;
 }
 
@@ -176,12 +177,10 @@ a {
   width: 100%;
 }
 
-/* 404 */
-
 .expand-btn {
   position: absolute;
-  height: 100%;
-  width: calc(33.3% - 32px);
+  height: calc(100% - 32px);
+  width: calc(33.3% - 16px);
   font-size: 24px; /* iOS FIX FOR EXPAND LOGO LOGIC */
   z-index: 1;
   opacity: 0;
@@ -197,9 +196,9 @@ a {
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(calc(-50% + 32px), -50%);
-  width: calc(100% - 64px);
-  height: 250px;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  height: 225px;
   z-index: 2;
   cursor: pointer;
   filter: drop-shadow(-1px 0px 0px #fdf6e2);
@@ -228,6 +227,8 @@ a {
   display: block;
 }
 
+/* 404 */
+
 .fourohfour .cluster-card {
   padding: 16px 0;
 }
@@ -240,21 +241,18 @@ a {
 }
 
 /* EXPERIENCE PAGES */
-
-.exp {
-  margin-top: 8px;
+.exp-header-blocker {
+  width: calc(100% + 8px);
+  height: 32px;
+  background-color: #fdf6e2;
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0;
+  margin: -24px 0 0 -4px;
+  z-index: 1;
 }
 
-.exp-screenshot {
-  width: 100%;
-  border-radius: 8px;
-  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
-  margin-bottom: 32px;
-}
-
-.exp-card {
-  width: 100%;
-  box-sizing: border-box;
+.exp-header {
   padding: 24px;
   color: #ffffff;
   text-transform: none;
@@ -264,21 +262,71 @@ a {
   background-color: var(--primary-color);
   border-radius: 16px;
   margin-bottom: 32px;
+  position: sticky;
+  position: -webkit-sticky;
+  top: 16px;
+  z-index: 2;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
 }
 
-.exp-card-width {
-  max-width: 512px;
-  margin: auto;
+.exp-header-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
+.exp-header-title {
+  display: flex;
+  align-items: center;
+}
+
+.exp-header-back {
+  height: 20px;
+  width: 20px;
+}
+
+.exp-bio {
+  padding: 24px 0;
+  color: #1a1a1a;
+  text-transform: none;
+  letter-spacing: normal;
+  font-size: 20px;
+  border-radius: 16px;
+  margin-bottom: 32px;
+}
+
+.exp-content {
+  display: flex;
+  gap: 64px;
+  margin-bottom: 32px;
+}
+
+.exp-screenshot-container {
+  display: flex;
+  flex-direction: column;
+  gap: 64px;
+  width: 50%;
+}
+
+.exp-screenshot {
+  border-radius: 8px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+}
+
+.exp-card {
+  color: #1a1a1a;
+  text-transform: none;
+  letter-spacing: normal;
+  font-weight: 400;
+  font-size: 16px;
+  max-width: 660px;
 }
 
 .exp-title {
   display: block;
   height: 32px;
-  margin: 0 auto 24px;
-}
-
-.exp-bio {
-  margin-bottom: 24px;
 }
 
 .exp-history-header {
@@ -308,7 +356,6 @@ a {
   color: #ffffff;
   padding: 8px 24px;
   border-radius: 18px;
-  margin: 24px auto 0;
   display: table;
   transition: 0.25s;
   background-color: rgba(255, 255, 255, 0.16);
@@ -316,6 +363,13 @@ a {
 
 .exp-button:hover {
   background-color: rgba(255, 255, 255, 0.24);
+}
+
+.exp-button.circle {
+  display: flex;
+  padding: 8px;
+  margin-right: 24px;
+  z-index: 1; /* fixes mobile bug */
 }
 
 @media (max-width: 756px) {
@@ -355,9 +409,15 @@ a {
   }
 
   .expand-btn:focus + .cluster-card {
+    height: 200px;
+  }
+
+  .exp-content {
+    flex-direction: column;
+  }
+
+  .exp-screenshot-container {
     width: 100%;
-    height: 225px;
-    transform: translate(-50%, -50%);
   }
 }
 
@@ -401,10 +461,15 @@ a {
     padding-top: 16px;
   }
 
-  .exp-card {
-    width: calc(100% + 64px);
-    margin-left: -32px;
-    border-radius: 0;
+  .exp-title {
+    position: absolute;
+    width: calc(100% - 56px);
+  }
+
+  .exp-button {
+    display: flex;
+    justify-content: center;
+    width: -webkit-fill-available;
   }
 }
 
