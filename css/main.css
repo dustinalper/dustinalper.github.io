@@ -359,6 +359,7 @@ a {
   display: table;
   transition: 0.25s;
   background-color: rgba(255, 255, 255, 0.16);
+  letter-spacing: 0.5px;
 }
 
 .exp-button:hover {
@@ -423,7 +424,7 @@ a {
 
 @media (max-width: 512px) {
   body {
-    padding: 32px;
+    padding: 32px 24px;
   }
 
   .header {
@@ -463,7 +464,8 @@ a {
 
   .exp-title {
     position: absolute;
-    width: calc(100% - 56px);
+    width: calc(100% - 160px);
+    margin-left: 52px;
   }
 
   .exp-button {
