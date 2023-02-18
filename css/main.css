@@ -306,8 +306,8 @@ a {
 
 .exp-button {
   color: #ffffff;
-  padding: 8px 16px;
-  border-radius: 4px;
+  padding: 8px 24px;
+  border-radius: 18px;
   margin: 24px auto 0;
   display: table;
   transition: 0.25s;
@@ -399,6 +399,12 @@ a {
 
   .footer {
     padding-top: 16px;
+  }
+
+  .exp-card {
+    width: calc(100% + 64px);
+    margin-left: -32px;
+    border-radius: 0;
   }
 }
 
