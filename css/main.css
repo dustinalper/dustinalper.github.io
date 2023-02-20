@@ -241,6 +241,13 @@ a {
 }
 
 /* EXPERIENCE PAGES */
+.exp-container {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  margin-bottom: 40px;
+}
+
 .exp-header-blocker {
   width: calc(100% + 8px);
   height: 32px;
@@ -261,12 +268,12 @@ a {
   font-size: 14px;
   background-color: var(--primary-color);
   border-radius: 16px;
-  margin-bottom: 32px;
   position: sticky;
   position: -webkit-sticky;
   top: 16px;
   z-index: 2;
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+  margin-bottom: 32px;
 }
 
 .exp-header-top {
@@ -288,13 +295,14 @@ a {
 }
 
 .exp-bio {
-  padding: 24px 0;
   color: #1a1a1a;
   text-transform: none;
-  letter-spacing: normal;
-  font-size: 20px;
+  letter-spacing: 0.25px;
+  font-size: 22px;
   border-radius: 16px;
-  margin-bottom: 32px;
+  border-radius: 16px;
+  padding: 24px;
+  border: 1px solid;
 }
 
 .exp-content {
@@ -303,16 +311,90 @@ a {
   margin-bottom: 32px;
 }
 
-.exp-screenshot-container {
+.exp-screenshot-container,
+.exp-history-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-gap: 32px;
+}
+
+.exp-screenshot-container.no-wrap {
+  grid-template-columns: repeat(auto-fit, minmax(0px, 1fr));
+}
+
+.exp-screenshot-container.horizontal {
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
+
+.exp-history-container {
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+}
+
+.exp-screenshot-container > img,
+.exp-history-container > .exp-history-screenshots > img {
+  display: block;
+  width: 100%;
+  border-radius: 8px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+}
+
+.exp-history-screenshots {
+  display: flex;
+  flex-direction: column;
+  grid-gap: 32px;
+}
+
+.exp-history-screenshots.horizontal {
+  flex-direction: row;
+  width: calc(50% - 16px);
+}
+
+.exp-history-screenshots.horizontal > div {
+  display: none;
+}
+
+.exp-mobile-screenshot-container,
+.exp-mobile-screenshot-container-full {
   display: flex;
   flex-direction: column;
   gap: 64px;
   width: 50%;
 }
 
-.exp-screenshot {
+.exp-mobile-screenshot-container {
+  flex-direction: row;
+  gap: 32px;
+}
+
+.exp-mobile-screenshot-container > img {
+  width: 50%;
+  height: fit-content;
+  object-fit: contain;
+}
+
+.exp-mobile-screenshot-container-full {
+  flex-direction: row;
+  gap: unset;
+  justify-content: space-between;
+  width: 100%;
+  margin-bottom: 56px;
+}
+
+.exp-mobile-screenshot-container-full > img {
+  width: 30%;
+  height: fit-content;
+  object-fit: contain;
+}
+
+.exp-screenshot,
+.exp-screenshot-full {
   border-radius: 8px;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+}
+
+.exp-screenshot-full {
+  width: 100%;
+  margin-bottom: 64px;
 }
 
 .exp-card {
@@ -322,11 +404,25 @@ a {
   font-weight: 400;
   font-size: 16px;
   max-width: 660px;
+  border-radius: 16px;
+  padding: 24px;
+  border: 1px solid;
 }
 
 .exp-title {
   display: block;
   height: 32px;
+}
+
+.exp-history {
+  color: #1a1a1a;
+  text-transform: none;
+  letter-spacing: normal;
+  font-weight: 400;
+  font-size: 16px;
+  border-radius: 16px;
+  padding: 24px;
+  border: 1px solid;
 }
 
 .exp-history-header {
@@ -413,12 +509,18 @@ a {
     height: 200px;
   }
 
-  .exp-content {
-    flex-direction: column;
+  .exp-container {
+    margin-bottom: 24px;
   }
 
-  .exp-screenshot-container {
+  .exp-history-screenshots.horizontal {
+    display: grid;
+    grid-template-columns: 0.5fr 1fr 1fr 0.5fr;
     width: 100%;
+  }
+
+  .exp-history-screenshots.horizontal > div {
+    display: block;
   }
 }
 
@@ -439,18 +541,14 @@ a {
     display: block;
   }
 
-  .bonus .not-responsive {
-    flex-wrap: wrap;
+  .bonus > .not-responsive {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 16px;
   }
 
-  .bonus .cluster-card:nth-of-type(2) {
-    margin: 0 0 16px;
-  }
-
-  .bonus .cluster-card {
-    flex: 1;
-    width: auto;
-    min-width: 131px;
+  .bonus > .not-responsive > a {
+    margin: 0 !important;
   }
 
   .expand-close {
@@ -460,6 +558,10 @@ a {
 
   .footer {
     padding-top: 16px;
+  }
+
+  .exp-container {
+    margin-bottom: 16px;
   }
 
   .exp-title {
@@ -472,6 +574,11 @@ a {
     display: flex;
     justify-content: center;
     width: -webkit-fill-available;
+  }
+
+  .exp-screenshot-container,
+  .exp-history-container {
+    grid-template-columns: repeat(auto-fit, minmax(256px, 1fr));
   }
 }
 
