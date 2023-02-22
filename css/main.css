@@ -110,7 +110,7 @@ a {
 }
 
 .cluster-title {
-  font-size: 24px;
+  font-size: 20px;
   margin-bottom: 8px;
   text-transform: none;
   letter-spacing: 0.5px;
@@ -309,7 +309,7 @@ a {
   color: #1a1a1a;
   text-transform: none;
   letter-spacing: 0.25px;
-  font-size: 22px;
+  font-size: 20px;
   border-radius: 16px;
   border-radius: 16px;
   padding: 24px;
@@ -362,6 +362,12 @@ a {
   max-height: inherit;
   object-fit: cover;
   object-position: top;
+}
+
+.exp-stretch-screenshot {
+  height: 100%;
+  object-fit: cover;
+  object-position: left;
 }
 
 .exp-title {
