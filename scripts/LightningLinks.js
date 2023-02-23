@@ -6,12 +6,14 @@
     contentSelector: "body",
     prefetch: true,
     prefetchDelay: 20,
+    cache: true,
     cacheTimeout: 0,
+    scrollToTop: true,
     debug: false,
   };
 
   function Lightning(config = defaultConfig) {
-    const options = Object.assign({}, defaultConfig, config);
+    const options = Object.assign({}, defaultConfig, config || {});
 
     const instance = {
       generation: 0,
@@ -19,7 +21,7 @@
     };
 
     Lightning.instance = instance;
-    Lightning.VERSION = "0.0.1";
+    Lightning.VERSION = "1.0.0";
 
     const debug = (...args) => {
       if (options.debug) console.log(...args);
@@ -56,6 +58,10 @@
     };
 
     const getPageCached = (path) => {
+      if (!options.cache) {
+        return getPage(path);
+      }
+
       if (instance.pageCache[path]) {
         const cache = instance.pageCache[path];
         if (cache.promise) {
@@ -81,11 +87,13 @@
       instance.pageCache[path] = instance.pageCache[path] || {};
       instance.pageCache[path].promise = promise;
 
-      promise.then((text) => {
+      return promise.then((text) => {
         const cache = instance.pageCache[path];
         cache.data = text;
         cache.time = window.performance.now();
         cache.promise = null;
+
+        return text;
       });
     };
 
@@ -137,6 +145,10 @@
                       className: body.className,
                     });
 
+                    if (options.scrollToTop) {
+                      window.scrollTo(0, 0);
+                    }
+
                     const state = getState();
                     debug("push state", state);
                     window.history.pushState(state, title, path);
@@ -159,7 +171,6 @@
                 link.lightningPrefetch = null;
 
                 getPageCached(path);
-                debug("prefetch", path);
               }, options.prefetchDelay);
             }
           });
@@ -185,6 +196,15 @@
     const init = () => {
       const initialState = getState();
       window.history.pushState(initialState, initialState.title, "");
+
+      //   if (options.cache) {
+      //     const path = window.location.pathname;
+      //     instance.pageCache[path] = {
+      //       data: initialState.html,
+      //       promise: null,
+      //       time: 0,
+      //     };
+      //   }
 
       LightningLinks();
     };

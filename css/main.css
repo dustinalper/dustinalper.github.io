@@ -5,17 +5,17 @@
 
 .color-st {
   --primary-color: 14, 88, 129;
-  --background-color: 225, 234, 239;
+  --background-color: 225, 234, 239; /* THIS IS 12% OF PRIMARY COLOR ON A WHITE BACKGROUND */
 }
 
 .color-tracer {
   --primary-color: 4, 70, 56;
-  --background-color: 223, 232, 230;
+  --background-color: 223, 232, 230; /* THIS IS 12% OF PRIMARY COLOR ON A WHITE BACKGROUND */
 }
 
 .color-publicis {
   --primary-color: 207, 32, 46;
-  --background-color: 248, 227, 229;
+  --background-color: 248, 227, 229; /* THIS IS 12% OF PRIMARY COLOR ON A WHITE BACKGROUND */
 }
 
 .color-ax {
@@ -56,7 +56,16 @@
 
 .color-404 {
   --primary-color: 26, 26, 26;
-  --background-color: 227, 227, 227;
+  --background-color: 227, 227, 227; /* THIS IS 12% OF PRIMARY COLOR ON A WHITE BACKGROUND */
+}
+
+@keyframes fade {
+  0% {
+    opacity: 0;
+  }
+  33% {
+    opacity: 0;
+  }
 }
 
 @keyframes fadeUp {
@@ -64,10 +73,67 @@
     opacity: 0;
     transform: translateY(5vh);
   }
-  100% {
-    opacity: 1;
-    transform: translateY(0vh);
+  33% {
+    opacity: 0;
+    transform: translateY(5vh);
   }
+}
+
+@keyframes fadeRight {
+  0% {
+    opacity: 0;
+    transform: translateX(5vh);
+  }
+  33% {
+    opacity: 0;
+    transform: translateX(5vh);
+  }
+}
+
+@keyframes fadeDown {
+  0% {
+    opacity: 0;
+    transform: translateY(-5vh);
+  }
+  33% {
+    opacity: 0;
+    transform: translateY(-5vh);
+  }
+}
+
+@keyframes fadeLeft {
+  0% {
+    opacity: 0;
+    transform: translateX(-5vh);
+  }
+  33% {
+    opacity: 0;
+    transform: translateX(-5vh);
+  }
+}
+
+.fade,
+.fade-up,
+.fade-right,
+.fade-down,
+.fade-left {
+  animation: fade 0.6s ease;
+}
+
+.fade-up {
+  animation: fadeUp 0.6s ease;
+}
+
+.fade-right {
+  animation: fadeRight 0.6s ease;
+}
+
+.fade-down {
+  animation: fadeDown 0.6s ease;
+}
+
+.fade-left {
+  animation: fadeLeft 0.6s ease;
 }
 
 * {
@@ -88,19 +154,23 @@ html {
 
 body {
   font-family: "proximanova", helvetica, serif;
-  color: #0e3281;
+  color: rgb(var(--primary-color));
   background-color: rgb(var(--background-color));
   width: 100%;
   max-width: 1024px;
   min-width: 320px;
   padding: 64px;
-  margin: 0 auto auto;
+  margin: auto;
   font-size: 12px;
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 2px;
   user-select: none;
   transition: background-color 0.75s;
+}
+
+.remove-vertical-center {
+  margin-top: 0;
 }
 
 a {
@@ -131,9 +201,6 @@ a {
 .cluster {
   position: relative;
   margin-bottom: 24px;
-  opacity: 0;
-  animation: fadeUp 0.4s ease forwards;
-  animation-delay: 0.2s;
 }
 
 .cluster-title {
@@ -198,7 +265,8 @@ a {
   transition: opacity 0.25s;
 }
 
-@media (hover: hover) {
+/* PREVENTS HOVER ON TOUCH DEVICES */
+@media (hover: hover) and (pointer: fine) {
   .cluster-card:hover > .cluster-card-bg,
   .expand-btn:hover + .cluster-card > .cluster-card-bg {
     opacity: 0.9;
@@ -208,7 +276,6 @@ a {
 .footer {
   text-align: right;
   padding-top: 40px;
-  color: rgb(var(--primary-color));
 }
 
 .expand-container,
@@ -262,6 +329,7 @@ a {
   width: 16px;
   padding: 8px;
   cursor: pointer;
+  z-index: 1;
 }
 
 .expand-btn:focus + .cluster-card > .expand-close {
@@ -269,10 +337,6 @@ a {
 }
 
 /* 404 */
-
-.fourohfour .cluster-title {
-  color: #1a1a1a;
-}
 
 .fourohfour .cluster-card {
   padding: 16px 0;
@@ -290,9 +354,6 @@ a {
   flex-direction: column;
   gap: 32px;
   margin-bottom: 24px;
-  opacity: 0;
-  animation: fadeUp 0.4s ease forwards;
-  animation-delay: 0.2s;
 }
 
 .exp-header-blocker {
@@ -302,7 +363,7 @@ a {
   position: sticky;
   position: -webkit-sticky;
   top: 0;
-  margin: -24px 0 0 -4px;
+  margin: -16px 0 0 -4px;
   z-index: 1;
 }
 
@@ -321,9 +382,13 @@ a {
   z-index: 2;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
   margin-bottom: 32px;
-  opacity: 0;
-  animation: fadeUp 0.4s ease forwards;
-  animation-delay: 0.2s;
+  transition: box-shadow 0.25s;
+}
+
+@media (hover: hover) and (pointer: fine) {
+  .exp-header:hover {
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+  }
 }
 
 .exp-header-top {
@@ -469,8 +534,10 @@ a {
   letter-spacing: 0.5px;
 }
 
-.exp-button:hover {
-  background-color: rgba(255, 255, 255, 0.24);
+@media (hover: hover) and (pointer: fine) {
+  .exp-button:hover {
+    background-color: rgba(255, 255, 255, 0.24);
+  }
 }
 
 .exp-button.circle {
@@ -522,6 +589,10 @@ a {
 
   .exp-container {
     margin-bottom: 24px;
+  }
+
+  .exp-header-blocker {
+    margin-top: -32px;
   }
 
   .exp-history-screenshots.horizontal {
@@ -591,6 +662,11 @@ a {
 
   .exp-bio {
     text-align: center;
+    padding: 24px;
+  }
+
+  .exp-history {
+    padding: 24px;
   }
 
   .exp-history-screenshots.horizontal {
