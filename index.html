@@ -26,6 +26,12 @@
   <!-- Fonts -->
   <link rel="stylesheet" href="/css/fontspring.css" />
 
+  <!-- Scripts -->
+  <script src="/scripts/LightningLinks.js"></script>
+  <script>
+    Lightning({ contentSelector: "#content" });
+  </script>
+
   <!-- OpenGraph Tags -->
   <meta
     property="og:title"
@@ -93,17 +99,18 @@
 
   <body>
     <!-- HEADER -->
-    <a class='header' title='Dustin Alper' href='/'>
-      <img class='header-img full-name' src='/assets/images/portfolio/da.svg'></img>
-      <img class='header-img first-name' src='/assets/images/portfolio/d.svg'></img>
+    <a class="header" title="Dustin Alper" href="/">
+      <div class="header-img full-name"><svg height="34" viewBox="0 0 440 34" width="440" xmlns="http://www.w3.org/2000/svg"><g transform="translate(.68 .4)"><path d="m0 33.6h25.968c8.304 0 11.232-2.928 11.232-11.232v-11.136c0-8.304-2.928-11.232-11.232-11.232h-25.968zm16.32-9.6v-14.4h4.56v14.4z"/><path d="m79.868 0h-16.32v24h-4.368v-24h-16.32v22.368c0 8.304 2.928 11.232 11.232 11.232h14.544c8.304 0 11.232-2.928 11.232-11.232z"/><path d="m85.528 25.008c0 6.192 2.4 8.592 8.592 8.592h19.536c6.192 0 8.592-2.4 8.592-8.592v-4.8c0-6.528-3.072-7.968-9.744-8.4l-10.656-.672v-2.88h4.56v2.064h15.84v-1.728c0-6.192-2.4-8.592-8.592-8.592h-19.536c-6.192 0-8.592 2.4-8.592 8.592v4.272c0 6.528 3.072 8.064 9.744 8.448l10.656.624v3.36h-4.56v-2.496h-15.84z"/><path d="m158.34 0h-31.2v12.96h7.44v20.64h16.32v-20.64h7.44z"/><path d="m163.232 0v33.6h16.896v-33.6z"/><path d="m185.788 33.6h15.168v-11.424h.336l6.432 11.424h15.744v-33.6h-15.168v11.424h-.336l-6.432-11.424h-15.744z"/><path d="m269.108 33.6h17.04l-8.496-33.6h-24.48l-8.544 33.6h16.56l.624-4.032h6.672zm-5.904-12.672 1.68-10.56h.576l1.68 10.56z"/><path d="m307.168 20.64v-20.64h-17.04v33.6h27.36v-12.96z"/><path d="m322.38 33.6h16.32v-8.64h9.648c8.064 0 10.752-2.688 10.752-10.752v-3.456c0-8.064-2.688-10.752-10.752-10.752h-25.968zm16.32-17.76v-6.24h4.56v6.24z"/><path d="m395.768 10.08v-10.08h-31.2v33.6h31.2v-10.08h-14.88v-2.496h13.92v-8.64h-13.92v-2.304z"/><path d="m438.58 10.608v-.816c0-7.2-2.592-9.792-9.792-9.792h-27.408v33.6h16.32v-9.84h4.56v9.84h16.32v-5.808c0-4.752-1.296-7.44-4.416-8.592 3.12-1.2 4.416-3.888 4.416-8.592zm-20.88-1.008h4.56v5.04h-4.56z"/></g></svg></div>
+      <div class="header-img first-name"><svg height="34" viewBox="0 0 225 34" width="225" xmlns="http://www.w3.org/2000/svg"><g transform="translate(.68 .4)"><path d="m0 33.6h25.968c8.304 0 11.232-2.928 11.232-11.232v-11.136c0-8.304-2.928-11.232-11.232-11.232h-25.968zm16.32-9.6v-14.4h4.56v14.4z"/><path d="m79.868 0h-16.32v24h-4.368v-24h-16.32v22.368c0 8.304 2.928 11.232 11.232 11.232h14.544c8.304 0 11.232-2.928 11.232-11.232z"/><path d="m85.528 25.008c0 6.192 2.4 8.592 8.592 8.592h19.536c6.192 0 8.592-2.4 8.592-8.592v-4.8c0-6.528-3.072-7.968-9.744-8.4l-10.656-.672v-2.88h4.56v2.064h15.84v-1.728c0-6.192-2.4-8.592-8.592-8.592h-19.536c-6.192 0-8.592 2.4-8.592 8.592v4.272c0 6.528 3.072 8.064 9.744 8.448l10.656.624v3.36h-4.56v-2.496h-15.84z"/><path d="m158.34 0h-31.2v12.96h7.44v20.64h16.32v-20.64h7.44z"/><path d="m163.232 0v33.6h16.896v-33.6z"/><path d="m185.788 33.6h15.168v-11.424h.336l6.432 11.424h15.744v-33.6h-15.168v11.424h-.336l-6.432-11.424h-15.744z"/></g></svg></div>
     </a>
 
-		<!-- EXPERIENCE -->
+    <div id="content">
+      <!-- EXPERIENCE -->
 <div class='cluster'>
   <div class='cluster-title'>Experience</div>
 
   <div class='responsive'>
-    <a title='Savvy Trader - Director of Product' class='cluster-card color-st' href='/savvytrader'>
+    <a title='Savvy Trader - Director of Product' class='cluster-card color-st' href='/savvy-trader'>
       <img class='cluster-card-img' src='/assets/images/portfolio/st.svg'></img>
       <div class='cluster-card-txt'>Director of Product</div>
       <div class='cluster-card-bg'></div>
@@ -196,7 +203,7 @@
       <div class='cluster-card-bg'></div>
     </a>
 
-    <a title='Resume' class='cluster-card color-resume' target='_blank' href='/assets/Dustin_Alper_Resume.pdf'>
+    <a title='Resume' class='cluster-card color-resume' target='_blank' href='/assets/Dustin_Alper_Resume.pdf' data-lightning="false">
       <img class='cluster-card-img' src='/assets/images/portfolio/resume.png'></img>
       <div class='cluster-card-txt'>Resume</div>
       <div class='cluster-card-bg'></div>
@@ -220,8 +227,9 @@
     document.body.addEventListener("touchend", removeFocus);
   }
 </script>
+    </div>
 
     <!-- FOOTER -->
-    <div class='footer'>Designed and built by yours truly</div>
+    <div class="footer">Designed and built by yours truly</div>
   </body>
 </html>

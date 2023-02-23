@@ -1,17 +1,21 @@
 :root {
-  --primary-color: #1a1a1a;
+  --primary-color: 14, 50, 129;
+  --background-color: 253, 246, 226;
 }
 
 .color-st {
   --primary-color: 14, 88, 129;
+  --background-color: 225, 234, 239;
 }
 
 .color-tracer {
   --primary-color: 4, 70, 56;
+  --background-color: 223, 232, 230;
 }
 
 .color-publicis {
   --primary-color: 207, 32, 46;
+  --background-color: 248, 227, 229;
 }
 
 .color-ax {
@@ -52,6 +56,18 @@
 
 .color-404 {
   --primary-color: 26, 26, 26;
+  --background-color: 227, 227, 227;
+}
+
+@keyframes fadeUp {
+  0% {
+    opacity: 0;
+    transform: translateY(5vh);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0vh);
+  }
 }
 
 * {
@@ -66,20 +82,25 @@ html {
   display: flex;
 }
 
+#content {
+  background-color: inherit; /* NEEDED FOR STICKY BLOCKER EFFECT */
+}
+
 body {
   font-family: "proximanova", helvetica, serif;
   color: #0e3281;
-  background-color: #fdf6e2;
+  background-color: rgb(var(--background-color));
   width: 100%;
   max-width: 1024px;
   min-width: 320px;
   padding: 64px;
-  margin: auto;
+  margin: 0 auto auto;
   font-size: 12px;
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 2px;
   user-select: none;
+  transition: background-color 0.75s;
 }
 
 a {
@@ -95,9 +116,12 @@ a {
   margin-bottom: 48px;
 }
 
-.header-img {
+.header-img > svg {
   display: block;
   width: 100%;
+  height: 100%;
+  fill: rgb(var(--primary-color));
+  transition: fill 0.75s;
 }
 
 .first-name {
@@ -107,6 +131,9 @@ a {
 .cluster {
   position: relative;
   margin-bottom: 24px;
+  opacity: 0;
+  animation: fadeUp 0.4s ease forwards;
+  animation-delay: 0.2s;
 }
 
 .cluster-title {
@@ -140,6 +167,7 @@ a {
   margin: auto;
   padding-bottom: 15px;
   object-fit: contain;
+  z-index: 1;
 }
 
 .bonus .cluster-card-img {
@@ -157,6 +185,7 @@ a {
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
+  z-index: 1;
 }
 
 .cluster-card-bg {
@@ -166,7 +195,6 @@ a {
   margin-top: -16px;
   border-radius: 16px;
   background-color: rgb(var(--primary-color));
-  z-index: -1;
   transition: opacity 0.25s;
 }
 
@@ -179,7 +207,8 @@ a {
 
 .footer {
   text-align: right;
-  padding-top: 24px;
+  padding-top: 40px;
+  color: rgb(var(--primary-color));
 }
 
 .expand-container,
@@ -194,7 +223,7 @@ a {
   height: calc(100% - 32px);
   width: calc(33.3% - 16px);
   font-size: 24px; /* iOS FIX FOR EXPAND LOGO LOGIC */
-  z-index: 1;
+  z-index: 2;
   opacity: 0;
   cursor: zoom-in;
 }
@@ -211,7 +240,7 @@ a {
   transform: translate(-50%, -50%);
   width: 100%;
   height: 225px;
-  z-index: 2;
+  z-index: 3;
   cursor: pointer;
   filter: drop-shadow(-1px 0px 0px #fdf6e2);
   cursor: zoom-out;
@@ -241,6 +270,10 @@ a {
 
 /* 404 */
 
+.fourohfour .cluster-title {
+  color: #1a1a1a;
+}
+
 .fourohfour .cluster-card {
   padding: 16px 0;
 }
@@ -256,13 +289,16 @@ a {
   display: flex;
   flex-direction: column;
   gap: 32px;
-  margin-bottom: 40px;
+  margin-bottom: 24px;
+  opacity: 0;
+  animation: fadeUp 0.4s ease forwards;
+  animation-delay: 0.2s;
 }
 
 .exp-header-blocker {
   width: calc(100% + 8px);
   height: 32px;
-  background-color: #fdf6e2;
+  background-color: inherit;
   position: sticky;
   position: -webkit-sticky;
   top: 0;
@@ -283,8 +319,11 @@ a {
   position: -webkit-sticky;
   top: 16px;
   z-index: 2;
-  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
   margin-bottom: 32px;
+  opacity: 0;
+  animation: fadeUp 0.4s ease forwards;
+  animation-delay: 0.2s;
 }
 
 .exp-header-top {
@@ -311,8 +350,7 @@ a {
   letter-spacing: 0.25px;
   font-size: 20px;
   border-radius: 16px;
-  border-radius: 16px;
-  padding: 24px;
+  padding: 40px;
   background-color: rgba(var(--primary-color), 0.12);
   user-select: text;
 }
@@ -384,7 +422,7 @@ a {
   font-weight: 400;
   font-size: 16px;
   border-radius: 16px;
-  padding: 24px;
+  padding: 40px;
   background-color: rgba(var(--primary-color), 0.12);
   display: flex;
   flex-direction: column;
@@ -397,10 +435,11 @@ a {
   font-weight: 700;
   flex-wrap: wrap;
   gap: 2px;
+  margin-bottom: 2px;
 }
 
 .exp-history-header:not(:first-of-type) {
-  margin-top: 24px;
+  margin-top: 32px;
 }
 
 .exp-history-header > div:first-of-type {
@@ -417,7 +456,7 @@ a {
 }
 
 .exp-history-bullets > li {
-  margin-top: 2px;
+  margin-top: 4px;
 }
 
 .exp-button {
@@ -452,6 +491,7 @@ a {
 
   .footer {
     text-align: center;
+    padding-top: 24px;
   }
 
   .cluster-card {
