@@ -59,58 +59,44 @@
   --background-color: 227, 227, 227; /* THIS IS 12% OF PRIMARY COLOR ON A WHITE BACKGROUND */
 }
 
-@keyframes fade {
-  0% {
-    opacity: 0;
-  }
-}
-
-@keyframes fadeUp {
+@keyframes slideUp {
   0% {
     transform: translateY(1vh);
   }
 }
 
-@keyframes fadeRight {
+@keyframes slideRight {
   0% {
     transform: translateX(1vh);
   }
 }
 
-@keyframes fadeDown {
+@keyframes slideDown {
   0% {
     transform: translateY(-1vh);
   }
 }
 
-@keyframes fadeLeft {
+@keyframes slideLeft {
   0% {
     transform: translateX(-1vh);
   }
 }
 
-.fade,
-.fade-up,
-.fade-right,
-.fade-down,
-.fade-left {
-  animation: fade 0.5s ease;
+.slide-up {
+  animation: slideUp 0.5s ease;
 }
 
-.fade-up {
-  animation: fadeUp 0.5s ease;
+.slide-right {
+  animation: slideRight 0.5s ease;
 }
 
-.fade-right {
-  animation: fadeRight 0.5s ease;
+.slide-down {
+  animation: slideDown 0.5s ease;
 }
 
-.fade-down {
-  animation: fadeDown 0.5s ease;
-}
-
-.fade-left {
-  animation: fadeLeft 0.5s ease;
+.slide-left {
+  animation: slideLeft 0.5s ease;
 }
 
 * {
