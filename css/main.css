@@ -405,7 +405,7 @@ a {
   display: block;
   width: 100%;
   border: 2px solid rgba(var(--primary-color), 0.12);
-  border-radius: 8px;
+  border-radius: 10px;
   box-sizing: border-box;
 }
 
