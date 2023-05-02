@@ -206,8 +206,8 @@ a {
 }
 
 .bonus .cluster-card-img {
-  width: 25%;
-  max-height: 25%;
+  width: 40px;
+  max-height: 40px;
 }
 
 .cluster-card-txt {
@@ -292,9 +292,10 @@ a {
 .expand-close {
   display: none;
   position: absolute;
-  top: 16px;
-  right: 16px;
-  width: 16px;
+  top: 8px;
+  right: 8px;
+  width: 32px;
+  height: 32px;
   padding: 8px;
   cursor: pointer;
   z-index: 1;
@@ -538,11 +539,6 @@ a {
 
   .responsive .cluster-card:not(:last-of-type) {
     margin: 0 0 16px;
-  }
-
-  .bonus .cluster-card-img {
-    width: 35%;
-    max-height: 35%;
   }
 
   .expand-btn:focus + .cluster-card {
