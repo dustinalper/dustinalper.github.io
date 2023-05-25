@@ -1,4 +1,8 @@
 (function () {
+  if (typeof window === "undefined" || typeof document === "undefined") {
+    return;
+  }
+
   if (window.Lightning) return;
 
   const defaultConfig = {
@@ -18,13 +22,14 @@
     const instance = {
       generation: 0,
       pageCache: {},
+      debug: false,
     };
 
     Lightning.instance = instance;
-    Lightning.VERSION = "1.0.1";
+    Lightning.VERSION = "1.0.2";
 
     const debug = (...args) => {
-      if (options.debug) console.log(...args);
+      if (options.debug || instance.debug) console.log(...args);
     };
 
     const getElement = (root) => {
@@ -88,6 +93,8 @@
       instance.pageCache[path].promise = promise;
 
       return promise.then((text) => {
+        console.log("setting cache text:", text);
+
         const cache = instance.pageCache[path];
         cache.data = text;
         cache.time = window.performance.now();
@@ -121,6 +128,8 @@
               .then((text) => {
                 if (instance.generation !== generation) return;
 
+                console.log({ text });
+
                 let html = null;
 
                 try {
@@ -135,8 +144,13 @@
                 if (html) {
                   const el = getElement(html);
                   if (el) {
+                    window.html = html;
+                    window.text = text;
+
                     const body = html.body;
                     const title = html.title;
+
+                    console.log("body ----------'", body);
 
                     setState({
                       title: html.title,
@@ -154,6 +168,8 @@
                   } else {
                     debug("Missing element from response!", path);
                   }
+                } else {
+                  debug("Failed to parse html from string:", text);
                 }
               })
               .catch((err) => {
@@ -196,16 +212,16 @@
       const initialState = getState();
       window.history.pushState(initialState, initialState.title, "");
 
+      debug("init", { initialState, element: getElement(document) });
+
       if (options.cache) {
         const path = window.location.pathname;
         instance.pageCache[path] = {
-          data: document.body.innerHTML,
+          data: document.documentElement.innerHTML,
           promise: null,
           time: 0,
         };
       }
-
-      debug("Element:", getElement(document));
 
       LightningLinks();
     };
