@@ -3,6 +3,13 @@
   --background-color: 253, 246, 226;
 }
 
+@media (prefers-color-scheme: dark) {
+  :root {
+    --primary-color: 253, 246, 226;
+    --background-color: 24, 24, 24;
+  }
+}
+
 .color-st {
   --primary-color: 14, 88, 129;
   --background-color: 225, 234, 239; /* THIS IS 12% OF PRIMARY COLOR ON A WHITE BACKGROUND */
