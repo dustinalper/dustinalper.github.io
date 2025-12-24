@@ -92,47 +92,124 @@
       })(window, document, "https://static.hotjar.com/c/hotjar-", ".js?sv=");
     </script>
   </head>
-  <body style="background-color: rgb(249, 198, 207); background-image: url('/assets/registry/background-pattern.png'); background-size: contain; background-position: center;">
-    <div class="content" style="background-color: rgb(252, 236, 236);">
+  <body style="background-color: rgb(201, 180, 226); background-image: url('/assets/registry/background-pattern.png'); background-size: contain; background-position: center;">
+    <div class="content" style="background-color: rgba(252, 236, 236, .65); backdrop-filter: blur(12px);">
       <div class="podcast-info">
         <!-- TITLE, HOSTS, DESCRIPTION -->
         <div class="content-container">
+          <img src="/assets/registry/profile.png" style="width: 96px; height: 96px; border: 1px solid #dadada; border-radius: 48px; margin: 0 auto 20px; display: block; " />
           <div class="podcast-info__title">Registry for Baby Alper #2</div>
           <div class="podcast-info__host">April 30, 2026</div>
         </div>
       </div>
 
-      <div class="podcast-links">
+      <div class="podcast-links" style="font-weight: 700;">
         <div class="content-container">
-          <!-- Baby Essentials Registry -->
-          <a
-            class="poadcast-links__platform"
-            target="_blank"
-            href="https://baby.zola.com/registry/baby-alper"
-          >
-            <div class="poadcast-links__platform_title">
-              <img src="/assets/registry/essentials.svg" />
-              <div>Baby Essentials Registry</div>
-            </div>
-            <div class="cta">
-              View
-            </div>
-          </a>
+          <!-- Main Registry Options -->
+          <div id="main-registry-options">
+            <!-- Baby Essentials Registry -->
+            <a
+              class="poadcast-links__platform"
+              target="_blank"
+              href="https://baby.zola.com/registry/baby-alper"
+            >
+              <div class="poadcast-links__platform_title">
+                <img style="background-color: #9B7ED9; width: 18px; height: 18px; padding: 4px; border-radius: 4px; box-sizing: content-box;" src="/assets/registry/essentials.svg" />
+                <div>Baby Essentials Registry</div>
+              </div>
+              <div class="cta">
+                View
+              </div>
+            </a>
 
-          <!-- Baby Clothes Registry -->
-          <a
-            class="poadcast-links__platform"
+            <!-- Baby Clothes Registry -->
+            <a
+              class="poadcast-links__platform"
+              href="#"
+              id="baby-clothes-registry"
+              onclick="event.preventDefault(); showClothesOptions(); return false;"
+            >
+              <div class="poadcast-links__platform_title">
+                <img style="background-color: #9B7ED9; width: 18px; height: 18px; padding: 4px; border-radius: 4px; box-sizing: content-box;" src="/assets/registry/clothes.svg" />
+                <div>Baby Clothes Registry</div>
+              </div>
+              <div class="cta">
+                View
+              </div>
+            </a>
+          </div>
+
+          <!-- Baby Clothes Registry Options (hidden by default) -->
+          <div id="clothes-options" style="display: none;">
+            <!-- Ralph Lauren -->
+            <a
+              class="poadcast-links__platform"
+              target="_blank"
+              href="https://www.ralphlauren.com/on/demandware.store/Sites-RalphLauren_US-Site/en_US/Wishlist-ShowAll?UserWishListID=100017670282&ShareListID=MjAyNTEyMTkwMzAxNTM%3d&SelectedList=YmFieSBnaXJsIGFscGVy"
+            >
+              <div class="poadcast-links__platform_title">
+                <img style="border: 1px solid rgb(201, 180, 226); border-radius: 4px;" src="/assets/registry/ralph-lauren.png" />
+                <div>Ralph Lauren</div>
+              </div>
+              <div class="cta">
+                View
+              </div>
+            </a>
+
+            <!-- Bloomingdale's -->
+            <a
+              class="poadcast-links__platform"
+              target="_blank"
+              href="https://www.bloomingdales.com/wishlist/guest?wid=4c7e82ea-a329-4fc2-be75-c35802e458f2&cm_mmc=wishlist-_-gsil-_-sign_in"
+            >
+              <div class="poadcast-links__platform_title">
+                <img style="border: 1px solid #dadada; border-radius: 4px;" src="/assets/registry/bloomingdales.png" />
+                <div>Bloomindale's – List #1</div>
+              </div>
+              <div class="cta">
+                View
+              </div>
+            </a>
+            <a
+              class="poadcast-links__platform"
+              target="_blank"
+              href="https://www.bloomingdales.com/registry/Brenna-Alper-Dustin-Alper/1290479"
+            >
+              <div class="poadcast-links__platform_title">
+                <img style="border: 1px solid #dadada; border-radius: 4px;" src="/assets/registry/bloomingdales.png" />
+                <div>Bloomindale's – List #2</div>
+              </div>
+              <div class="cta">
+                View
+              </div>
+            </a>
+
+            <!-- Back Button -->
+            <a
+           
+            href="#"
+            onclick="event.preventDefault(); showMainOptions(); return false;"
+            style="cursor: pointer;"
           >
-            <div class="poadcast-links__platform_title">
-              <img src="/assets/registry/clothes.svg" />
-              <div>Baby Clothes Registry</div>
-            </div>
-            <div class="cta">
-              View
+            <div class="cta" style="margin: 20px auto 0px;">
+              Go Back
             </div>
           </a>
+          </div>
         </div>
       </div>
     </div>
+
+    <script>
+      function showClothesOptions() {
+        document.getElementById('main-registry-options').style.display = 'none';
+        document.getElementById('clothes-options').style.display = 'block';
+      }
+
+      function showMainOptions() {
+        document.getElementById('clothes-options').style.display = 'none';
+        document.getElementById('main-registry-options').style.display = 'block';
+      }
+    </script>
   </body>
 </html>
