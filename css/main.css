@@ -18,8 +18,8 @@
   --background-color: 248, 227, 229; /* THIS IS 12% OF PRIMARY COLOR ON A WHITE BACKGROUND */
 }
 
-.color-ax {
-  --primary-color: 26, 26, 26;
+.color-bhr {
+  --primary-color: 0, 0, 0;
 }
 
 .color-pp {
@@ -203,6 +203,10 @@ a {
   padding-bottom: 15px;
   object-fit: contain;
   z-index: 1;
+}
+
+.color-bhr .cluster-card-img {
+  max-width: 320px;
 }
 
 .bonus .cluster-card-img {
