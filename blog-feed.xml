@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content">
+  <channel>
+    <title>Dustin Alper - Blog</title>
+    <description>I’m Dustin Alper, but everyone calls me Dustin for short. My expertise in product and design empowers my unique approach - blending macro vision with micro experience.</description>
+    <link>https://www.dustinalper.com/blog</link>
+    <atom:link href="https://www.dustinalper.com/blog-feed.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language>
+    
+    
+    <item>
+      <title>Software Ate the World, Now AI Is Eating the Software</title>
+      <description>The prompt that changed my perspective I recently used Perplexity Computer to link my investment accounts together and build a portfolio tracker. Not a landing page. Not a toy. An actual working application that authenticated into multiple brokerages, pulled live holdings, normalized the data acr...</description>
+      <content:encoded><![CDATA[<h2 id="the-prompt-that-changed-my-perspective">The prompt that changed my perspective</h2>
+
+<p>I recently used Perplexity Computer to link my investment accounts together and build a portfolio tracker. Not a landing page. Not a toy. An actual working application that authenticated into multiple brokerages, pulled live holdings, normalized the data across accounts, and displayed it in a clean interface. I wrote a prompt, walked away, and came back 10 minutes later to something that worked.</p>
+
+<p>What hit me wasn’t that the application existed. It was that I didn’t write a single line of code. The gap between “I wish this existed” and “this exists” collapsed into an afternoon. I’ve been in software long enough to know what it takes to build a tool like that, and watching it materialize from a prompt was the first time the pace of change stopped feeling theoretical and started feeling immediate. This piece is what I’ve been thinking about since.</p>
+
+<h2 id="code-without-a-tether-is-a-commodity">Code without a tether is a commodity</h2>
+
+<p>The clearest way to think about which software survives the AI wave is to ask what the software is actually selling. If the answer is “the code itself,” it’s in trouble. If the answer is “the network, the data, or the physical operation the code sits on top of,” it’s most likely safe.</p>
+
+<p>Jira and Figma are pure software. There’s nothing inside them a sufficiently capable model can’t reproduce on request, and nothing stopping an enterprising user from typing “build me Jira, but less annoying.” Their moats are switching costs and habit, not anything intrinsic to the product. The code is just the part everyone sees.</p>
+
+<p>X (Twitter) is the opposite. You can clone the UI in a weekend and it’s worthless, because the product was never the interface, it was the hundreds of millions of people already posting there and the real-time conversation that only exists because everyone agreed this is where it happens. That doesn’t come out of a prompt. MrBeast is not going to migrate to your clone no matter how cleanly you rebuilt the timeline. The same pattern holds wherever the software is a delivery mechanism for something real:</p>
+
+<ul>
+  <li><strong>Uber</strong>: drivers, riders, and regulatory relationships in every city</li>
+  <li><strong>Bloomberg</strong>: proprietary data feeds and decades of terminal lock-in</li>
+  <li><strong>Plaid</strong>: bank integrations nobody, and I mean nobody, wants to redo</li>
+</ul>
+
+<p>Anything with a two-sided market, a proprietary dataset, a hardware component, or a messy real-world integration layer has a real moat. Anything that’s just code pretending to have one does not. The software industry is about to get re-sorted along that line, and a lot of companies that currently look like category leaders are going to discover their moat can be crossed by a bridge that gets built in a single prompt.</p>
+
+<p>I’ve been thinking about how this test applies to the two products I manage. <a href="https://savvytrader.com">Savvy Trader</a> is a platform where investors share and subscribe to investment portfolios. Its moat is the creators themselves: people with verified track records who’ve been publishing trades against live market data, providing unique and thoughtful commentary alongside every move they make. “Recreate Savvy Trader” gets you the UI, it doesn’t get you the people. <a href="https://earningshub.com">Earnings Hub</a> is a tool that tracks earnings estimates, EPS and revenue data, and corporate guidance. It’s a clean and intuitive interface on top of public earnings data. The underlying information isn’t proprietary. If I’m being honest with myself about my own thesis, Savvy Trader is on the right side of this line and Earnings Hub is offsides. That’s a useful clarity to have, even when the answer isn’t the one I’d prefer.</p>
+
+<h2 id="capability-doesnt-mean-everyone-builds-their-own">Capability doesn’t mean everyone builds their own</h2>
+
+<p>Fair objection: if anyone can prompt their way to a Jira clone, won’t everyone just do that, and doesn’t that kill the industry? Probably not. Everyone can cook dinner at home and restaurants still exist, because convenience, expertise, consistency, and the experience of being handed a menu are worth paying for even when the alternative is available. Nobody’s shutting down the Olive Garden because you own a pan.</p>
+
+<p>The fact that a small business could prompt its own CRM into existence doesn’t mean it will. Most people and most organizations still want something pre-built, supported, and warrantied by someone whose job it is to keep it running at 2am. What collapses isn’t the existence of software companies, it’s the pricing power of generic software. The “$40 per seat per month for reasonable tooling” business has the floor drop out from under it. Companies that survive offer something beyond the code: support, integrations, trust, brand, or the peace of mind of knowing someone else is on the hook when things break.</p>
+
+<h2 id="b2b-takes-the-bigger-hit-than-b2c">B2B takes the bigger hit than B2C</h2>
+
+<p>The replacement pressure is heavier on the B2B side, and the reason is purely about incentives.</p>
+
+<p>A company evaluating build-versus-buy has a real financial motive to build. Every SaaS subscription is a recurring cost, a vendor relationship, a security review, and a dependency. If the cost of building a functional internal version drops from “impossible without a team and a year” to “one builder and a weekend,” the math flips for a huge percentage of B2B purchases.</p>
+
+<p>The strongest pushback here is enterprise inertia. Software moats have never just been the code. They’ve been onboarding, documentation, customer success, procurement relationships, SOC 2 compliance, support contracts, and the deep institutional knowledge of how your specific org uses the tool. Sticking with the Jira example, it’s survived a generation of obvious challengers not because nobody could build something better, but because switching an entire engineering org off Jira is a year-long project with real cost and real risk. That’s all true. It’s the best argument against everything I’m writing here.</p>
+
+<p>I think it’s more brittle than it looks. The reason inertia held up against the last generation of challengers is that building a genuine replacement was genuinely hard. A Jira competitor needed years of engineering, real money, and a go-to-market motion that could crack enterprise buyers. When building drops from “years of engineering” to “a weekend and a prompt,” the economics of switching don’t disappear, but the willingness to try something cheaper and closer to your actual workflow changes fast. Yes, migrating 10,000 existing tickets and retraining 200 engineers still takes real organizational effort, but that math looks very different when the destination is custom-built for your exact workflow rather than another generic tool you’re bending your process to fit. Inertia is strong right up until the alternative is free, good enough, and yours. Then it snaps, and the companies that counted on inertia as their moat find out it wasn’t a moat, it was a delay.</p>
+
+<p>An average consumer has almost none of that motivation. A big chunk of consumer software is ad-supported and free at the point of use, which means building your own version doesn’t save money, it actively costs more. You’d be paying in time and hosting fees, plus an AI subscription to build the thing in the first place, for something you currently get for free. That’s a rough pitch. Even for the paid stuff, the effort usually exceeds the ten dollars a month you’d save. Most consumers won’t bother building their own, but some will absolutely prompt a replacement to save a few bucks.</p>
+
+<p>The overall pattern looks like this: the more a product’s value comes from the code itself, the more exposed it is. The more it comes from data, network, physical operations, or sheer user base, the safer it is. B2B tooling for known workflows is the most exposed because the buyer is economically motivated and increasingly technically capable. Large consumer platforms with real moats are last. Where any given product falls on that spectrum depends on one question: if someone prompted a working clone into existence tomorrow, would anyone switch? If the answer is yes, the moat was never the code. The code was just the part that used to be hard.</p>
+
+<h2 id="the-current-state-is-the-image-generation-moment">The current state is the image-generation moment</h2>
+
+<p>There’s a useful parallel to AI image generation. The first time you saw a model produce a photorealistic image, it felt like magic. Then you looked closer and noticed the hands had six fingers, the text was gibberish, and the eyes were subtly crossed. The “this changes everything” reaction was right about the trajectory and wrong about the immediate reality.</p>
+
+<p>Software generation is at exactly that stage, which means there’s no reason to panic just yet. You can prompt a full application into existence and the first impression is stunning. Then you use it for two minutes and the cracks show up. State management is subtly broken, edge cases aren’t handled, integrations are fragile, and there’s always one button that does nothing and you can’t figure out why. It’s the six-finger problem in software form.</p>
+
+<p>The other thing the image-generation analogy gets right is that it happened unevenly. Image generation didn’t come for every visual market at once. It hit stock photography first, then logo design and spec illustration work, then certain kinds of concept art, and still hasn’t fully hit high-end commercial illustration or fine art, though I’d be lying if I said there aren’t a few AI-generated pieces my wife made hanging in our house right now.</p>
+
+<p>The economic consequences don’t hit on the day AI can almost build software. They hit on the day AI can build software that holds up under real use, and that day is later than the demos suggest but sooner than the skeptics think. Image generation took a few years to go from “amazing but cursed” to “good enough that entire industries reorganized around it.” Software is harder because the failure modes are functional rather than visual, which means there’s further to go and the cliff is higher when you fall off it.</p>
+
+<h2 id="three-structural-shifts-for-software-creators">Three structural shifts for software creators</h2>
+
+<p>By software creators I mean everyone whose job is to make software happen: developers, product managers, designers, and anyone else in that loop. The employment picture for all of them changes in three ways at once. The first is obvious. The other two are less so, and they’re the ones worth paying attention to.</p>
+
+<p><strong>Shift 1: Software companies need fewer creators.</strong> If one person with good AI tools can do what five used to do, headcount at pure software companies comes down. The people who remain will operate at a higher level of abstraction, closer to architecture and decision-making than implementation. This isn’t hypothetical. Atlassian cut 10% of its workforce, with its CEO citing changes needed for the “AI era.” Block cut nearly half its workforce, with Jack Dorsey explicitly pointing to AI. Whether every one of these cuts is genuinely AI-driven or partly cover for restructuring that would have happened anyway, the direction is clear, and the trend is moving faster than most of the industry expected.</p>
+
+<p><strong>Shift 2: Non-software companies start hiring software creators they never had before.</strong> Every company subscribing to a stack of SaaS tools is a potential builder of its own internal software, but building and maintaining it still requires somebody who knows what they’re doing. Mid-sized businesses paying six or seven figures a year across dozens of tools will hire their first in-house builder to replace those subscriptions with owned software. This isn’t happening at scale yet, because the current state is still the image-generation moment. Most companies would get burned trying to replace their stack today. The smart ones are keeping a close eye on tools like Perplexity and Claude so they know when those tools are ready for primetime.</p>
+
+<p><strong>Shift 3: A lot of creators won’t have employers at all.</strong> This is the quiet version of the story and probably the most important. The historical reason software creators worked at companies was that building anything serious required a team, infrastructure, capital, and distribution an individual couldn’t assemble alone. All of those barriers are dropping at once.</p>
+
+<p>Picture a developer at a mid-size SaaS company who earns $150k a year. Over three weekends they build a tool that solves a specific problem in a niche they already understand. They ship it on a Monday. By month three it has fifty paying customers at $30 a month. By month six it’s at $8k a month in recurring revenue, growing 20% month over month. At some point they sit down and do the math. Their salary is a trade: their time in exchange for their company’s cut of what they produce. And their company’s cut was justified when the only way to build, ship, and distribute serious software was through the company. It isn’t anymore. At $8k a month growing, their side project is already worth more to them than the salary, because the salary is capped and the side project isn’t.</p>
+
+<p>Why give your company the profit from work you could do, own, and monetize yourself? It’s a question that’s going to get asked a lot more often over the next few years, and the people asking it will usually be the ones worth keeping.</p>
+
+<p>Think of all three shifts together as a Thanos-style rebalancing of the industry. Jobs at pure software companies get destroyed. Jobs at every other kind of company get created. Solo creators build things that used to require teams. The snap isn’t clean and a lot of people land awkwardly in the middle of it, but the universe finds a way to stay roughly in balance.</p>
+
+<h2 id="the-part-that-matters-to-me">The part that matters to me</h2>
+
+<p>There is still a lot of work to be done before AI starts truly replacing software jobs at scale. Even Perplexity Computer, the tool that kicked off this whole train of thought, has plenty of kinks. But it was the first time I used something and felt like the future is a bit closer than I maybe realized. Not here yet. But close enough that pretending otherwise feels irresponsible.</p>
+
+<p><a href="https://savvytrader.com">Savvy Trader</a> is on the right side of the line I’ve been drawing, and my job there is to deepen the moat: more creators, better product features, tighter relationships with the people whose real performance is the actual product. <a href="https://earningshub.com">Earnings Hub</a> is on the wrong side, and my job there is harder. Figure out what I can build on top of the public data that isn’t just code, or accept that growth will slow down as consumers start building similar products in-house, literally from their house, at their kitchen table, in their pajamas. Sitting with that discomfort is better than pretending the wave isn’t coming when I can already see the water rising.</p>
+
+<p>The people who navigate this well aren’t going to be the ones who guessed the future right. They’re going to be the ones who were honest with themselves about where they stood, so they don’t find themselves offsides.</p>
+]]></content:encoded>
+      <pubDate>Mon, 13 Apr 2026 00:00:00 -0400</pubDate>
+      <link>https://www.dustinalper.com/blog/software-ate-the-world</link>
+      <guid isPermaLink="true">https://www.dustinalper.com/blog/software-ate-the-world</guid>
+    </item>
+    
+  </channel>
+</rss>
