@@ -9,7 +9,7 @@
     
     
     <item>
-      <title>Software Ate the World, Now AI Is Eating the Software</title>
+      <title>Moats Don't Work When Bridges Are Free</title>
       <description>The prompt that changed my perspective I recently used Perplexity Computer to link my investment accounts together and build a portfolio tracker. Not a landing page. Not a toy. An actual working application that authenticated into multiple brokerages, pulled live holdings, normalized the data acr...</description>
       <content:encoded><![CDATA[<h2 id="the-prompt-that-changed-my-perspective">The prompt that changed my perspective</h2>
 
@@ -31,7 +31,7 @@
   <li><strong>Plaid</strong>: bank integrations nobody, and I mean nobody, wants to redo</li>
 </ul>
 
-<p>Anything with a two-sided market, a proprietary dataset, a hardware component, or a messy real-world integration layer has a real moat. Anything that’s just code pretending to have one does not. The software industry is about to get re-sorted along that line, and a lot of companies that currently look like category leaders are going to discover their moat can be crossed by a bridge that gets built in a single prompt.</p>
+<p>Anything with a two-sided market, a proprietary dataset, a hardware component, or a messy real-world integration layer has a real moat. Anything that’s just code pretending to have one does not. The software industry is about to get re-sorted along that line, and a lot of companies that currently look like category leaders are going to discover their moats don’t work when bridges are free.</p>
 
 <p>I’ve been thinking about how this test applies to the two products I manage. <a href="https://savvytrader.com">Savvy Trader</a> is a platform where investors share and subscribe to investment portfolios. Its moat is the creators themselves: people with verified track records who’ve been publishing trades against live market data, providing unique and thoughtful commentary alongside every move they make. “Recreate Savvy Trader” gets you the UI, it doesn’t get you the people. <a href="https://earningshub.com">Earnings Hub</a> is a tool that tracks earnings estimates, EPS and revenue data, and corporate guidance. It’s a clean and intuitive interface on top of public earnings data. The underlying information isn’t proprietary. If I’m being honest with myself about my own thesis, Savvy Trader is on the right side of this line and Earnings Hub is offsides. That’s a useful clarity to have, even when the answer isn’t the one I’d prefer.</p>
 
@@ -90,8 +90,8 @@
 <p>The people who navigate this well aren’t going to be the ones who guessed the future right. They’re going to be the ones who were honest with themselves about where they stood, so they don’t find themselves offsides.</p>
 ]]></content:encoded>
       <pubDate>Mon, 13 Apr 2026 00:00:00 -0400</pubDate>
-      <link>https://www.dustinalper.com/blog/software-ate-the-world</link>
-      <guid isPermaLink="true">https://www.dustinalper.com/blog/software-ate-the-world</guid>
+      <link>https://www.dustinalper.com/blog/bridges-are-free</link>
+      <guid isPermaLink="true">https://www.dustinalper.com/blog/bridges-are-free</guid>
     </item>
     
     <item>
