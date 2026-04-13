@@ -318,7 +318,7 @@ a {
 
 .color-blog {
   --primary-color: 207, 88, 32;
-  --background-color: 249, 235, 228; /* 12% of primary on white */
+  --background-color: 249, 235, 228; /* THIS IS 12% OF PRIMARY COLOR ON A WHITE BACKGROUND */
 }
 
 .color-x {

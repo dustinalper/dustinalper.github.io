@@ -33,7 +33,7 @@
 
 <p>Anything with a two-sided market, a proprietary dataset, a hardware component, or a messy real-world integration layer has a real moat. Anything that’s just code pretending to have one does not. The software industry is about to get re-sorted along that line, and a lot of companies that currently look like category leaders are going to discover their moats don’t work when bridges are free.</p>
 
-<p>I’ve been thinking about how this test applies to the two products I manage. <a href="https://savvytrader.com">Savvy Trader</a> is a platform where investors share and subscribe to investment portfolios. Its moat is the creators themselves: people with verified track records who’ve been publishing trades against live market data, providing unique and thoughtful commentary alongside every move they make. “Recreate Savvy Trader” gets you the UI, it doesn’t get you the people. <a href="https://earningshub.com">Earnings Hub</a> is a tool that tracks earnings estimates, EPS and revenue data, and corporate guidance. It’s a clean and intuitive interface on top of public earnings data. Majority of the underlying information isn’t proprietary. If I’m being honest with myself about my own thesis, Savvy Trader is on the right side of this line and Earnings Hub is offsides. That’s a useful clarity to have, even when the answer isn’t the one I’d prefer.</p>
+<p>I’ve been thinking about how this test applies to the two products I manage. <a href="https://savvytrader.com">Savvy Trader</a> is a platform where investors share and subscribe to investment portfolios. Its moat is the creators themselves: people with verified track records who’ve been publishing trades against live market data, providing unique and thoughtful commentary alongside every move they make. “Recreate Savvy Trader” gets you the UI, it doesn’t get you the people. <a href="https://earningshub.com">Earnings Hub</a> is a tool that tracks earnings estimates, EPS and revenue data, and corporate guidance. It’s the best earnings calendar on the market and it’s not particularly close. But at the end of the day, it’s a clean and intuitive interface on top of public earnings data. Majority of the underlying information isn’t proprietary. If I’m being honest with myself about my own thesis, Savvy Trader is on the right side of this line and Earnings Hub is offsides. Being the best doesn’t make you safe when someone can prompt a good-enough version into existence. That’s useful clarity to have, even when the answer isn’t the one I’d prefer.</p>
 
 <h2 id="capability-doesnt-mean-everyone-builds-their-own">Capability doesn’t mean everyone builds their own</h2>
 
@@ -77,7 +77,7 @@
 
 <h2 id="the-cosmic-irony-of-remote-work">The cosmic irony of remote work</h2>
 
-<p>Speaking of balance, there’s a strange symmetry to all of this that I can’t stop thinking about. The software industry spent 2020 and 2021 achieving what many considered to be the dream: widespread remote work. Get paid six figures, live wherever you want, work in your sweats, never commute again. Too good to be true, and maybe it was. And let’s be honest, a lot of people took advantage. The same flexibility that let great engineers do their best work also let a lot of people collect a paycheck while doing the bare minimum, and everyone in the industry knows it. It’s almost like the universe looked at an entire class of workers who’d managed to decouple their income from showing up anywhere, decided the pendulum had swung too far, and found the most ironic possible way to reset it. Not by dragging people back to the office, but by making the work itself something that doesn’t require a person at all.</p>
+<p>Speaking of balance, there’s a strange symmetry to all of this that I can’t stop thinking about. The software industry spent 2020 and 2021 achieving what many considered to be the dream: widespread remote work. Get paid six figures, live wherever you want, work in your sweats, never commute again. Too good to be true, and maybe it was. And let’s be honest, a lot of people took advantage. The same flexibility that let great engineers do their best work from a cabin in Colorado also let a lot of people collect a paycheck while doing the bare minimum from their couch, and everyone in the industry knows it even if nobody wants to say it out loud. It’s almost like the universe looked at an entire class of workers who’d managed to decouple their income from showing up anywhere, decided the pendulum had swung too far, and found the most ironic possible way to reset it. Not by dragging people back to the office, but by making the work itself something that doesn’t require a person at all.</p>
 
 <h2 id="the-part-that-matters-to-me">The part that matters to me</h2>
 
@@ -87,7 +87,7 @@
 
 <p>The people who navigate this well aren’t going to be the ones who guessed the future right. They’re going to be the ones who were honest with themselves about where they stood, so they don’t find themselves offsides.</p>
 ]]></content:encoded>
-      <pubDate>Mon, 13 Apr 2026 00:00:00 -0400</pubDate>
+      <pubDate>Tue, 14 Apr 2026 00:00:00 -0400</pubDate>
       <link>https://www.dustinalper.com/blog/bridges-are-free</link>
       <guid isPermaLink="true">https://www.dustinalper.com/blog/bridges-are-free</guid>
     </item>
