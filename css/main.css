@@ -1,6 +1,18 @@
 :root {
   --primary-color: 14, 50, 129;
   --background-color: 253, 246, 226;
+
+  /* Button Variables */
+  --btn-lg-height: 42px;
+  --btn-md-height: 36px;
+  --btn-sm-height: 30px;
+  --btn-width: 235px;
+  
+  --black: #1a1a1a;
+  --white: #ffffff;
+  --divider: rgba(0, 0, 0, 0.1);
+  --divider-light: rgba(255, 255, 255, 0.2);
+  --transition: all 0.2s ease;
 }
 
 .color-st {
@@ -81,6 +93,12 @@
 @keyframes slideLeft {
   0% {
     transform: translateX(-1vh);
+  }
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
   }
 }
 
@@ -478,15 +496,21 @@ a {
   margin-bottom: 24px;
 }
 
+.exp-container.blog-container {
+  gap: 16px;
+}
+
 .exp-header-blocker {
-  width: calc(100% + 8px);
-  height: 32px;
-  background-color: inherit;
+  width: calc(100% + 24px);
+  height: 48px;
+  background: linear-gradient(to bottom, rgb(var(--background-color)) 0px, rgb(var(--background-color)) 24px, transparent);
   position: sticky;
   position: -webkit-sticky;
   top: 0;
-  margin: -16px 0 0 -4px;
-  z-index: 1;
+  margin: -32px 0 0 -12px;
+  z-index: 1098;
+  pointer-events: none;
+  animation: fadeIn 0.75s ease;
 }
 
 .exp-header {
@@ -496,12 +520,14 @@ a {
   letter-spacing: normal;
   font-weight: 400;
   font-size: 14px;
-  background-color: rgb(var(--primary-color));
+  background-color: rgba(var(--primary-color), 0.95);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
   border-radius: 16px;
   position: sticky;
   position: -webkit-sticky;
   top: 16px;
-  z-index: 2;
+  z-index: 1099;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
   margin-bottom: 32px;
 }
@@ -600,7 +626,6 @@ a {
 .exp-title {
   display: block;
   height: 32px;
-  margin-left: 24px;
 }
 
 .exp-history {
@@ -649,26 +674,164 @@ a {
   margin-top: 4px;
 }
 
-.exp-button {
-  color: #ffffff;
-  padding: 8px 24px;
-  border-radius: 18px;
-  display: table;
-  transition: background-color 0.25s;
-  background: rgba(255, 255, 255, 0.16);
-  letter-spacing: 0.5px;
+/* --- 2. BASE BUTTON STYLES --- */
+.btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: fit-content;
+    height: var(--btn-md-height);
+    padding: 0 24px;
+    border: 1px solid var(--divider-light);
+    border-radius: calc(var(--btn-md-height) / 2);
+    font-size: 14px;
+    text-decoration: none;
+    letter-spacing: 0.5px;
+    color: var(--white);
+    background-color: rgba(255, 255, 255, 0.16);
+    cursor: pointer;
+    transition: var(--transition);
+    white-space: nowrap;
+    user-select: none;
+    box-sizing: border-box;
 }
-
+.disabled {
+    opacity: 0.5;
+    pointer-events: none;
+}
+/* --- 3. SIZE VARIANTS --- */
+.btn.lg {
+    height: var(--btn-lg-height);
+    font-size: 15px;
+    border-radius: calc(var(--btn-lg-height) / 2);
+}
+.btn.md {
+    height: var(--btn-md-height);
+    font-size: 14px;
+    border-radius: calc(var(--btn-md-height) / 2);
+}
+.btn.sm {
+    height: var(--btn-sm-height);
+    font-size: 13px;
+    border-radius: calc(var(--btn-sm-height) / 2);
+}
+/* --- 4. COLOR VARIANTS --- */
+.btn.outlined {
+    border-color: rgba(255, 255, 255, 0.32);
+    background-color: transparent;
+}
+.btn.hide-bg:not(.active) {
+    background-color: transparent;
+    border-color: transparent;
+}
+/* --- 5. STRUCTURAL / SHAPE VARIANTS --- */
+.btn.nav {
+    font-size: 12.5px;
+    font-weight: 700;
+}
+.btn.round {
+    padding: 4px 5px;
+}
+.btn.search {
+    min-width: 150px;
+    justify-content: flex-start;
+    font-size: 14px;
+    gap: 8px;
+}
+.btn.rectangular {
+    border-radius: 4px;
+    transition: var(--transition);
+}
+.btn.icon {
+    width: 36px;
+    min-width: 36px;
+    padding: 0;
+}
+.btn.icon.sm {
+    width: 30px;
+    min-width: 30px;
+}
+/* --- 6. HOVER STATES --- */
 @media (hover: hover) and (pointer: fine) {
-  .exp-button:hover {
-    background-color: rgba(255, 255, 255, 0.24);
-  }
+    .btn:hover {
+      background-color: rgba(255, 255, 255, 0.12);
+      border-color: var(--divider-light);
+        text-decoration: none;
+    }
+    .btn.outlined:hover {
+        background-color: rgba(255, 255, 255, 0.8);
+    }
+    .btn.hide-bg:not(.active):hover {
+      border-color: var(--divider-light);
+    }
+}
+/* --- 7. ACTIVE (CLICK) STATES --- */
+/* Notice the "squish" effect where the border-radius slightly sharpens on click */
+.btn:hover:active {
+    border-radius: calc(var(--btn-md-height) / 2 - var(--btn-md-height) / 6);
+}
+.btn.lg:hover:active {
+    border-radius: calc(var(--btn-lg-height) / 2 - var(--btn-lg-height) / 6);
+}
+.btn.sm:hover:active {
+    border-radius: calc(var(--btn-sm-height) / 2 - var(--btn-sm-height) / 6);
+}
+.btn.rectangular:hover:active {
+    border-radius: calc(var(--btn-md-height) / 2 - var(--btn-md-height) / 4);
+}
+.btn.hide-bg:not(.active):hover:active {
+    border-color: var(--divider-light);
 }
 
-.exp-button.circle {
-  display: flex;
-  padding: 8px;
-  z-index: 1; /* fixes mobile bug */
+/* Base Spotlight Container */
+.spotlight {
+    position: relative;
+    overflow: hidden;
+    --mouse-x: 50%;
+    --mouse-y: 50%;
+    --spotlight-color: #ffffff; /* Default color */
+}
+/* Wrapper to keep text/content above the spotlight */
+.spotlight__wrap {
+    display: inherit;
+    align-items: inherit;
+    justify-content: inherit;
+    font-size: inherit;
+    letter-spacing: inherit;
+    color: inherit;
+    gap: inherit;
+    pointer-events: none;
+    position: relative;
+    z-index: 1;
+}
+/* The Spotlight Gradient */
+.spotlight::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: radial-gradient(circle at var(--mouse-x) var(--mouse-y), var(--spotlight-color), transparent 80%);
+    opacity: 0;
+    pointer-events: none;
+}
+/* Fade in the effect once mounted */
+.spotlight.mounted::before {
+    transition: opacity 0.5s ease;
+}
+/* Hover States */
+@media (hover: hover) and (pointer: fine) {
+    .spotlight:hover::before {
+        opacity: 0.18;
+    }
+}
+/* Active/Click States */
+.spotlight:active::before {
+    opacity: 0.18;
+}
+.spotlight:hover:active::before {
+    opacity: 0.4;
 }
 
 @media (max-width: 756px) {

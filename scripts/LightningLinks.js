@@ -56,6 +56,7 @@
       }
 
       LightningLinks();
+      if (typeof InitSpotlights === 'function') InitSpotlights();
     };
 
     const getPage = (path) => {
